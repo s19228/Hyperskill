@@ -159,8 +159,6 @@ topics:
     theory_id: 3525
   - title: Multiple constructors
     theory_id: 3538
-  - title: The keyword super
-    theory_id: 3588
   - title: Hiding and overriding
     theory_id: 3572
   - title: Protected modifier
@@ -171,3 +169,6 @@ topics:
     theory_id: 3587
   - title: Abstract class
     theory_id: 3597
+  3:
+  - title: The keyword super
+    theory_id: 3588
