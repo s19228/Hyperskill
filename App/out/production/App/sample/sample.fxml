@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="14.0" layoutY="86.0" prefHeight="300.0" prefWidth="214.0" />
+      <TextArea layoutX="235.0" layoutY="31.0" prefHeight="320.0" prefWidth="355.0" />
+      <Label layoutX="77.0" layoutY="6.0" text="Dostępne relacje" />
+      <Label layoutX="398.0" layoutY="6.0" text="POST" />
+      <Button layoutX="436.0" layoutY="361.0" mnemonicParsing="false" text="Wyczyść" />
+      <Button layoutX="505.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Kopiuj" />
+      <RadioButton layoutX="56.0" layoutY="31.0" mnemonicParsing="false" text="WLA" />
+      <RadioButton layoutX="56.0" layoutY="57.0" mnemonicParsing="false" text="ZAL" />
+      <RadioButton layoutX="140.0" layoutY="31.0" mnemonicParsing="false" text="ORG" />
+      <RadioButton layoutX="140.0" layoutY="57.0" mnemonicParsing="false" text="OSO" />
+   </children>
+</Pane>

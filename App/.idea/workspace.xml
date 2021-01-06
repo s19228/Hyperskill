@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/6.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_cedarsoftware_json_io_4_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_github_hyperskill_hs_test_v7_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_assertj_assertj_core_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_assertj_assertj_swing_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine (1)/task/Coffee_Machine.Coffee_Machine__1_-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine (1)/task/Coffee_Machine.Coffee_Machine__1_-task.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine (1)/task/Coffee_Machine.Coffee_Machine__1_-task.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine/task/Coffee_Machine.Coffee_Machine-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine/task/Coffee_Machine.Coffee_Machine-task.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee Machine/task/Coffee_Machine.Coffee_Machine-task.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Coffee_Machine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account and its owner/Coffee_Machine.Problems-Account_and_its_owner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account and its owner/Coffee_Machine.Problems-Account_and_its_owner.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account and its owner/Coffee_Machine.Problems-Account_and_its_owner.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account/Coffee_Machine.Problems-Account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account/Coffee_Machine.Problems-Account.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Account/Coffee_Machine.Problems-Account.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Accounts/Coffee_Machine.Problems-Accounts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Accounts/Coffee_Machine.Problems-Accounts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Accounts/Coffee_Machine.Problems-Accounts.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Alphabetical order/Coffee_Machine.Problems-Alphabetical_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Alphabetical order/Coffee_Machine.Problems-Alphabetical_order.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Alphabetical order/Coffee_Machine.Problems-Alphabetical_order.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Army/Coffee_Machine.Problems-Army.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Army/Coffee_Machine.Problems-Army.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Army/Coffee_Machine.Problems-Army.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Book/Coffee_Machine.Problems-Book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Book/Coffee_Machine.Problems-Book.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Book/Coffee_Machine.Problems-Book.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Books/Coffee_Machine.Problems-Books.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Books/Coffee_Machine.Problems-Books.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Books/Coffee_Machine.Problems-Books.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Car/Coffee_Machine.Problems-Car.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Car/Coffee_Machine.Problems-Car.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Car/Coffee_Machine.Problems-Car.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Complex numbers/Coffee_Machine.Problems-Complex_numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Complex numbers/Coffee_Machine.Problems-Complex_numbers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Complex numbers/Coffee_Machine.Problems-Complex_numbers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Counter/Coffee_Machine.Problems-Counter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Counter/Coffee_Machine.Problems-Counter.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Counter/Coffee_Machine.Problems-Counter.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Danger levels/Coffee_Machine.Problems-Danger_levels.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Danger levels/Coffee_Machine.Problems-Danger_levels.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Danger levels/Coffee_Machine.Problems-Danger_levels.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Days of week/Coffee_Machine.Problems-Days_of_week.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Days of week/Coffee_Machine.Problems-Days_of_week.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Days of week/Coffee_Machine.Problems-Days_of_week.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Interval/Coffee_Machine.Problems-Interval.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Interval/Coffee_Machine.Problems-Interval.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Interval/Coffee_Machine.Problems-Interval.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Preparing full name/Coffee_Machine.Problems-Preparing_full_name.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Preparing full name/Coffee_Machine.Problems-Preparing_full_name.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Preparing full name/Coffee_Machine.Problems-Preparing_full_name.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Project constants and methods/Coffee_Machine.Problems-Project_constants_and_methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Project constants and methods/Coffee_Machine.Problems-Project_constants_and_methods.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Project constants and methods/Coffee_Machine.Problems-Project_constants_and_methods.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Simulating a clock/Coffee_Machine.Problems-Simulating_a_clock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Simulating a clock/Coffee_Machine.Problems-Simulating_a_clock.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Simulating a clock/Coffee_Machine.Problems-Simulating_a_clock.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Sum array elements greater than a value/Coffee_Machine.Problems-Sum_array_elements_greater_than_a_value.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Sum array elements greater than a value/Coffee_Machine.Problems-Sum_array_elements_greater_than_a_value.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Sum array elements greater than a value/Coffee_Machine.Problems-Sum_array_elements_greater_than_a_value.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The largest element of a sequence/Coffee_Machine.Problems-The_largest_element_of_a_sequence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The largest element of a sequence/Coffee_Machine.Problems-The_largest_element_of_a_sequence.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The largest element of a sequence/Coffee_Machine.Problems-The_largest_element_of_a_sequence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The secret enumeration/Coffee_Machine.Problems-The_secret_enumeration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The secret enumeration/Coffee_Machine.Problems-The_secret_enumeration.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The secret enumeration/Coffee_Machine.Problems-The_secret_enumeration.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The star figure/Coffee_Machine.Problems-The_star_figure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The star figure/Coffee_Machine.Problems-The_star_figure.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/The star figure/Coffee_Machine.Problems-The_star_figure.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Too many cats/Coffee_Machine.Problems-Too_many_cats.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Too many cats/Coffee_Machine.Problems-Too_many_cats.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/Problems/Too many cats/Coffee_Machine.Problems-Too_many_cats.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/util/Coffee_Machine.util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/util/Coffee_Machine.util.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/modules/util/Coffee_Machine.util.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Action!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Action!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Action!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Brush up your code/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Brush up your code/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Brush up your code/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Enough coffee for everyone/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Enough coffee for everyone/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Enough coffee for everyone/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Hello, coffee!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Hello, coffee!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Hello, coffee!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Machines have needs/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Machines have needs/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/Machines have needs/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/On a coffee loop/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/On a coffee loop/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/On a coffee loop/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/classes/java/main/machine/CoffeeMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/classes/java/test/CoffeeMachineTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/classes/CoffeeMachineTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/test-results/test/TEST-CoffeeMachineTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/build/tmp/test/jar_extract_3641516048010213356_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/src/CoffeeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine (1)/task/test/CoffeeMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Action!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Action!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Brush up your code/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Brush up your code/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Enough coffee for everyone/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Enough coffee for everyone/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Hello, coffee!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Hello, coffee!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Machines have needs/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/Machines have needs/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/On a coffee loop/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/On a coffee loop/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Coffee Machine/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account and its owner/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account and its owner/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account and its owner/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account and its owner/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Account/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/out/production/classes/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/out/production/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Accounts/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Alphabetical order/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Alphabetical order/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Alphabetical order/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Alphabetical order/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Army/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Army/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Army/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Army/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Book/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Book/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Book/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Book/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Books/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Books/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Books/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Books/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Car/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Car/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Car/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Car/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Complex numbers/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Complex numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Complex numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Complex numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Counter/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Counter/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Counter/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Counter/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Danger levels/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Danger levels/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Danger levels/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Danger levels/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Days of week/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Days of week/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Days of week/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Days of week/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Interval/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Interval/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Interval/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Interval/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Preparing full name/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Preparing full name/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Preparing full name/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Preparing full name/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Project constants and methods/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Project constants and methods/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Project constants and methods/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Project constants and methods/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Simulating a clock/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Simulating a clock/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Simulating a clock/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Simulating a clock/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Sum array elements greater than a value/out/production/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Sum array elements greater than a value/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Sum array elements greater than a value/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Sum array elements greater than a value/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Sum array elements greater than a value/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The largest element of a sequence/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The largest element of a sequence/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The largest element of a sequence/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The largest element of a sequence/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The secret enumeration/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The secret enumeration/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The secret enumeration/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The secret enumeration/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The star figure/out/production/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The star figure/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The star figure/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The star figure/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/The star figure/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Too many cats/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Too many cats/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Too many cats/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/Too many cats/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/Problems/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee Machine/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/modules/Problems/Raise to the power/Tic-Tac-Toe.Problems-Raise_to_the_power.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/modules/Problems/Raise to the power/Tic-Tac-Toe.Problems-Raise_to_the_power.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/modules/Problems/Raise to the power/Tic-Tac-Toe.Problems-Raise_to_the_power.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled6/src/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Check prefix ignoring the case/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Check prefix ignoring the case/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Check prefix ignoring the case/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Check prefix ignoring the case/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Chocolate/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Chocolate/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Chocolate/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Chocolate/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Comparing strings ignoring whitespaces/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Comparing strings ignoring whitespaces/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Comparing strings ignoring whitespaces/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Comparing strings ignoring whitespaces/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Desks/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Desks/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Desks/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Desks/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Digits from 0 to 9 in a single line/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Digits from 0 to 9 in a single line/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/From string to a number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/From string to a number/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/From string to a number/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/From string to a number/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Guest list of a hotel/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Guest list of a hotel/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Guest list of a hotel/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Guest list of a hotel/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Hiring a chef/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Hiring a chef/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Hiring a chef/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Hiring a chef/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Next even number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Next even number/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Next even number/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Next even number/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Numbers divisible by six/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Numbers divisible by six/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Numbers divisible by six/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Numbers divisible by six/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing a magic letter/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing a magic letter/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing a magic letter/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing a magic letter/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing each word in a new line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing each word in a new line/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing each word in a new line/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Printing each word in a new line/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Reversing/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Reversing/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Reversing/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Reversing/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Snail/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Snail/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Snail/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Snail/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Symmetrical number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Symmetrical number/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Symmetrical number/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Symmetrical number/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Test learners/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Test learners/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Test learners/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/Test learners/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The (un)-ordered sequence/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The (un)-ordered sequence/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The (un)-ordered sequence/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The (un)-ordered sequence/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The integer barrier/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The integer barrier/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The integer barrier/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The integer barrier/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The number of tens/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The number of tens/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The number of tens/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Problems/The number of tens/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/Hello! What’s your name/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/Hello! What’s your name/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/How old are you/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/How old are you/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/Let’s count!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/Let’s count!/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/The student and the teacher/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Chatty Bot/Simple Chatty Bot/The student and the teacher/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/Problems/Raise to the power/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/Problems/Raise to the power/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe (1)/First move!/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/Tic-Tac-Toe (1)/First move!/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic-Tac-Toe/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic-Tac-Toe/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled6/src/TestClass.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1iBamqvB1BjI0MdquOJpEPuRFka" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="App" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1601383605408" duration="2751000" />
+      <workItem from="1601399012637" duration="304000" />
+      <workItem from="1602331013649" duration="891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601390914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601390914552" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601390914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601390914552" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601390914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601390914552" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601390914552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601390914552" />
+    <state x="551" y="180" key="new project wizard" timestamp="1601399212497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601399212497" />
+  </component>
+</project>

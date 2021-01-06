@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="532fe282-b854-4619-ac35-495f065e1932" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/FXproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/out/production/FXproject/sample/BezpiecznyWatekSwing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/out/production/FXproject/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/out/production/FXproject/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/out/production/FXproject/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/src/sample/BezpiecznyWatekSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXproject/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/GUI_powtorka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/ArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/CompanyAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/IndividualAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Lamp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Swithable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Traktor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI1/Trapezoid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/ArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/EmployeeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/IntegerComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/ItemComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/NameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/SalaryComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/UpgradedBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/UpgradesSalaryComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI2/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/AnimalComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/IntTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/SchoolSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Student$SubjectIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/UpgradedBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/ValueWrapper$LocalProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/ValueWrapper$StaticProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI3/ValueWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/IntPairTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/IntTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/GUI4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/out/production/GUI_powtorka/META-INF/GUI_powtorka.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/CompanyAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/IndividualAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Lamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Swithable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Traktor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI1/Trapezoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/EmployeeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/IntegerComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/ItemComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/SalaryComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/UpgradedBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/UpgradesSalaryComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI2/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/AnimalComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/IntTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/SchoolSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/UpgradedBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI3/ValueWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI4/IntPairTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI4/IntTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GUI_powtorka/src/GUI4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/Powtorka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/ItemComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/MojInterfejs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Osoba.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/UppgradedBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/interfejsy/Main$1A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/interfejsy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/interfejsy/MyInerface$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/out/production/Powtorka/interfejsy/MyInerface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/ItemComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/MojInterfejs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/UppgradedBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/interfejsy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Powtorka/src/interfejsy/MyInerface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/TypySparametryzowane.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/out/production/TypySparametryzowane/Gen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/out/production/TypySparametryzowane/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/out/production/TypySparametryzowane/TwoGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/src/Gen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/src/Numerki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/src/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypySparametryzowane/src/TwoGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/UTP1_GK_S19228.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/ListCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad1/Selector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/bin/zad3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad1/ListCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad1/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad1/Selector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228/src/zad3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP1_GK_S19228_bledy_formalne.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/UTP2_GK_S19228.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/UTP2_GK_S19228.v3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/bin/zad3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/bin/zad3/XList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/src/zad3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/src/zad3/XList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UTP2_GK_S19228.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UTP2_GK_S19228.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad1/InputConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad2/Maybe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/zad3/XList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad1/InputConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad2/Maybe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zad3/XList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/UTP3_GK_S19228.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/CustomersPurchaseSortFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/Purchase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad1/Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/CustomersPurchaseSortFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/A/B/C/lekcja1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/UTP_Wyklady.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/ala.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/copy_informatyka.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/informatyka.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/lekcja1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/liczby.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/nazaPliku.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/nazwa.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/nazwaPliku.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/InterfejsyTest/Deska.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/InterfejsyTest/Komputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/InterfejsyTest/Lampa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/InterfejsyTest/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/InterfejsyTest/Switchable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Strumienie_i_operacje_na_plikach/FiltrowanieStrumieni/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Strumienie_i_operacje_na_plikach/Pliki_i_Foldery/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Strumienie_i_operacje_na_plikach/Wejscie_Wyjscie_Strumien/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_1_Generixy/Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_1_Generixy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_1_Generixy/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_1_Generixy/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_2_Generixy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_2_Generixy/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Breathable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Moveable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/NaszeZwierze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Pies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Speakable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_3_Generixy/Zwierz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_4_Generixy/GenArr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_4_Generixy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_5_Generixy/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w1_5_Generixy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_1_Progamowanie_Funkcyjne/Transformer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Modifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/IntProcesor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/LampSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/SAMA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/SAMB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/SAMC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/Sample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_1_Lambda_Wyrazenia/StringProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/MetRef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/ScopeLambda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Transformer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_2_Lambda_Wyrazenia/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_3_Interfejsy_Funkcyjne_i_Lambda/Alistener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_3_Interfejsy_Funkcyjne_i_Lambda/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_4_CallAble/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_5_Uniwersalne_Interfejsy/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_5_Uniwersalne_Interfejsy/ItemGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w3_5_Uniwersalne_Interfejsy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_1_Kolekcje/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_1_Kolekcje/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_2_DodawanieElmTablicDoDowolnejKolekcji/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_2_DodawanieElmTablicDoDowolnejKolekcji/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_3_HashSet/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_3_HashSet/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_3_HashSet/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_4_DynamicznyWyborKomparatorow/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_4_DynamicznyWyborKomparatorow/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_5_Inne_metody_Comparatora/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w4_5_Inne_metody_Comparatora/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_1_Streams_przetwarzanie_strumieniowe/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_1_Streams_przetwarzanie_strumieniowe/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_2_Streams_sortowanie_strumieni/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_2_Streams_sortowanie_strumieni/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_3_Generatory/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_3_Generatory/Word.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w5_4_Strumienie_Rownolegle/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_1_StrumirnieWe_Wy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_1_StrumirnieWe_Wy/Stream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_1_StrumirnieWe_Wy/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_2_Potoki/DataGetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_2_Potoki/DataPutter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_2_Potoki/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/Author.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/DataGetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/DataPutter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/Duplicator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/PipesShow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/SpaceToWrite$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/SpaceToWrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_3_PrzykladPotokow_Przepisywacze/TxtWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_4_ObiektyPlikowe_SwobodnyDostep_Kompresja/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w6_4_ObiektyPlikowe_SwobodnyDostep_Kompresja/ZipArch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_1_Programowanie_Wspolbiezne/InnyWatek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_1_Programowanie_Wspolbiezne/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_1_Programowanie_Wspolbiezne/Watek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_2_Egzekutory/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_2_Egzekutory/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_3_ExecutorService/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_3_ExecutorService/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_4_Interrupt/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_4_Interrupt/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_5_ZamykanieWieluWatkow/Interruputible$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_5_ZamykanieWieluWatkow/Interruputible$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_5_ZamykanieWieluWatkow/Interruputible$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_5_ZamykanieWieluWatkow/Interruputible.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/UTP/w7_5_ZamykanieWieluWatkow/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_i_LinkedList/ListaPolaczona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_i_LinkedList/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_polaczone_z_LinkedList/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashCode_Funkcja_Mieszajaca/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashCode_Funkcja_Mieszajaca/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashSet_TreeSet/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashSet_TreeSet/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/KolejkaZdarzen/BezpiecznyWatekSwing$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/KolejkaZdarzen/BezpiecznyWatekSwing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/KolejkaZdarzen/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/PoszukiwaczSciezek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/PrzeszukiwaczPlikow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedHashMap_LinkedHashSet/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedHashMap_LinkedHashSet/Pracownik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedList_czyli_ListaPowiazana/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Piesek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Pracownik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Edytor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Figura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Kolo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Kwadrat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/NaszaKlasa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Sortowanie_TreeSet/Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Sortowanie_TreeSet/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Stack_Vector_HashTable/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/SubClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/SuperClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/jak_siac_panike_generator/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/mojeComapratory/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/out/production/UTP_Wyklady/mojeComapratory/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/InterfejsyTest/Deska.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/InterfejsyTest/Komputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/InterfejsyTest/Lampa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/InterfejsyTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/InterfejsyTest/Switchable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Strumienie_i_operacje_na_plikach/FiltrowanieStrumieni/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Strumienie_i_operacje_na_plikach/Pliki_i_Foldery/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Strumienie_i_operacje_na_plikach/Wejscie_Wyjscie_Strumien/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_1_Generixy/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_1_Generixy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_1_Generixy/Para.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_1_Generixy/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_2_Generixy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_2_Generixy/Para.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Breathable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Moveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/NaszeZwierze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Pies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Speakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_3_Generixy/Zwierz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_4_Generixy/GenArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_4_Generixy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_5_Generixy/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w1_5_Generixy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_1_Progamowanie_Funkcyjne/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_1_Progamowanie_Funkcyjne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_1_Progamowanie_Funkcyjne/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_1_Progamowanie_Funkcyjne/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w2_2_Programowanie_Funkcyjne_Lambdy/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/IntProcesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/LampSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/SAMA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/SAMB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/SAMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_1_Lambda_Wyrazenia/StringProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/MetRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/ScopeLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_2_Lambda_Wyrazenia/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_3_Interfejsy_Funkcyjne_i_Lambda/Alistener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_3_Interfejsy_Funkcyjne_i_Lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_4_CallAble/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_5_Uniwersalne_Interfejsy/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_5_Uniwersalne_Interfejsy/ItemGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w3_5_Uniwersalne_Interfejsy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_1_Kolekcje/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_1_Kolekcje/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_2_DodawanieElmTablicDoDowolnejKolekcji/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_2_DodawanieElmTablicDoDowolnejKolekcji/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_3_HashSet/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_3_HashSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_4_DynamicznyWyborKomparatorow/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_4_DynamicznyWyborKomparatorow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_5_Inne_metody_Comparatora/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w4_5_Inne_metody_Comparatora/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_1_Streams_przetwarzanie_strumieniowe/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_1_Streams_przetwarzanie_strumieniowe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_2_Streams_sortowanie_strumieni/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_2_Streams_sortowanie_strumieni/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_3_Generatory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_3_Generatory/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w5_4_Strumienie_Rownolegle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_1_StrumirnieWe_Wy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_1_StrumirnieWe_Wy/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_1_StrumirnieWe_Wy/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_2_Potoki/DataGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_2_Potoki/DataPutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_2_Potoki/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/Copier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/Duplicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/PipesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/SimpeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/SpaceToWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_3_PrzykladPotokow_Przepisywacze/TxtWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_4_ObiektyPlikowe_SwobodnyDostep_Kompresja/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w6_4_ObiektyPlikowe_SwobodnyDostep_Kompresja/ZipArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_1_Programowanie_Wspolbiezne/InnyWatek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_1_Programowanie_Wspolbiezne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_1_Programowanie_Wspolbiezne/Watek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_2_Egzekutory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_2_Egzekutory/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_3_ExecutorService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_3_ExecutorService/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_4_Interrupt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_4_Interrupt/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_5_ZamykanieWieluWatkow/Interruputible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/UTP/w7_5_ZamykanieWieluWatkow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_i_LinkedList/ListaPolaczona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_i_LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/ArrayList_polaczone_z_LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashCode_Funkcja_Mieszajaca/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashCode_Funkcja_Mieszajaca/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashSet_TreeSet/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/HashSet_TreeSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/KolejkaZdarzen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/PoszukiwaczSciezek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Kolejki/PrzeszukiwaczPlikow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedHashMap_LinkedHashSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedHashMap_LinkedHashSet/Pracownik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/LinkedList_czyli_ListaPowiazana/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Piesek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Mapy/Pracownik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Edytor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Kolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Kwadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Metody_Generyczne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/NaszaKlasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Sortowanie_TreeSet/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Sortowanie_TreeSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Stack_Vector_HashTable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/Udemy/Kloekcje_Listy_Mapy_Kolejki/Wildcards/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/jak_siac_panike_generator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/mojeComapratory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/src/mojeComapratory/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/srest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/test.down" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP_Wyklady/test.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/tmp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZijdthF7nViB5WDffCUEpVjPVU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="zad3" />
+      <recent name="zad2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad2.Main" />
+      <module name="UTP2_GK_S19228" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad3.Main" />
+      <module name="UTP2_GK_S19228" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad1.Main" />
+      <module name="UTP2_GK_S19228" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="532fe282-b854-4619-ac35-495f065e1932" name="Default Changelist" comment="" />
+      <created>1585328898642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585328898642</updated>
+      <workItem from="1585328901404" duration="16191000" />
+      <workItem from="1585345626429" duration="194000" />
+      <workItem from="1585469694985" duration="1614000" />
+      <workItem from="1586887115919" duration="181000" />
+      <workItem from="1586887305004" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1526" y="458" key="#com.intellij.ide.util.MemberChooser" timestamp="1585342105205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1526" y="458" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585342105205" />
+    <state x="105" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585344097833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="105" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585344097833" />
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585334803253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585334803253" />
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1585469804565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585469804565" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1586887297068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586887297068" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1586887297068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586887297068" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1586887297068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586887297068" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1586887297068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586887297068" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1585469694828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585469694828" />
+    <state x="342" y="140" key="new project wizard" timestamp="1585340362907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585340362907" />
+    <state x="186" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1585335177613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="186" y="142" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585335177613" />
+  </component>
+</project>

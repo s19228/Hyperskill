@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12a345a4-6391-4950-bc3c-34aebaa958e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/zad3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/zad3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad1/Anagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad1/Anagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/CustomersPurchaseSortFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/CustomersPurchaseSortFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/CustomersPurchaseSortFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/CustomersPurchaseSortFind.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a5Sfog5cj66r7tTQ2YxlDcgUfA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UTP3_GK_S19228" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="zad3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zad3.Main" />
+      <module name="UTP2_GK_S19228" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12a345a4-6391-4950-bc3c-34aebaa958e3" name="Default Changelist" comment="" />
+      <created>1586024067803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586024067803</updated>
+      <workItem from="1586024070920" duration="533000" />
+      <workItem from="1586095944315" duration="17828000" />
+      <workItem from="1586113915639" duration="32000" />
+      <workItem from="1587282102544" duration="1680000" />
+      <workItem from="1587285791063" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1586100647923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586100647923" />
+    <state x="210" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586108527640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586108527640" />
+    <state x="260" y="249" key="FileChooserDialogImpl" timestamp="1587285809917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="260" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587285809917" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1587285039769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587285039769" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1587285039768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587285039768" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1587285039768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587285039768" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1587285039768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587285039768" />
+    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1586113869499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586113869499" />
+    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1586113869499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586113869499" />
+    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1586113869499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586113869499" />
+    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1586113869499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586113869499" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586095945394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586095945394" />
+    <state x="394" y="138" key="new project wizard" timestamp="1586105609344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="394" y="138" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586105609344" />
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1586096059079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586096059079" />
+    <state x="136" y="244" key="run.anything.popup" timestamp="1586113104476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586113104476" />
+  </component>
+</project>

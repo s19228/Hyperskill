@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f547340-37aa-4774-8169-79faf7223d3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/UTP3_GK_S19228v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UTP3_GK_S19228v2/src/zad3/ProgLang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/bin/zad3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP2_GK_S19228.v2/bin/zad3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad1/Anagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad1/Anagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/CustomersPurchaseSortFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/bin/zad2/CustomersPurchaseSortFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/CustomersPurchaseSortFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UTP3_GK_S19228/src/zad2/CustomersPurchaseSortFind.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YuMKqjDqxTbde6XEUsz5r8GWvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TypySparametryzowane" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f547340-37aa-4774-8169-79faf7223d3a" name="Default Changelist" comment="" />
+      <created>1583787964489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583787964489</updated>
+      <workItem from="1583787967389" duration="4831000" />
+      <workItem from="1588097465779" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="217" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583789624682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="217" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583789624682" />
+    <state x="292" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1583792297931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583792297931" />
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1583792846610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583792846610" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1583792846610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583792846610" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1583792846610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583792846610" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1583792846610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583792846610" />
+    <state x="143" y="242" key="run.anything.popup" timestamp="1583789582838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583789582838" />
+  </component>
+</project>

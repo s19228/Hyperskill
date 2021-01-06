@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jul 05 10:04:25 CEST 2020:
+ Uruchamianie wersji The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579) systemu Derby: instancja a816c00e-0173-1e01-3f49-00001d6aba38
+w katalogu bazy danych C:\DerbyDbs\ksidb sun.misc.Launcher$AppClassLoader@18b4aac2 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\conra\IdeaProjects\UTP6_GK_S19228
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Uruchomiono program ładujący klasę bazy danych - derby.database.classpath=''

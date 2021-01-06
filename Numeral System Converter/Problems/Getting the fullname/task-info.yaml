@@ -1,0 +1,12 @@
+type: code
+files:
+- name: Main.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/8261#comment
+status: Failed
+feedback:
+  message: "Failed test #2 of 4. Runtime error\n\nError:\nException in thread \"main\"\
+    \ java.lang.NullPointerException\n\tat User.getFullName(Main.java:47)\n\tat Main.main(Main.java:9)\n"
+  time: Mon, 21 Dec 2020 20:51:29 UTC
+record: -1
