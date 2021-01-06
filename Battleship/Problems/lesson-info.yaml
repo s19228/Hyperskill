@@ -4,3 +4,6 @@ content:
 - Throw a checked exception
 - Find X
 - Are siblings
+- Reverse input text
+- Convert to bytes
+- Count words
