@@ -7,12 +7,14 @@
         <option name="delegatedBuild" value="false" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="java version &quot;11.0.9+11&quot;" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Battleship/task" />
+            <option value="$PROJECT_DIR$/Problems/Application as a class" />
             <option value="$PROJECT_DIR$/Problems/Are siblings" />
+            <option value="$PROJECT_DIR$/Problems/Boxes" />
             <option value="$PROJECT_DIR$/Problems/Convert to bytes" />
             <option value="$PROJECT_DIR$/Problems/Count words" />
             <option value="$PROJECT_DIR$/Problems/Days of the week" />
