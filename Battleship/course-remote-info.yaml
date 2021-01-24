@@ -3,11 +3,11 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/397107/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Fri, 08 Jan 2021 20:26:19 UTC
+update_date: Sun, 24 Jan 2021 17:48:34 UTC
 stages:
 - id: 663
   step: 10594
-  is_completed: false
+  is_completed: true
 - id: 664
   step: 10595
   is_completed: false
@@ -155,10 +155,6 @@ topics:
   - title: Fields and methods in enum
     theory_id: 11523
   4:
-  - title: Overloading
-    theory_id: 3525
-  - title: Multiple constructors
-    theory_id: 3538
   - title: Hiding and overriding
     theory_id: 3572
   - title: Protected modifier
@@ -170,5 +166,9 @@ topics:
   - title: Abstract class
     theory_id: 3597
   3:
+  - title: Overloading
+    theory_id: 3525
+  - title: Multiple constructors
+    theory_id: 3538
   - title: The keyword super
     theory_id: 3588
