@@ -10,8 +10,9 @@ class Main {
                 double a = in.nextDouble();
                 double b = in.nextDouble();
                 double c = in.nextDouble();
-                double p = ((a + b + c) / 2);
+                double p = ((a + b + c) / 2.0);
                 System.out.println((Math.sqrt(p * (p - a) * (p - b) * (p - c))));
+                break;
             }
             case ("rectangle"): {
                 System.out.println(in.nextDouble() * in.nextDouble());
@@ -25,16 +26,5 @@ class Main {
                 System.out.println("err");
                 break;
         }
-    }
-
-    private static void counttriangle(Scanner in) {
-        double a = in.nextDouble();
-        double b = in.nextDouble();
-        double c = in.nextDouble();
-        double p = (a + b + c) / 2;
-        double P = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-
-        System.out.print(Math.sqrt(p * (p - a) * (p - b) * (p - c)));
-
     }
 }
