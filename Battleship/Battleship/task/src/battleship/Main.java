@@ -63,8 +63,46 @@ public class Main {
             }
             System.out.println();
             battlefield.show();
-        }
+            System.out.println();
 
+        }
+        System.out.println("The game starts!");
+        System.out.println();
+        battlefield.show();
+
+        System.out.println();
+        System.out.println("Take a shot!");
+        System.out.println();
+
+        boolean shooting = true;
+
+        while (shooting) {
+
+            String shoot = scanner.next();
+            int[] point = convertPoint(shoot);
+
+            try {
+                if (point[0] == 0) {
+                    System.out.println("Error! You entered the wrong coordinates! Try again:");
+                } else if (battlefield.battlefield[point[0]][point[1]] == '~') {
+                    battlefield.battlefield[point[0]][point[1]] = 'M';
+                    battlefield.show();
+                    System.out.println();
+                    System.out.println("You missed!");
+                    System.out.println();
+                    shooting = false;
+                } else {
+                    battlefield.battlefield[point[0]][point[1]] = 'X';
+                    System.out.println();
+                    System.out.println("You hit a ship!");
+                    System.out.println();
+                    battlefield.show();
+                    shooting = false;
+                }
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("Error! You entered the wrong coordinates! Try again:");
+            }
+        }
     }
 
     public static boolean setShipOnBattlefield(int starRow_i, int startColumn_i, int endRow_i, int endColumn_i, Battlefield bat) {
@@ -136,6 +174,58 @@ public class Main {
             result[0] = -1;
             result[1] = -1;
         }
+    }
+
+    public static int[] convertPoint(String position) {
+        int[] tab = {0, 0, 9};
+
+        char letter = position.charAt(0);
+        switch (letter) {
+            case 'A':
+                tab[0] = 1;
+                break;
+            case 'B':
+                tab[0] = 2;
+                break;
+            case 'C':
+                tab[0] = 3;
+                break;
+            case 'D':
+                tab[0] = 4;
+                break;
+            case 'E':
+                tab[0] = 5;
+                break;
+            case 'F':
+                tab[0] = 6;
+                break;
+            case 'G':
+                tab[0] = 7;
+                break;
+            case 'H':
+                tab[0] = 8;
+                break;
+            case 'I':
+                tab[0] = 9;
+                break;
+            case 'J':
+                tab[0] = 10;
+                break;
+            default:
+        }
+
+        if (position.length() == 3 && position.charAt(1) == 49) {
+            if (position.charAt(2) == 48) {
+                tab[1] = 20;
+            } else {
+                tab[0] = 0;
+            }
+        } else {
+            int column = position.charAt(1);
+            tab[1] = (column - 48) * 2;
+        }
+
+        return tab;
     }
 }
 

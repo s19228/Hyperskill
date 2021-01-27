@@ -15,7 +15,6 @@ files:
 - name: test/Tests.java
   visible: false
   text: |-
-    import battleship.Main;
     import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
     import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
     import org.hyperskill.hstest.stage.StageTest;
@@ -27,7 +26,7 @@ files:
         @DynamicTestingMethod
         CheckResult exampleTest() {
 
-            TestedProgram main = new TestedProgram(Main.class);
+            TestedProgram main = new TestedProgram();
             String output = main.start().trim();
             String[][] matrix;
 
@@ -121,7 +120,7 @@ files:
         @DynamicTestingMethod
         CheckResult test1() {
 
-            TestedProgram main = new TestedProgram(Main.class);
+            TestedProgram main = new TestedProgram();
             String output = main.start().trim();
             String[][] matrix;
 
@@ -234,7 +233,7 @@ files:
         @DynamicTestingMethod
         CheckResult test2() {
 
-            TestedProgram main = new TestedProgram(Main.class);
+            TestedProgram main = new TestedProgram();
             String output = main.start().trim();
             String[][] matrix;
 
@@ -500,5 +499,8 @@ files:
     }
   learner_created: true
 feedback_link: https://hyperskill.org/projects/125/stages/664/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 27 Jan 2021 20:50:21 UTC
 record: -1

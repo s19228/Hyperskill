@@ -15,7 +15,6 @@ files:
 - name: test/Tests.java
   visible: false
   text: |-
-    import battleship.Main;
     import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
     import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
     import org.hyperskill.hstest.stage.StageTest;
@@ -28,7 +27,7 @@ files:
         @DynamicTestingMethod
         CheckResult exampleTest() {
 
-            TestedProgram main = new TestedProgram(Main.class);
+            TestedProgram main = new TestedProgram();
             String output = main.start().trim();
             String[][] matrix;
 
@@ -126,7 +125,7 @@ files:
         @DynamicTestingMethod
         CheckResult test() {
 
-            TestedProgram main = new TestedProgram(Main.class);
+            TestedProgram main = new TestedProgram();
             String output = main.start().trim();
             String[][] matrix;
 

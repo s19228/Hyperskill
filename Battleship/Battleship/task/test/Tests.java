@@ -1,4 +1,3 @@
-import battleship.Main;
 import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
 import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
 import org.hyperskill.hstest.stage.StageTest;
@@ -10,7 +9,7 @@ public class Tests extends StageTest<String> {
     @DynamicTestingMethod
     CheckResult exampleTest() {
 
-        TestedProgram main = new TestedProgram(Main.class);
+        TestedProgram main = new TestedProgram();
         String output = main.start().trim();
         String[][] matrix;
 
@@ -104,7 +103,7 @@ public class Tests extends StageTest<String> {
     @DynamicTestingMethod
     CheckResult test1() {
 
-        TestedProgram main = new TestedProgram(Main.class);
+        TestedProgram main = new TestedProgram();
         String output = main.start().trim();
         String[][] matrix;
 
@@ -217,7 +216,7 @@ public class Tests extends StageTest<String> {
     @DynamicTestingMethod
     CheckResult test2() {
 
-        TestedProgram main = new TestedProgram(Main.class);
+        TestedProgram main = new TestedProgram();
         String output = main.start().trim();
         String[][] matrix;
 
