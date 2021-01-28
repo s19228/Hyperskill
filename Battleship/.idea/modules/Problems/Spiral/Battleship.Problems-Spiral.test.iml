@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":util:test" external.linked.project.path="$MODULE_DIR$/../../../util" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Battleship" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":Problems-Spiral:test" external.linked.project.path="$MODULE_DIR$/../../../../Problems/Spiral" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Battleship" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../util/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../Problems/Spiral/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../util/src/test" />
-    <content url="file://$MODULE_DIR$/../../../util/test" />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Spiral/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Spiral/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Battleship.util.main" />
+    <orderEntry type="module" module-name="Battleship.Problems-Spiral.main" />
     <orderEntry type="library" name="Gradle: com.github.hyperskill:hs-test:release-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.assertj:assertj-swing-junit:3.9.2" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
@@ -22,5 +22,5 @@
     <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.11.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="Battleship.util.main" />
+  <component name="TestModuleProperties" production-module="Battleship.Problems-Spiral.main" />
 </module>

@@ -8,7 +8,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="gradleJvm" value="java version &quot;11.0.9+11&quot;" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/Problems/Printing strings in the same order" />
             <option value="$PROJECT_DIR$/Problems/Reverse input text" />
             <option value="$PROJECT_DIR$/Problems/Shape" />
+            <option value="$PROJECT_DIR$/Problems/Spiral" />
             <option value="$PROJECT_DIR$/Problems/The army of units" />
             <option value="$PROJECT_DIR$/Problems/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Problems/Throw an IOException" />
