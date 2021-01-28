@@ -19,3 +19,6 @@ content:
 - Print  Hello, Java_
 - Division
 - Spiral
+- Currencies
+- Days of week
+- Hidden enumeration
