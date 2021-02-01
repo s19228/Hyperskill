@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/Problems/Are siblings" />
             <option value="$PROJECT_DIR$/Problems/Balance management" />
             <option value="$PROJECT_DIR$/Problems/Boxes" />
+            <option value="$PROJECT_DIR$/Problems/Check the sum" />
             <option value="$PROJECT_DIR$/Problems/Convert to bytes" />
             <option value="$PROJECT_DIR$/Problems/Count words" />
             <option value="$PROJECT_DIR$/Problems/Currencies" />
@@ -28,10 +29,12 @@
             <option value="$PROJECT_DIR$/Problems/Floor-space of the room" />
             <option value="$PROJECT_DIR$/Problems/Healthy sleep" />
             <option value="$PROJECT_DIR$/Problems/Hidden enumeration" />
+            <option value="$PROJECT_DIR$/Problems/Individual taxes" />
             <option value="$PROJECT_DIR$/Problems/Pretty looking pattern" />
             <option value="$PROJECT_DIR$/Problems/Print  Hello, Java_" />
             <option value="$PROJECT_DIR$/Problems/Printing strings in the same order" />
             <option value="$PROJECT_DIR$/Problems/Reverse input text" />
+            <option value="$PROJECT_DIR$/Problems/Robot control" />
             <option value="$PROJECT_DIR$/Problems/Shape" />
             <option value="$PROJECT_DIR$/Problems/Spiral" />
             <option value="$PROJECT_DIR$/Problems/System of units" />
