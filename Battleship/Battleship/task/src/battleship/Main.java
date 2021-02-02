@@ -8,8 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Battlefield battlefield = new Battlefield(10, 10);
-        battlefield.show();
+        Battlefield yourBattlefield = new Battlefield(10, 10);
+        Battlefield opponentBattlefield = new Battlefield(10, 10);
+        Battlefield fogOfWar = new Battlefield(10, 10);
+
+        yourBattlefield.show();
         Scanner scanner = new Scanner(System.in);
         // types of ships and their lengths
         int[] shipsLengthsArray = {5, 4, 3, 3, 2};
@@ -55,20 +58,20 @@ public class Main {
                     continue;
                 }
 
-                if (setShipOnBattlefield(startRow, startColumn, endRow, endColumn, battlefield)) {
+                if (setShipOnBattlefield(startRow, startColumn, endRow, endColumn, yourBattlefield)) {
                     flag = false;
                 } else {
                     System.out.printf("%nError! You placed it too close to another one. Try again:%n%n");
                 }
             }
             System.out.println();
-            battlefield.show();
+            yourBattlefield.show();
             System.out.println();
 
         }
         System.out.println("The game starts!");
         System.out.println();
-        battlefield.show();
+        fogOfWar.show();
 
         System.out.println();
         System.out.println("Take a shot!");
@@ -84,19 +87,23 @@ public class Main {
             try {
                 if (point[0] == 0) {
                     System.out.println("Error! You entered the wrong coordinates! Try again:");
-                } else if (battlefield.battlefield[point[0]][point[1]] == '~') {
-                    battlefield.battlefield[point[0]][point[1]] = 'M';
-                    battlefield.show();
+                } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
+                    fogOfWar.battlefield[point[0]][point[1]] = 'M';
+                    yourBattlefield.battlefield[point[0]][point[1]] = 'M';
+                    fogOfWar.show();
                     System.out.println();
                     System.out.println("You missed!");
                     System.out.println();
+                    yourBattlefield.show();
                     shooting = false;
                 } else {
-                    battlefield.battlefield[point[0]][point[1]] = 'X';
+                    yourBattlefield.battlefield[point[0]][point[1]] = 'X';
+                    fogOfWar.battlefield[point[0]][point[1]] = 'X';
+                    fogOfWar.show();
                     System.out.println();
                     System.out.println("You hit a ship!");
                     System.out.println();
-                    battlefield.show();
+                    yourBattlefield.show();
                     shooting = false;
                 }
             } catch (IndexOutOfBoundsException e) {

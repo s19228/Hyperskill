@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/397107/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Mon, 01 Feb 2021 18:55:06 UTC
+update_date: Tue, 02 Feb 2021 19:24:36 UTC
 stages:
 - id: 663
   step: 10594
@@ -13,7 +13,7 @@ stages:
   is_completed: true
 - id: 665
   step: 10596
-  is_completed: false
+  is_completed: true
 - id: 666
   step: 10597
   is_completed: false
@@ -24,12 +24,10 @@ topics:
   0:
   - title: Units of information
     theory_id: 6865
-  - title: Introduction to OOP
-    theory_id: 3614
-  - title: What are streams
-    theory_id: 5533
   - title: Introduction to operating systems
     theory_id: 9704
+  - title: What are streams
+    theory_id: 5533
   - title: Command line overview
     theory_id: 8977
   - title: Parameters and options
@@ -60,6 +58,8 @@ topics:
     theory_id: 9723
   - title: Try with resources
     theory_id: 9734
+  - title: Introduction to OOP
+    theory_id: 3614
   - title: Introduction to Java
     theory_id: 3500
   - title: Basic literals
@@ -70,10 +70,6 @@ topics:
     theory_id: 3749
   - title: Types and variables
     theory_id: 3518
-  - title: Sizes and ranges
-    theory_id: 3532
-  - title: Type casting
-    theory_id: 3510
   - title: Comments
     theory_id: 3520
   - title: Naming variables
@@ -104,6 +100,10 @@ topics:
     theory_id: 3507
   - title: Switch statement
     theory_id: 3504
+  - title: Sizes and ranges
+    theory_id: 3532
+  - title: Type casting
+    theory_id: 3510
   - title: Calling a method
     theory_id: 10973
   - title: Declaring a method
