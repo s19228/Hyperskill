@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
 
         Battlefield yourBattlefield = new Battlefield(10, 10);
-        Battlefield opponentBattlefield = new Battlefield(10, 10);
         Battlefield fogOfWar = new Battlefield(10, 10);
 
         yourBattlefield.show();
@@ -84,32 +83,59 @@ public class Main {
             String shoot = scanner.next();
             int[] point = convertPoint(shoot);
 
+            int counter = 5;
+
             try {
+
+                boolean isSank = checkIsSank(yourBattlefield, point);
+
                 if (point[0] == 0) {
                     System.out.println("Error! You entered the wrong coordinates! Try again:");
+                } else if (isSank && counter == 0) {
+                    System.out.println("You sank the last ship. You won. Congratulations!");
+                    shooting = false;
+                    break;
+                } else if (isSank && counter > 0) {
+                    System.out.println("You sank a ship! Specify a new target:");
+                    isSank = false;
+                    counter--;
+                    break;
                 } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
                     fogOfWar.battlefield[point[0]][point[1]] = 'M';
                     yourBattlefield.battlefield[point[0]][point[1]] = 'M';
                     fogOfWar.show();
                     System.out.println();
-                    System.out.println("You missed!");
+                    System.out.println("You missed. Try again:");
                     System.out.println();
-                    yourBattlefield.show();
-                    shooting = false;
+                    fogOfWar.show();
                 } else {
                     yourBattlefield.battlefield[point[0]][point[1]] = 'X';
                     fogOfWar.battlefield[point[0]][point[1]] = 'X';
                     fogOfWar.show();
                     System.out.println();
-                    System.out.println("You hit a ship!");
+                    System.out.println("You hit a ship! Try again:");
                     System.out.println();
-                    yourBattlefield.show();
-                    shooting = false;
+                    fogOfWar.show();
                 }
             } catch (IndexOutOfBoundsException e) {
                 System.out.println("Error! You entered the wrong coordinates! Try again:");
             }
         }
+    }
+
+    private static boolean checkIsSank(Battlefield yourBattlefield, int[] point) {
+        boolean sunk = false;
+
+        for (int i = -1; i < 2; i++) {
+            for (int j = -2; j < 3; j++) {
+                if (yourBattlefield.battlefield[point[0] + i][point[1] + j] != 'O') {
+                    sunk = true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        return sunk;
     }
 
     public static boolean setShipOnBattlefield(int starRow_i, int startColumn_i, int endRow_i, int endColumn_i, Battlefield bat) {
@@ -231,7 +257,6 @@ public class Main {
             int column = position.charAt(1);
             tab[1] = (column - 48) * 2;
         }
-
         return tab;
     }
 }
