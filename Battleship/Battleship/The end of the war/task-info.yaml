@@ -419,43 +419,8 @@ files:
     }
   learner_created: true
 feedback_link: https://hyperskill.org/projects/125/stages/666/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: "Wrong answer in test #1\n\nCan&#39;t parse the game field\nMake sure you\
-    \ print it like in examples!\n\nPlease find below the output of your program during\
-    \ this failed test.\nNote that the &#39;&gt;&#39; character indicates the beginning\
-    \ of the input line.\n\n---\n\n  1 2 3 4 5 6 7 8 9 10 \nA ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\
-    \ \nB ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nC ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nD ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nE\
-    \ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nH ~ ~\
-    \ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nJ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \n\nEnter the\
-    \ coordinates of the Aircraft Carrier (5 cells):\n\n&gt; F3 F7\n\n  1 2 3 4 5\
-    \ 6 7 8 9 10 \nA ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nB ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nC ~ ~ ~ ~ ~ ~ ~\
-    \ ~ ~ ~ \nD ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nE ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ O O O O O ~ ~\
-    \ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nH ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \n\
-    J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \n\n\nEnter the coordinates of the Battleship (4 cells):\n\
-    \n&gt; A1 D1\n\n  1 2 3 4 5 6 7 8 9 10 \nA O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nB O ~ ~ ~ ~ ~\
-    \ ~ ~ ~ ~ \nC O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nD O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nE ~ ~ ~ ~ ~ ~ ~ ~\
-    \ ~ ~ \nF ~ ~ O O O O O ~ ~ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nH ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\
-    \ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nJ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \n\n\nEnter the coordinates\
-    \ of the Submarine (3 cells):\n\n&gt; J7 J10\n\nError! Wrong length of the Submarine!\
-    \ Try again:\n\n&gt; J10 J8\n\n  1 2 3 4 5 6 7 8 9 10 \nA O ~ ~ ~ ~ ~ ~ ~ ~ ~\
-    \ \nB O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nC O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nD O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nE\
-    \ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ O O O O O ~ ~ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nH ~ ~\
-    \ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nJ ~ ~ ~ ~ ~ ~ ~ O O O \n\n\nEnter\
-    \ the coordinates of the Cruiser (3 cells):\n\n&gt; B9 D8\n\nError! Wrong ship\
-    \ location! Try again:\n\n&gt; B9 D9\n\n  1 2 3 4 5 6 7 8 9 10 \nA O ~ ~ ~ ~ ~\
-    \ ~ ~ ~ ~ \nB O ~ ~ ~ ~ ~ ~ ~ O ~ \nC O ~ ~ ~ ~ ~ ~ ~ O ~ \nD O ~ ~ ~ ~ ~ ~ ~\
-    \ O ~ \nE ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ O O O O O ~ ~ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~\
-    \ \nH ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nJ ~ ~ ~ ~ ~ ~ ~ O O O \n\n\
-    \nEnter the coordinates of the Destroyer (2 cells):\n\n&gt; E6 D6\n\nError! You\
-    \ placed it too close to another one. Try again:\n\n&gt; I2 J2\n\n  1 2 3 4 5\
-    \ 6 7 8 9 10 \nA O ~ ~ ~ ~ ~ ~ ~ ~ ~ \nB O ~ ~ ~ ~ ~ ~ ~ O ~ \nC O ~ ~ ~ ~ ~ ~\
-    \ ~ O ~ \nD O ~ ~ ~ ~ ~ ~ ~ O ~ \nE ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ O O O O O ~ ~\
-    \ ~ \nG ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nH ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ O ~ ~ ~ ~ ~ ~ ~ ~ \n\
-    J ~ O ~ ~ ~ ~ ~ O O O \n\nThe game starts!\n\n  1 2 3 4 5 6 7 8 9 10 \nA ~ ~ ~\
-    \ ~ ~ ~ ~ ~ ~ ~ \nB ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nC ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nD ~ ~ ~ ~ ~\
-    \ ~ ~ ~ ~ ~ \nE ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nF ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nG ~ ~ ~ ~ ~ ~ ~\
-    \ ~ ~ ~ \nH ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nI ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ \nJ ~ ~ ~ ~ ~ ~ ~ ~ ~\
-    \ ~ \n\nTake a shot!\n\n&gt; A1\nYou sank a ship! Specify a new target:"
-  time: Thu, 04 Feb 2021 20:49:36 UTC
+  message: Congratulations!
+  time: Sat, 06 Feb 2021 17:50:47 UTC
 record: -1

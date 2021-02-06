@@ -1,5 +1,7 @@
 package battleship;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,7 +15,6 @@ public class Main {
 
         yourBattlefield.show();
         Scanner scanner = new Scanner(System.in);
-        // types of ships and their lengths
         int[] shipsLengthsArray = {5, 4, 3, 3, 2};
         String[] shipNames = {
                 "Aircraft Carrier",
@@ -34,40 +35,71 @@ public class Main {
             int endColumn;
 
             boolean flag = true;
-            while (flag) {
-                String start = scanner.next();
-                String end = scanner.next();
-
-                convert(start, pos);
-                startRow = pos[0];
-                startColumn = pos[1];
-
-                convert(end, pos);
-                endRow = pos[0];
-                endColumn = pos[1];
-
-                int shipLength = getLength(startRow, startColumn, endRow, endColumn);
-
-                if (shipLength != shipsLengthsArray[i]) {
-                    if (shipLength == 0) {
-                        System.out.printf("%nError! Wrong ship location! Try again:%n%n");
-                    } else {
-                        System.out.printf("%nError! Wrong length of the %s! Try again:%n%n", shipNames[i]);
-                    }
-                    continue;
-                }
-
-                if (setShipOnBattlefield(startRow, startColumn, endRow, endColumn, yourBattlefield)) {
-                    flag = false;
-                } else {
-                    System.out.printf("%nError! You placed it too close to another one. Try again:%n%n");
-                }
-            }
+            putShipsOnBattlefield(yourBattlefield, scanner, shipsLengthsArray, shipNames, pos, i, flag);
             System.out.println();
             yourBattlefield.show();
             System.out.println();
 
         }
+        startTheGame(fogOfWar);
+
+        boolean shooting = true;
+        int counter = 5;
+        List<String> shoots = new ArrayList<>();
+
+        startShooting(yourBattlefield, fogOfWar, scanner, shooting, counter, shoots);
+    }
+
+    private static void startShooting(Battlefield yourBattlefield, Battlefield fogOfWar, Scanner scanner, boolean shooting, int counter, List<String> shoots) {
+        try {
+            while (shooting) {
+                String shoot = scanner.next();
+                if (shoots.contains(shoot)) {
+                    System.out.println("You hit a ship! Try again:");
+                    System.out.println();
+                    fogOfWar.show();
+                } else {
+                    shoots.add(shoot);
+                    int[] point = convertPoint(shoot);
+                    boolean isSank;
+                    if (point[0] == 0) {
+                        System.out.println("Error! You entered the wrong coordinates! Try again:");
+                    } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
+                        fogOfWar.battlefield[point[0]][point[1]] = 'M';
+                        yourBattlefield.battlefield[point[0]][point[1]] = 'M';
+                        fogOfWar.show();
+                        System.out.println();
+                        System.out.println("You missed. Try again:");
+                        System.out.println();
+                        fogOfWar.show();
+                    } else {
+                        yourBattlefield.battlefield[point[0]][point[1]] = 'X';
+                        fogOfWar.battlefield[point[0]][point[1]] = 'X';
+                        fogOfWar.show();
+                        System.out.println();
+                        isSank = checkIsSank(yourBattlefield, point);
+                        if (!isSank) {
+                            System.out.println("You hit a ship! Try again:");
+                            System.out.println();
+                            fogOfWar.show();
+                        } else if (isSank) {
+                            counter--;
+                            if (counter > 0) {
+                                System.out.println("You sank a ship! Specify a new target:");
+                            } else {
+                                System.out.println("You sank the last ship. You won. Congratulations!");
+                                shooting = false;
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error! You entered the wrong coordinates! Try again:");
+        }
+    }
+
+    private static void startTheGame(Battlefield fogOfWar) {
         System.out.println("The game starts!");
         System.out.println();
         fogOfWar.show();
@@ -75,63 +107,52 @@ public class Main {
         System.out.println();
         System.out.println("Take a shot!");
         System.out.println();
+    }
 
-        boolean shooting = true;
+    private static void putShipsOnBattlefield(Battlefield yourBattlefield, Scanner scanner, int[] shipsLengthsArray, String[] shipNames, int[] pos, int i, boolean flag) {
+        int startRow;
+        int endColumn;
+        int endRow;
+        int startColumn;
+        while (flag) {
+            String start = scanner.next();
+            String end = scanner.next();
 
-        while (shooting) {
+            convert(start, pos);
+            startRow = pos[0];
+            startColumn = pos[1];
 
-            String shoot = scanner.next();
-            int[] point = convertPoint(shoot);
+            convert(end, pos);
+            endRow = pos[0];
+            endColumn = pos[1];
 
-            int counter = 5;
+            int shipLength = getLength(startRow, startColumn, endRow, endColumn);
 
-            try {
-
-                boolean isSank = checkIsSank(yourBattlefield, point);
-
-                if (point[0] == 0) {
-                    System.out.println("Error! You entered the wrong coordinates! Try again:");
-                } else if (isSank && counter == 0) {
-                    System.out.println("You sank the last ship. You won. Congratulations!");
-                    shooting = false;
-                    break;
-                } else if (isSank && counter > 0) {
-                    System.out.println("You sank a ship! Specify a new target:");
-                    isSank = false;
-                    counter--;
-                    break;
-                } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
-                    fogOfWar.battlefield[point[0]][point[1]] = 'M';
-                    yourBattlefield.battlefield[point[0]][point[1]] = 'M';
-                    fogOfWar.show();
-                    System.out.println();
-                    System.out.println("You missed. Try again:");
-                    System.out.println();
-                    fogOfWar.show();
+            if (shipLength != shipsLengthsArray[i]) {
+                if (shipLength == 0) {
+                    System.out.printf("%nError! Wrong ship location! Try again:%n%n");
                 } else {
-                    yourBattlefield.battlefield[point[0]][point[1]] = 'X';
-                    fogOfWar.battlefield[point[0]][point[1]] = 'X';
-                    fogOfWar.show();
-                    System.out.println();
-                    System.out.println("You hit a ship! Try again:");
-                    System.out.println();
-                    fogOfWar.show();
+                    System.out.printf("%nError! Wrong length of the %s! Try again:%n%n", shipNames[i]);
                 }
-            } catch (IndexOutOfBoundsException e) {
-                System.out.println("Error! You entered the wrong coordinates! Try again:");
+                continue;
+            }
+
+            if (setShipOnBattlefield(startRow, startColumn, endRow, endColumn, yourBattlefield)) {
+                flag = false;
+            } else {
+                System.out.printf("%nError! You placed it too close to another one. Try again:%n%n");
             }
         }
     }
 
     private static boolean checkIsSank(Battlefield yourBattlefield, int[] point) {
-        boolean sunk = false;
+        boolean sunk = true;
 
         for (int i = -1; i < 2; i++) {
             for (int j = -2; j < 3; j++) {
-                if (yourBattlefield.battlefield[point[0] + i][point[1] + j] != 'O') {
-                    sunk = true;
-                } else {
-                    return false;
+                if (yourBattlefield.battlefield[point[0] + i][point[1] + j] == 'O') {
+                    sunk = false;
+                    break;
                 }
             }
         }
