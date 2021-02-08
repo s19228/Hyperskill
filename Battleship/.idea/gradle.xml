@@ -37,6 +37,7 @@
             <option value="$PROJECT_DIR$/Problems/Healthy sleep" />
             <option value="$PROJECT_DIR$/Problems/Hidden enumeration" />
             <option value="$PROJECT_DIR$/Problems/Individual taxes" />
+            <option value="$PROJECT_DIR$/Problems/IntBinaryOperation" />
             <option value="$PROJECT_DIR$/Problems/Overloading methods" />
             <option value="$PROJECT_DIR$/Problems/Phone" />
             <option value="$PROJECT_DIR$/Problems/Pretty looking pattern" />
@@ -50,6 +51,7 @@
             <option value="$PROJECT_DIR$/Problems/Robot control" />
             <option value="$PROJECT_DIR$/Problems/Saying animals" />
             <option value="$PROJECT_DIR$/Problems/Shape" />
+            <option value="$PROJECT_DIR$/Problems/Shape hierarchy" />
             <option value="$PROJECT_DIR$/Problems/Shapes area" />
             <option value="$PROJECT_DIR$/Problems/Spiral" />
             <option value="$PROJECT_DIR$/Problems/System of units" />
@@ -58,6 +60,7 @@
             <option value="$PROJECT_DIR$/Problems/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Problems/Throw an IOException" />
             <option value="$PROJECT_DIR$/Problems/Time" />
+            <option value="$PROJECT_DIR$/Problems/Users and WebSites" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
