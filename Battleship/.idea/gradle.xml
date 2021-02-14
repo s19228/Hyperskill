@@ -19,12 +19,15 @@
             <option value="$PROJECT_DIR$/Problems/Balance management" />
             <option value="$PROJECT_DIR$/Problems/Bank account" />
             <option value="$PROJECT_DIR$/Problems/Boxes" />
+            <option value="$PROJECT_DIR$/Problems/Calculating factorials" />
             <option value="$PROJECT_DIR$/Problems/Check the sum" />
             <option value="$PROJECT_DIR$/Problems/Convert to bytes" />
             <option value="$PROJECT_DIR$/Problems/Count words" />
             <option value="$PROJECT_DIR$/Problems/Create a full name" />
             <option value="$PROJECT_DIR$/Problems/Create an euphonious word" />
             <option value="$PROJECT_DIR$/Problems/Currencies" />
+            <option value="$PROJECT_DIR$/Problems/Cutting out the middle of a string" />
+            <option value="$PROJECT_DIR$/Problems/Danger levels" />
             <option value="$PROJECT_DIR$/Problems/Days of the week" />
             <option value="$PROJECT_DIR$/Problems/Days of week" />
             <option value="$PROJECT_DIR$/Problems/Division" />
@@ -32,8 +35,10 @@
             <option value="$PROJECT_DIR$/Problems/Employees" />
             <option value="$PROJECT_DIR$/Problems/Find X" />
             <option value="$PROJECT_DIR$/Problems/Find mistake" />
+            <option value="$PROJECT_DIR$/Problems/Find the first occurrence of the word  the" />
             <option value="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy" />
             <option value="$PROJECT_DIR$/Problems/Floor-space of the room" />
+            <option value="$PROJECT_DIR$/Problems/Generating passwords" />
             <option value="$PROJECT_DIR$/Problems/Healthy sleep" />
             <option value="$PROJECT_DIR$/Problems/Hidden enumeration" />
             <option value="$PROJECT_DIR$/Problems/Individual taxes" />

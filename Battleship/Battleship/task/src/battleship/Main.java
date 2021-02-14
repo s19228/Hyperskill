@@ -1,5 +1,6 @@
 package battleship;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,9 +12,11 @@ public class Main {
     public static void main(String[] args) {
 
         Battlefield yourBattlefield = new Battlefield(10, 10);
-        Battlefield fogOfWar = new Battlefield(10, 10);
+        Battlefield yourFogOfWar = new Battlefield(10, 10);
 
-        yourBattlefield.show();
+        Battlefield opponentBattlefield = new Battlefield(10, 10);
+        Battlefield opponentFogOfWar = new Battlefield(10, 10);
+
         Scanner scanner = new Scanner(System.in);
         int[] shipsLengthsArray = {5, 4, 3, 3, 2};
         String[] shipNames = {
@@ -26,13 +29,150 @@ public class Main {
 
         int[] pos = new int[2];
 
+        //placing ships on the map
+
+        System.out.println("Player 1, place your ships on the game field");
+        System.out.println();
+        yourBattlefield.show();
+
+        puttingShipsOnBatlefield(yourBattlefield, scanner, shipsLengthsArray, shipNames, pos);
+
+        pressEnterKey();
+
+        System.out.println("Player 2, place your ships on the game field");
+        System.out.println();
+        opponentBattlefield.show();
+
+        puttingShipsOnBatlefield(opponentBattlefield, scanner, shipsLengthsArray, shipNames, pos);
+
+        pressEnterKey();
+
+
+        //starting the game
+        String p1 = "Player 1";
+        String p2 = "Player 2";
+
+        int p1counter = 5;
+        int p2counter = 5;
+        List<String> shootsPlayer1 = new ArrayList<>();
+        List<String> shootsPlayer2 = new ArrayList<>();
+
+        boolean p1shooting = true;
+        boolean shooting = true;
+
+        do {
+            if (p1shooting) {
+
+                yourFogOfWar.show();
+                System.out.println("---------------------");
+                yourBattlefield.show();
+                System.out.println();
+                System.out.println(p1 + ", it's your turn:");
+                System.out.println();
+
+                try {
+                    String shoot = scanner.next();
+                    if (shootsPlayer1.contains(shoot)) {
+                        System.out.println("You hit a ship!");
+                        pressEnterKey();
+                    } else {
+                        shootsPlayer1.add(shoot);
+                        int[] point = convertPoint(shoot);
+                        boolean isSank;
+                        if (point[0] == 0) {
+                            System.out.println("Error! You entered the wrong coordinates! Try again:");
+                        } else if (opponentBattlefield.battlefield[point[0]][point[1]] == '~') {
+                            yourFogOfWar.battlefield[point[0]][point[1]] = 'M';
+                            //yourBattlefield.battlefield[point[0]][point[1]] = 'M';
+                            System.out.println();
+                            System.out.println("You missed!");
+                            pressEnterKey();
+                        } else {
+                            opponentBattlefield.battlefield[point[0]][point[1]] = 'X';
+                            yourFogOfWar.battlefield[point[0]][point[1]] = 'X';
+                            System.out.println();
+                            isSank = checkIsSank(opponentBattlefield, point);
+                            if (!isSank) {
+                                System.out.println("You hit a ship!");
+                                System.out.println();
+                                pressEnterKey();
+                            } else {
+                                p1counter--;
+                                if (p1counter > 0) {
+                                    System.out.println("You sank a ship!");
+                                    pressEnterKey();
+                                } else {
+                                    System.out.println("You sank the last ship. You won. Congratulations!");
+                                    pressEnterKey();
+                                    shooting = false;
+                                }
+                            }
+                        }
+                    }
+                    p1shooting = false;
+                } catch (Exception e) {
+                    System.out.println("Error! You entered the wrong coordinates! Try again:");
+                }
+            } else {
+
+                opponentFogOfWar.show();
+                System.out.println("---------------------");
+                opponentBattlefield.show();
+                System.out.println();
+                System.out.println(p2 + ", it's your turn");
+                try {
+                    String shoot = scanner.next();
+                    if (shootsPlayer2.contains(shoot)) {
+                        System.out.println("You hit a ship!");
+                        pressEnterKey();
+                    } else {
+                        shootsPlayer2.add(shoot);
+                        int[] point = convertPoint(shoot);
+                        boolean isSank;
+                        if (point[0] == 0) {
+                            System.out.println("Error! You entered the wrong coordinates! Try again:");
+                        } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
+                            opponentFogOfWar.battlefield[point[0]][point[1]] = 'M';
+                            System.out.println();
+                            System.out.println("You missed!");
+                            pressEnterKey();
+                        } else {
+                            yourBattlefield.battlefield[point[0]][point[1]] = 'X';
+                            opponentFogOfWar.battlefield[point[0]][point[1]] = 'X';
+                            System.out.println();
+                            isSank = checkIsSank(yourBattlefield, point);
+                            if (!isSank) {
+                                System.out.println("You hit a ship!");
+                                System.out.println();
+                                pressEnterKey();
+                            } else {
+                                p2counter--;
+                                if (p2counter > 0) {
+                                    System.out.println("You sank a ship!");
+                                    pressEnterKey();
+                                } else {
+                                    System.out.println("You sank the last ship. You won. Congratulations!");
+                                    pressEnterKey();
+                                    shooting = false;
+                                }
+                            }
+                        }
+                    }
+                    //p1shooting = false;
+                } catch (Exception e) {
+                    System.out.println("Error! You entered the wrong coordinates! Try again:");
+                }
+                p1shooting = true;
+            }
+        } while (shooting);
+
+
+    }
+
+    private static void puttingShipsOnBatlefield(Battlefield yourBattlefield, Scanner scanner,
+                                                 int[] shipsLengthsArray, String[] shipNames, int[] pos) {
         for (int i = 0; i < 5; i++) {
             System.out.printf("%nEnter the coordinates of the %s (%d cells):%n%n", shipNames[i], shipsLengthsArray[i]);
-
-            int startRow;
-            int startColumn;
-            int endRow;
-            int endColumn;
 
             boolean flag = true;
             putShipsOnBattlefield(yourBattlefield, scanner, shipsLengthsArray, shipNames, pos, i, flag);
@@ -41,16 +181,10 @@ public class Main {
             System.out.println();
 
         }
-        startTheGame(fogOfWar);
-
-        boolean shooting = true;
-        int counter = 5;
-        List<String> shoots = new ArrayList<>();
-
-        startShooting(yourBattlefield, fogOfWar, scanner, shooting, counter, shoots);
     }
 
-    private static void startShooting(Battlefield yourBattlefield, Battlefield fogOfWar, Scanner scanner, boolean shooting, int counter, List<String> shoots) {
+    private static void startShooting(Battlefield yourBattlefield, Battlefield fogOfWar, Scanner scanner,
+                                      boolean shooting, int counter, List<String> shoots) {
         try {
             while (shooting) {
                 String shoot = scanner.next();
@@ -82,7 +216,7 @@ public class Main {
                             System.out.println("You hit a ship! Try again:");
                             System.out.println();
                             fogOfWar.show();
-                        } else if (isSank) {
+                        } else {
                             counter--;
                             if (counter > 0) {
                                 System.out.println("You sank a ship! Specify a new target:");
@@ -99,17 +233,58 @@ public class Main {
         }
     }
 
-    private static void startTheGame(Battlefield fogOfWar) {
-        System.out.println("The game starts!");
-        System.out.println();
-        fogOfWar.show();
-
-        System.out.println();
-        System.out.println("Take a shot!");
-        System.out.println();
+    private static void startShootingOnePlayer(Battlefield yourBattlefield, Battlefield fogOfWar, Scanner scanner,
+                                               boolean shooting, int counter, List<String> shoots) {
+        try {
+            while (shooting) {
+                String shoot = scanner.next();
+                if (shoots.contains(shoot)) {
+                    System.out.println("You hit a ship! Try again:");
+                    System.out.println();
+                    fogOfWar.show();
+                } else {
+                    shoots.add(shoot);
+                    int[] point = convertPoint(shoot);
+                    boolean isSank;
+                    if (point[0] == 0) {
+                        System.out.println("Error! You entered the wrong coordinates! Try again:");
+                    } else if (yourBattlefield.battlefield[point[0]][point[1]] == '~') {
+                        fogOfWar.battlefield[point[0]][point[1]] = 'M';
+                        yourBattlefield.battlefield[point[0]][point[1]] = 'M';
+                        fogOfWar.show();
+                        System.out.println();
+                        System.out.println("You missed. Try again:");
+                        System.out.println();
+                        fogOfWar.show();
+                    } else {
+                        yourBattlefield.battlefield[point[0]][point[1]] = 'X';
+                        fogOfWar.battlefield[point[0]][point[1]] = 'X';
+                        fogOfWar.show();
+                        System.out.println();
+                        isSank = checkIsSank(yourBattlefield, point);
+                        if (!isSank) {
+                            System.out.println("You hit a ship! Try again:");
+                            System.out.println();
+                            fogOfWar.show();
+                        } else {
+                            counter--;
+                            if (counter > 0) {
+                                System.out.println("You sank a ship! Specify a new target:");
+                            } else {
+                                System.out.println("You sank the last ship. You won. Congratulations!");
+                                shooting = false;
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error! You entered the wrong coordinates! Try again:");
+        }
     }
 
-    private static void putShipsOnBattlefield(Battlefield yourBattlefield, Scanner scanner, int[] shipsLengthsArray, String[] shipNames, int[] pos, int i, boolean flag) {
+    private static void putShipsOnBattlefield(Battlefield yourBattlefield, Scanner scanner,
+                                              int[] shipsLengthsArray, String[] shipNames, int[] pos, int i, boolean flag) {
         int startRow;
         int endColumn;
         int endRow;
@@ -154,12 +329,37 @@ public class Main {
                     sunk = false;
                     break;
                 }
+                if (yourBattlefield.battlefield[point[0] - 1][point[1]] == 'X'){
+                    if (yourBattlefield.battlefield[point[0] - 2][point[1]] == 'O'){
+                        sunk = false;
+                        break;
+                    }
+                }
+                if (yourBattlefield.battlefield[point[0] + 1][point[1]] == 'X'){
+                    if (yourBattlefield.battlefield[point[0] + 2][point[1]] == 'O'){
+                        sunk = false;
+                        break;
+                    }
+                }
+                if (yourBattlefield.battlefield[point[0]][point[1] - 2] == 'X'){
+                    if (yourBattlefield.battlefield[point[0]][point[1] - 4] == 'O'){
+                        sunk = false;
+                        break;
+                    }
+                }
+                if (yourBattlefield.battlefield[point[0]][point[1] + 2] == 'X'){
+                    if (yourBattlefield.battlefield[point[0]][point[1] + 4] == 'O'){
+                        sunk = false;
+                        break;
+                    }
+                }
             }
         }
         return sunk;
     }
 
-    public static boolean setShipOnBattlefield(int starRow_i, int startColumn_i, int endRow_i, int endColumn_i, Battlefield bat) {
+    public static boolean setShipOnBattlefield(int starRow_i, int startColumn_i, int endRow_i,
+                                               int endColumn_i, Battlefield bat) {
         int startRow;
         int endRow;
         int startColumn;
@@ -279,6 +479,15 @@ public class Main {
             tab[1] = (column - 48) * 2;
         }
         return tab;
+    }
+
+    public static void pressEnterKey() {
+        System.out.println("Press Enter and pass the move to another player");
+        try {
+            System.in.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
