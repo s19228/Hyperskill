@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/Problems/Calculating factorials" />
             <option value="$PROJECT_DIR$/Problems/Check the sum" />
             <option value="$PROJECT_DIR$/Problems/Convert to bytes" />
+            <option value="$PROJECT_DIR$/Problems/Convert to char array" />
             <option value="$PROJECT_DIR$/Problems/Count words" />
             <option value="$PROJECT_DIR$/Problems/Create a full name" />
             <option value="$PROJECT_DIR$/Problems/Create an euphonious word" />
@@ -62,6 +63,7 @@
             <option value="$PROJECT_DIR$/Problems/System of units" />
             <option value="$PROJECT_DIR$/Problems/The army of units" />
             <option value="$PROJECT_DIR$/Problems/The minimum value of an array" />
+            <option value="$PROJECT_DIR$/Problems/The sum of integers from a to b" />
             <option value="$PROJECT_DIR$/Problems/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Problems/Throw an IOException" />
             <option value="$PROJECT_DIR$/Problems/Time" />
