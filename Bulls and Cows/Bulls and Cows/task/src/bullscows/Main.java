@@ -7,6 +7,6 @@ public class Main {
         //grader.graderStart(grader.split());
 
         Generator gen = new Generator();
-        gen.fill();
+        gen.gen();
     }
 }
