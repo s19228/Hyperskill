@@ -1,57 +1,69 @@
 package bullscows;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Grader {
 
-    Random random = new Random();
-    Integer code = 1000 + random.nextInt(8999);
+    private int cow = 0;
+    private int bull = 0;
+    boolean stillGuessing = true;
+
+    public int getCode() {
+        return code;
+    }
+
+    private int code;
+
+    public Grader(int code) {
+        this.code = code;
+    }
 
     void graderStart(char[] code) {
-        Scanner in = new Scanner(System.in);
-        String s = in.nextLine();
-        char[] input = s.toCharArray();
-        int cow = 0;
-        int bull = 0;
+        while (stillGuessing){
+            Scanner in = new Scanner(System.in);
+            String s = in.nextLine();
+            char[] input = s.toCharArray();
 
-        for (int i = 0; i < code.length; i++) {
-            if (input[i] == code[i]) {
-                bull++;
+            for (int i = 0; i < code.length; i++) {
+                if (input[i] == code[i]) {
+                    bull++;
+                }
             }
-        }
 
-        for (int i = 0; i < input.length; i++) {
-            for (int j = 0; j < code.length; j++) {
-                if (i != j) {
-                    if (input[i] == code[j]) {
-                        cow++;
+            for (int i = 0; i < input.length; i++) {
+                for (int j = 0; j < code.length; j++) {
+                    if (i != j) {
+                        if (input[i] == code[j]) {
+                            cow++;
+                        }
                     }
                 }
             }
+            printInfo(cow, bull, code);
+            if (bull == code.length){
+                System.out.println("Congratulations! You guessed the secret code.");
+                stillGuessing = false;
+            }
+            bull = 0;
+            cow = 0;
         }
-
-        printInfo(code, cow, bull);
 
     }
 
-    private void printInfo(char[] code, int cow, int bull) {
+    private void printInfo(int cow, int bull, char[] code) {
         if (cow == 0 && bull == 0){
-            System.out.println("Grade: None. The secret code is " + showCode());
+            System.out.println("Grade: None.");
         } else if (cow > 0 && bull == 0){
-            System.out.println("Grade: " + cow + " cow(s). The secret code is " + showCode());
+            System.out.println("Grade: " + cow + " cow.");
         } else if(cow == 0 && bull > 0){
-            System.out.println("Grade: " + bull + " bull(s). The secret code is " + showCode());
-        } else {
-            System.out.println("Grade: " + bull + " bull(s) and " + cow + " cow(s). The secret code is " +showCode());
+            System.out.println("Grade: " + bull + " bull.");
+        } else if (bull == code.length){
+            System.out.println("Congratulations! You guessed the secret code.");
+            stillGuessing = false;
+        }else{
+            System.out.println("Grade: " + bull + " bull(s) and " + cow + " cow(s).");
         }
     }
 
-    public char[] split() {
-        return this.code.toString().toCharArray();
-    }
 
-    int showCode() {
-        return this.code;
-    }
 }

@@ -244,6 +244,153 @@ files:
         }
     }
   learner_created: false
+- name: src/bullscows/Game.java
+  visible: true
+  text: |
+    package bullscows;
+
+    import java.util.Scanner;
+
+    public class Game {
+
+        int turn = 1;
+        int turns = 2;
+
+        int[] numbers = {1234, 9876};
+        String[] grades = {"None.", "4 bulls."};
+
+        public void begin() {
+            System.out.println("The secret code is prepared: ****.");
+        }
+
+        public void start() {
+            do {
+                System.out.println("\n" + "Turn " + turn + ". Answer:");
+                Scanner in = new Scanner(System.in);
+                int number = numbers[turn - 1];
+                System.out.println(number);
+                System.out.println("Grade: " + grades[turn - 1]);
+                turn++;
+                turns--;
+            } while (turns != 0);
+            System.out.print("Congrats! The secret code is 9876.");
+        }
+
+    }
+  learner_created: true
+- name: src/bullscows/Grader.java
+  visible: true
+  text: |
+    package bullscows;
+
+    import java.util.Random;
+    import java.util.Scanner;
+
+    public class Grader {
+
+        Random random = new Random();
+        Integer code = 1000 + random.nextInt(8999);
+
+        void graderStart(char[] code) {
+            Scanner in = new Scanner(System.in);
+            String s = in.nextLine();
+            char[] input = s.toCharArray();
+            int cow = 0;
+            int bull = 0;
+
+            for (int i = 0; i < code.length; i++) {
+                if (input[i] == code[i]) {
+                    bull++;
+                }
+            }
+
+            for (int i = 0; i < input.length; i++) {
+                for (int j = 0; j < code.length; j++) {
+                    if (i != j) {
+                        if (input[i] == code[j]) {
+                            cow++;
+                        }
+                    }
+                }
+            }
+
+            printInfo(code, cow, bull);
+
+        }
+
+        private void printInfo(char[] code, int cow, int bull) {
+            if (cow == 0 && bull == 0){
+                System.out.println("Grade: None. The secret code is " + showCode());
+            } else if (cow > 0 && bull == 0){
+                System.out.println("Grade: " + cow + " cow(s). The secret code is " + showCode());
+            } else if(cow == 0 && bull > 0){
+                System.out.println("Grade: " + bull + " bull(s). The secret code is " + showCode());
+            } else {
+                System.out.println("Grade: " + bull + " bull(s) and " + cow + " cow(s). The secret code is " +showCode());
+            }
+        }
+
+        public char[] split() {
+            return this.code.toString().toCharArray();
+        }
+
+        int showCode() {
+            return this.code;
+        }
+    }
+  learner_created: true
+- name: src/bullscows/Generator.java
+  visible: true
+  text: |
+    package bullscows;
+
+    import java.util.Scanner;
+
+    public class Generator {
+
+        Scanner scanner = new Scanner(System.in);
+        int in = scanner.nextInt();
+
+        void gen() {
+
+            if (in > 10) {
+                System.out.println("Error: can't generate a secret number with a length of " + in + " because there aren't enough unique digits.");
+                return;
+            }
+
+            long pseudoRandomNumber = System.nanoTime();
+            String pseudoNum = String.valueOf(pseudoRandomNumber);
+            StringBuilder sb = new StringBuilder();
+            int i = 0;
+
+            if (pseudoNum.startsWith("0")) {
+                pseudoNum = pseudoNum.substring(1);
+            }
+
+            while (sb.length() != in) {
+
+                String s = String.valueOf(pseudoNum.charAt(i));
+
+                if (pseudoNum.length() - 1 == i) {
+                    pseudoNum = String.valueOf(System.nanoTime());
+                    i = 0;
+                } else {
+                    i++;
+                }
+
+                if (!sb.toString().contains(s)) {
+                    sb.append(s);
+                }
+            }
+
+            System.out.println("The random secret number is " + sb);
+        }
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/53/stages/290/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 17 Feb 2021 12:55:07 UTC
 record: -1

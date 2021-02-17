@@ -1,19 +1,862 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-15T18:10:33" hostname="DESKTOP-E4L6CVU" time="0.083">
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-17T12:55:06" hostname="DESKTOP-E4L6CVU" time="0.459">
   <properties/>
-  <testcase name="start" classname="BullsCowsTest" time="0.083"/>
+  <testcase name="start" classname="BullsCowsTest" time="0.459"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-> 3601
-Grade: None. The secret code is 5794
+Please, enter the secret code's length:
+> 1
+1
+Okay, let's start a game!
+> 0
+Grade: None.
+> 1
+Grade: 1 bull.
+Congratulations! You guessed the secret code.
 ?[1;31m
 Start test 2?[0m
-> 5794
-Grade: 1 bull(s) and 2 cow(s). The secret code is 5249
+Please, enter the secret code's length:
+> 4
+1408
+Okay, let's start a game!
+> 0000
+Grade: 1 bull(s) and 3 cow(s).
+> 1111
+Grade: 1 bull(s) and 3 cow(s).
+> 2222
+Grade: None.
+> 3333
+Grade: None.
+> 4444
+Grade: 1 bull(s) and 3 cow(s).
+> 5555
+Grade: None.
+> 6666
+Grade: None.
+> 7777
+Grade: None.
+> 8888
+Grade: 1 bull(s) and 3 cow(s).
+> 0148
+Grade: 1 bull(s) and 3 cow(s).
+> 1048
+Grade: 2 bull(s) and 2 cow(s).
+> 4018
+Grade: 1 bull(s) and 3 cow(s).
+> 0418
+Grade: 2 bull(s) and 2 cow(s).
+> 1408
+Grade: 4 bull.
+Congratulations! You guessed the secret code.
 ?[1;31m
 Start test 3?[0m
-> 1367
-Grade: 2 cow(s). The secret code is 8651
+Please, enter the secret code's length:
+> 6
+140862
+Okay, let's start a game!
+> 000000
+Grade: 1 bull(s) and 5 cow(s).
+> 111111
+Grade: 1 bull(s) and 5 cow(s).
+> 222222
+Grade: 1 bull(s) and 5 cow(s).
+> 333333
+Grade: None.
+> 444444
+Grade: 1 bull(s) and 5 cow(s).
+> 555555
+Grade: None.
+> 666666
+Grade: 1 bull(s) and 5 cow(s).
+> 777777
+Grade: None.
+> 888888
+Grade: 1 bull(s) and 5 cow(s).
+> 012468
+Grade: 1 bull(s) and 5 cow(s).
+> 102468
+Grade: 2 bull(s) and 4 cow(s).
+> 201468
+Grade: 1 bull(s) and 5 cow(s).
+> 021468
+Grade: 1 bull(s) and 5 cow(s).
+> 120468
+Grade: 3 bull(s) and 3 cow(s).
+> 210468
+Grade: 2 bull(s) and 4 cow(s).
+> 410268
+Grade: 2 bull(s) and 4 cow(s).
+> 140268
+Grade: 4 bull(s) and 2 cow(s).
+> 041268
+Grade: 2 bull(s) and 4 cow(s).
+> 401268
+Grade: 1 bull(s) and 5 cow(s).
+> 104268
+Grade: 2 bull(s) and 4 cow(s).
+> 014268
+Grade: 1 bull(s) and 5 cow(s).
+> 024168
+Grade: 1 bull(s) and 5 cow(s).
+> 204168
+Grade: 1 bull(s) and 5 cow(s).
+> 402168
+Grade: 1 bull(s) and 5 cow(s).
+> 042168
+Grade: 2 bull(s) and 4 cow(s).
+> 240168
+Grade: 3 bull(s) and 3 cow(s).
+> 420168
+Grade: 2 bull(s) and 4 cow(s).
+> 421068
+Grade: 1 bull(s) and 5 cow(s).
+> 241068
+Grade: 2 bull(s) and 4 cow(s).
+> 142068
+Grade: 3 bull(s) and 3 cow(s).
+> 412068
+Grade: 1 bull(s) and 5 cow(s).
+> 214068
+Grade: 1 bull(s) and 5 cow(s).
+> 124068
+Grade: 2 bull(s) and 4 cow(s).
+> 624018
+Grade: 6 cow.
+> 264018
+Grade: 6 cow.
+> 462018
+Grade: 6 cow.
+> 642018
+Grade: 1 bull(s) and 5 cow(s).
+> 246018
+Grade: 1 bull(s) and 5 cow(s).
+> 426018
+Grade: 6 cow.
+> 026418
+Grade: 6 cow.
+> 206418
+Grade: 6 cow.
+> 602418
+Grade: 6 cow.
+> 062418
+Grade: 6 cow.
+> 260418
+Grade: 1 bull(s) and 5 cow(s).
+> 620418
+Grade: 1 bull(s) and 5 cow(s).
+> 640218
+Grade: 2 bull(s) and 4 cow(s).
+> 460218
+Grade: 1 bull(s) and 5 cow(s).
+> 064218
+Grade: 6 cow.
+> 604218
+Grade: 6 cow.
+> 406218
+Grade: 6 cow.
+> 046218
+Grade: 1 bull(s) and 5 cow(s).
+> 042618
+Grade: 1 bull(s) and 5 cow(s).
+> 402618
+Grade: 6 cow.
+> 204618
+Grade: 6 cow.
+> 024618
+Grade: 6 cow.
+> 420618
+Grade: 1 bull(s) and 5 cow(s).
+> 240618
+Grade: 2 bull(s) and 4 cow(s).
+> 140628
+Grade: 3 bull(s) and 3 cow(s).
+> 410628
+Grade: 1 bull(s) and 5 cow(s).
+> 014628
+Grade: 6 cow.
+> 104628
+Grade: 1 bull(s) and 5 cow(s).
+> 401628
+Grade: 6 cow.
+> 041628
+Grade: 1 bull(s) and 5 cow(s).
+> 641028
+Grade: 1 bull(s) and 5 cow(s).
+> 461028
+Grade: 6 cow.
+> 164028
+Grade: 1 bull(s) and 5 cow(s).
+> 614028
+Grade: 6 cow.
+> 416028
+Grade: 6 cow.
+> 146028
+Grade: 2 bull(s) and 4 cow(s).
+> 106428
+Grade: 1 bull(s) and 5 cow(s).
+> 016428
+Grade: 6 cow.
+> 610428
+Grade: 1 bull(s) and 5 cow(s).
+> 160428
+Grade: 2 bull(s) and 4 cow(s).
+> 061428
+Grade: 6 cow.
+> 601428
+Grade: 6 cow.
+> 604128
+Grade: 6 cow.
+> 064128
+Grade: 6 cow.
+> 460128
+Grade: 1 bull(s) and 5 cow(s).
+> 640128
+Grade: 2 bull(s) and 4 cow(s).
+> 046128
+Grade: 1 bull(s) and 5 cow(s).
+> 406128
+Grade: 6 cow.
+> 206148
+Grade: 6 cow.
+> 026148
+Grade: 6 cow.
+> 620148
+Grade: 1 bull(s) and 5 cow(s).
+> 260148
+Grade: 1 bull(s) and 5 cow(s).
+> 062148
+Grade: 6 cow.
+> 602148
+Grade: 6 cow.
+> 102648
+Grade: 1 bull(s) and 5 cow(s).
+> 012648
+Grade: 6 cow.
+> 210648
+Grade: 1 bull(s) and 5 cow(s).
+> 120648
+Grade: 2 bull(s) and 4 cow(s).
+> 021648
+Grade: 6 cow.
+> 201648
+Grade: 6 cow.
+> 261048
+Grade: 6 cow.
+> 621048
+Grade: 6 cow.
+> 126048
+Grade: 1 bull(s) and 5 cow(s).
+> 216048
+Grade: 6 cow.
+> 612048
+Grade: 6 cow.
+> 162048
+Grade: 1 bull(s) and 5 cow(s).
+> 160248
+Grade: 2 bull(s) and 4 cow(s).
+> 610248
+Grade: 1 bull(s) and 5 cow(s).
+> 016248
+Grade: 6 cow.
+> 106248
+Grade: 1 bull(s) and 5 cow(s).
+> 601248
+Grade: 6 cow.
+> 061248
+Grade: 6 cow.
+> 461208
+Grade: 6 cow.
+> 641208
+Grade: 1 bull(s) and 5 cow(s).
+> 146208
+Grade: 2 bull(s) and 4 cow(s).
+> 416208
+Grade: 6 cow.
+> 614208
+Grade: 6 cow.
+> 164208
+Grade: 1 bull(s) and 5 cow(s).
+> 264108
+Grade: 6 cow.
+> 624108
+Grade: 6 cow.
+> 426108
+Grade: 6 cow.
+> 246108
+Grade: 1 bull(s) and 5 cow(s).
+> 642108
+Grade: 1 bull(s) and 5 cow(s).
+> 462108
+Grade: 6 cow.
+> 412608
+Grade: 6 cow.
+> 142608
+Grade: 2 bull(s) and 4 cow(s).
+> 241608
+Grade: 1 bull(s) and 5 cow(s).
+> 421608
+Grade: 6 cow.
+> 124608
+Grade: 1 bull(s) and 5 cow(s).
+> 214608
+Grade: 6 cow.
+> 216408
+Grade: 6 cow.
+> 126408
+Grade: 1 bull(s) and 5 cow(s).
+> 621408
+Grade: 6 cow.
+> 261408
+Grade: 6 cow.
+> 162408
+Grade: 1 bull(s) and 5 cow(s).
+> 612408
+Grade: 6 cow.
+> 812406
+Grade: 6 cow.
+> 182406
+Grade: 1 bull(s) and 5 cow(s).
+> 281406
+Grade: 6 cow.
+> 821406
+Grade: 6 cow.
+> 128406
+Grade: 1 bull(s) and 5 cow(s).
+> 218406
+Grade: 6 cow.
+> 418206
+Grade: 6 cow.
+> 148206
+Grade: 2 bull(s) and 4 cow(s).
+> 841206
+Grade: 1 bull(s) and 5 cow(s).
+> 481206
+Grade: 6 cow.
+> 184206
+Grade: 1 bull(s) and 5 cow(s).
+> 814206
+Grade: 6 cow.
+> 824106
+Grade: 6 cow.
+> 284106
+Grade: 6 cow.
+> 482106
+Grade: 6 cow.
+> 842106
+Grade: 1 bull(s) and 5 cow(s).
+> 248106
+Grade: 1 bull(s) and 5 cow(s).
+> 428106
+Grade: 6 cow.
+> 421806
+Grade: 1 bull(s) and 5 cow(s).
+> 241806
+Grade: 2 bull(s) and 4 cow(s).
+> 142806
+Grade: 3 bull(s) and 3 cow(s).
+> 412806
+Grade: 1 bull(s) and 5 cow(s).
+> 214806
+Grade: 1 bull(s) and 5 cow(s).
+> 124806
+Grade: 2 bull(s) and 4 cow(s).
+> 024816
+Grade: 1 bull(s) and 5 cow(s).
+> 204816
+Grade: 1 bull(s) and 5 cow(s).
+> 402816
+Grade: 1 bull(s) and 5 cow(s).
+> 042816
+Grade: 2 bull(s) and 4 cow(s).
+> 240816
+Grade: 3 bull(s) and 3 cow(s).
+> 420816
+Grade: 2 bull(s) and 4 cow(s).
+> 820416
+Grade: 1 bull(s) and 5 cow(s).
+> 280416
+Grade: 1 bull(s) and 5 cow(s).
+> 082416
+Grade: 6 cow.
+> 802416
+Grade: 6 cow.
+> 208416
+Grade: 6 cow.
+> 028416
+Grade: 6 cow.
+> 048216
+Grade: 1 bull(s) and 5 cow(s).
+> 408216
+Grade: 6 cow.
+> 804216
+Grade: 6 cow.
+> 084216
+Grade: 6 cow.
+> 480216
+Grade: 1 bull(s) and 5 cow(s).
+> 840216
+Grade: 2 bull(s) and 4 cow(s).
+> 842016
+Grade: 1 bull(s) and 5 cow(s).
+> 482016
+Grade: 6 cow.
+> 284016
+Grade: 6 cow.
+> 824016
+Grade: 6 cow.
+> 428016
+Grade: 6 cow.
+> 248016
+Grade: 1 bull(s) and 5 cow(s).
+> 148026
+Grade: 2 bull(s) and 4 cow(s).
+> 418026
+Grade: 6 cow.
+> 814026
+Grade: 6 cow.
+> 184026
+Grade: 1 bull(s) and 5 cow(s).
+> 481026
+Grade: 6 cow.
+> 841026
+Grade: 1 bull(s) and 5 cow(s).
+> 041826
+Grade: 2 bull(s) and 4 cow(s).
+> 401826
+Grade: 1 bull(s) and 5 cow(s).
+> 104826
+Grade: 2 bull(s) and 4 cow(s).
+> 014826
+Grade: 1 bull(s) and 5 cow(s).
+> 410826
+Grade: 2 bull(s) and 4 cow(s).
+> 140826
+Grade: 4 bull(s) and 2 cow(s).
+> 180426
+Grade: 2 bull(s) and 4 cow(s).
+> 810426
+Grade: 1 bull(s) and 5 cow(s).
+> 018426
+Grade: 6 cow.
+> 108426
+Grade: 1 bull(s) and 5 cow(s).
+> 801426
+Grade: 6 cow.
+> 081426
+Grade: 6 cow.
+> 084126
+Grade: 6 cow.
+> 804126
+Grade: 6 cow.
+> 408126
+Grade: 6 cow.
+> 048126
+Grade: 1 bull(s) and 5 cow(s).
+> 840126
+Grade: 2 bull(s) and 4 cow(s).
+> 480126
+Grade: 1 bull(s) and 5 cow(s).
+> 280146
+Grade: 1 bull(s) and 5 cow(s).
+> 820146
+Grade: 1 bull(s) and 5 cow(s).
+> 028146
+Grade: 6 cow.
+> 208146
+Grade: 6 cow.
+> 802146
+Grade: 6 cow.
+> 082146
+Grade: 6 cow.
+> 182046
+Grade: 1 bull(s) and 5 cow(s).
+> 812046
+Grade: 6 cow.
+> 218046
+Grade: 6 cow.
+> 128046
+Grade: 1 bull(s) and 5 cow(s).
+> 821046
+Grade: 6 cow.
+> 281046
+Grade: 6 cow.
+> 201846
+Grade: 1 bull(s) and 5 cow(s).
+> 021846
+Grade: 1 bull(s) and 5 cow(s).
+> 120846
+Grade: 3 bull(s) and 3 cow(s).
+> 210846
+Grade: 2 bull(s) and 4 cow(s).
+> 012846
+Grade: 1 bull(s) and 5 cow(s).
+> 102846
+Grade: 2 bull(s) and 4 cow(s).
+> 108246
+Grade: 1 bull(s) and 5 cow(s).
+> 018246
+Grade: 6 cow.
+> 810246
+Grade: 1 bull(s) and 5 cow(s).
+> 180246
+Grade: 2 bull(s) and 4 cow(s).
+> 081246
+Grade: 6 cow.
+> 801246
+Grade: 6 cow.
+> 401286
+Grade: 6 cow.
+> 041286
+Grade: 1 bull(s) and 5 cow(s).
+> 140286
+Grade: 3 bull(s) and 3 cow(s).
+> 410286
+Grade: 1 bull(s) and 5 cow(s).
+> 014286
+Grade: 6 cow.
+> 104286
+Grade: 1 bull(s) and 5 cow(s).
+> 204186
+Grade: 6 cow.
+> 024186
+Grade: 6 cow.
+> 420186
+Grade: 1 bull(s) and 5 cow(s).
+> 240186
+Grade: 2 bull(s) and 4 cow(s).
+> 042186
+Grade: 1 bull(s) and 5 cow(s).
+> 402186
+Grade: 6 cow.
+> 412086
+Grade: 6 cow.
+> 142086
+Grade: 2 bull(s) and 4 cow(s).
+> 241086
+Grade: 1 bull(s) and 5 cow(s).
+> 421086
+Grade: 6 cow.
+> 124086
+Grade: 1 bull(s) and 5 cow(s).
+> 214086
+Grade: 6 cow.
+> 210486
+Grade: 1 bull(s) and 5 cow(s).
+> 120486
+Grade: 2 bull(s) and 4 cow(s).
+> 021486
+Grade: 6 cow.
+> 201486
+Grade: 6 cow.
+> 102486
+Grade: 1 bull(s) and 5 cow(s).
+> 012486
+Grade: 6 cow.
+> 062481
+Grade: 6 cow.
+> 602481
+Grade: 6 cow.
+> 206481
+Grade: 6 cow.
+> 026481
+Grade: 6 cow.
+> 620481
+Grade: 1 bull(s) and 5 cow(s).
+> 260481
+Grade: 1 bull(s) and 5 cow(s).
+> 460281
+Grade: 1 bull(s) and 5 cow(s).
+> 640281
+Grade: 2 bull(s) and 4 cow(s).
+> 046281
+Grade: 1 bull(s) and 5 cow(s).
+> 406281
+Grade: 6 cow.
+> 604281
+Grade: 6 cow.
+> 064281
+Grade: 6 cow.
+> 024681
+Grade: 6 cow.
+> 204681
+Grade: 6 cow.
+> 402681
+Grade: 6 cow.
+> 042681
+Grade: 1 bull(s) and 5 cow(s).
+> 240681
+Grade: 2 bull(s) and 4 cow(s).
+> 420681
+Grade: 1 bull(s) and 5 cow(s).
+> 426081
+Grade: 6 cow.
+> 246081
+Grade: 1 bull(s) and 5 cow(s).
+> 642081
+Grade: 1 bull(s) and 5 cow(s).
+> 462081
+Grade: 6 cow.
+> 264081
+Grade: 6 cow.
+> 624081
+Grade: 6 cow.
+> 824061
+Grade: 1 bull(s) and 5 cow(s).
+> 284061
+Grade: 1 bull(s) and 5 cow(s).
+> 482061
+Grade: 1 bull(s) and 5 cow(s).
+> 842061
+Grade: 2 bull(s) and 4 cow(s).
+> 248061
+Grade: 2 bull(s) and 4 cow(s).
+> 428061
+Grade: 1 bull(s) and 5 cow(s).
+> 028461
+Grade: 1 bull(s) and 5 cow(s).
+> 208461
+Grade: 1 bull(s) and 5 cow(s).
+> 802461
+Grade: 1 bull(s) and 5 cow(s).
+> 082461
+Grade: 1 bull(s) and 5 cow(s).
+> 280461
+Grade: 2 bull(s) and 4 cow(s).
+> 820461
+Grade: 2 bull(s) and 4 cow(s).
+> 840261
+Grade: 3 bull(s) and 3 cow(s).
+> 480261
+Grade: 2 bull(s) and 4 cow(s).
+> 084261
+Grade: 1 bull(s) and 5 cow(s).
+> 804261
+Grade: 1 bull(s) and 5 cow(s).
+> 408261
+Grade: 1 bull(s) and 5 cow(s).
+> 048261
+Grade: 2 bull(s) and 4 cow(s).
+> 042861
+Grade: 3 bull(s) and 3 cow(s).
+> 402861
+Grade: 2 bull(s) and 4 cow(s).
+> 204861
+Grade: 2 bull(s) and 4 cow(s).
+> 024861
+Grade: 2 bull(s) and 4 cow(s).
+> 420861
+Grade: 3 bull(s) and 3 cow(s).
+> 240861
+Grade: 4 bull(s) and 2 cow(s).
+> 640821
+Grade: 3 bull(s) and 3 cow(s).
+> 460821
+Grade: 2 bull(s) and 4 cow(s).
+> 064821
+Grade: 1 bull(s) and 5 cow(s).
+> 604821
+Grade: 1 bull(s) and 5 cow(s).
+> 406821
+Grade: 1 bull(s) and 5 cow(s).
+> 046821
+Grade: 2 bull(s) and 4 cow(s).
+> 846021
+Grade: 1 bull(s) and 5 cow(s).
+> 486021
+Grade: 6 cow.
+> 684021
+Grade: 6 cow.
+> 864021
+Grade: 6 cow.
+> 468021
+Grade: 6 cow.
+> 648021
+Grade: 1 bull(s) and 5 cow(s).
+> 608421
+Grade: 6 cow.
+> 068421
+Grade: 6 cow.
+> 860421
+Grade: 1 bull(s) and 5 cow(s).
+> 680421
+Grade: 1 bull(s) and 5 cow(s).
+> 086421
+Grade: 6 cow.
+> 806421
+Grade: 6 cow.
+> 804621
+Grade: 6 cow.
+> 084621
+Grade: 6 cow.
+> 480621
+Grade: 1 bull(s) and 5 cow(s).
+> 840621
+Grade: 2 bull(s) and 4 cow(s).
+> 048621
+Grade: 1 bull(s) and 5 cow(s).
+> 408621
+Grade: 6 cow.
+> 208641
+Grade: 6 cow.
+> 028641
+Grade: 6 cow.
+> 820641
+Grade: 1 bull(s) and 5 cow(s).
+> 280641
+Grade: 1 bull(s) and 5 cow(s).
+> 082641
+Grade: 6 cow.
+> 802641
+Grade: 6 cow.
+> 602841
+Grade: 1 bull(s) and 5 cow(s).
+> 062841
+Grade: 1 bull(s) and 5 cow(s).
+> 260841
+Grade: 2 bull(s) and 4 cow(s).
+> 620841
+Grade: 2 bull(s) and 4 cow(s).
+> 026841
+Grade: 1 bull(s) and 5 cow(s).
+> 206841
+Grade: 1 bull(s) and 5 cow(s).
+> 286041
+Grade: 6 cow.
+> 826041
+Grade: 6 cow.
+> 628041
+Grade: 6 cow.
+> 268041
+Grade: 6 cow.
+> 862041
+Grade: 6 cow.
+> 682041
+Grade: 6 cow.
+> 680241
+Grade: 1 bull(s) and 5 cow(s).
+> 860241
+Grade: 1 bull(s) and 5 cow(s).
+> 068241
+Grade: 6 cow.
+> 608241
+Grade: 6 cow.
+> 806241
+Grade: 6 cow.
+> 086241
+Grade: 6 cow.
+> 486201
+Grade: 6 cow.
+> 846201
+Grade: 1 bull(s) and 5 cow(s).
+> 648201
+Grade: 1 bull(s) and 5 cow(s).
+> 468201
+Grade: 6 cow.
+> 864201
+Grade: 6 cow.
+> 684201
+Grade: 6 cow.
+> 284601
+Grade: 6 cow.
+> 824601
+Grade: 6 cow.
+> 428601
+Grade: 6 cow.
+> 248601
+Grade: 1 bull(s) and 5 cow(s).
+> 842601
+Grade: 1 bull(s) and 5 cow(s).
+> 482601
+Grade: 6 cow.
+> 462801
+Grade: 1 bull(s) and 5 cow(s).
+> 642801
+Grade: 2 bull(s) and 4 cow(s).
+> 246801
+Grade: 2 bull(s) and 4 cow(s).
+> 426801
+Grade: 1 bull(s) and 5 cow(s).
+> 624801
+Grade: 1 bull(s) and 5 cow(s).
+> 264801
+Grade: 1 bull(s) and 5 cow(s).
+> 268401
+Grade: 6 cow.
+> 628401
+Grade: 6 cow.
+> 826401
+Grade: 6 cow.
+> 286401
+Grade: 6 cow.
+> 682401
+Grade: 6 cow.
+> 862401
+Grade: 6 cow.
+> 861402
+Grade: 1 bull(s) and 5 cow(s).
+> 681402
+Grade: 1 bull(s) and 5 cow(s).
+> 186402
+Grade: 2 bull(s) and 4 cow(s).
+> 816402
+Grade: 1 bull(s) and 5 cow(s).
+> 618402
+Grade: 1 bull(s) and 5 cow(s).
+> 168402
+Grade: 2 bull(s) and 4 cow(s).
+> 468102
+Grade: 1 bull(s) and 5 cow(s).
+> 648102
+Grade: 2 bull(s) and 4 cow(s).
+> 846102
+Grade: 2 bull(s) and 4 cow(s).
+> 486102
+Grade: 1 bull(s) and 5 cow(s).
+> 684102
+Grade: 1 bull(s) and 5 cow(s).
+> 864102
+Grade: 1 bull(s) and 5 cow(s).
+> 814602
+Grade: 1 bull(s) and 5 cow(s).
+> 184602
+Grade: 2 bull(s) and 4 cow(s).
+> 481602
+Grade: 1 bull(s) and 5 cow(s).
+> 841602
+Grade: 2 bull(s) and 4 cow(s).
+> 148602
+Grade: 3 bull(s) and 3 cow(s).
+> 418602
+Grade: 1 bull(s) and 5 cow(s).
+> 416802
+Grade: 2 bull(s) and 4 cow(s).
+> 146802
+Grade: 4 bull(s) and 2 cow(s).
+> 641802
+Grade: 3 bull(s) and 3 cow(s).
+> 461802
+Grade: 2 bull(s) and 4 cow(s).
+> 164802
+Grade: 3 bull(s) and 3 cow(s).
+> 614802
+Grade: 2 bull(s) and 4 cow(s).
+> 014862
+Grade: 3 bull(s) and 3 cow(s).
+> 104862
+Grade: 4 bull(s) and 2 cow(s).
+> 401862
+Grade: 3 bull(s) and 3 cow(s).
+> 041862
+Grade: 4 bull(s) and 2 cow(s).
+> 140862
+Grade: 6 bull.
+Congratulations! You guessed the secret code.
+?[1;31m
+Start test 4?[0m
+Please, enter the secret code's length:
+> 11
+Error: can't generate a secret number with a length of 11 because there aren't enough unique digits.
+0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

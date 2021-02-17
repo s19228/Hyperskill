@@ -5,26 +5,37 @@ import java.util.Scanner;
 public class Game {
 
     int turn = 1;
-    int turns = 2;
+    boolean guessed = false;
 
     int[] numbers = {1234, 9876};
     String[] grades = {"None.", "4 bulls."};
 
-    public void begin() {
-        System.out.println("The secret code is prepared: ****.");
+    Generator gen = new Generator();
+    Grader grader = new Grader(2);
+
+    public Game() {
+        // print first information
+        begin();
+        // generating secret code
+        gen.gen();
+        System.out.println(gen.getCode());
+        // checking secretCode
+        if (gen.getCode() == 0){
+            return;
+        }
+        // game starting info
+        next();
+        // runing grade
+        grader.graderStart(Integer.toString(gen.getCode()).toCharArray());
+
     }
 
-    public void start() {
-        do {
-            System.out.println("\n" + "Turn " + turn + ". Answer:");
-            Scanner in = new Scanner(System.in);
-            int number = numbers[turn - 1];
-            System.out.println(number);
-            System.out.println("Grade: " + grades[turn - 1]);
-            turn++;
-            turns--;
-        } while (turns != 0);
-        System.out.print("Congrats! The secret code is 9876.");
+    public void begin() {
+        System.out.println("Please, enter the secret code's length:");
+    }
+
+    public void next() {
+        System.out.println("Okay, let's start a game!");
     }
 
 }

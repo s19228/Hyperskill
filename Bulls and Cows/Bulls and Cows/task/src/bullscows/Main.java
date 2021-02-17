@@ -3,10 +3,10 @@ package bullscows;
 public class Main {
     public static void main(String[] args) {
 
-        //Grader grader = new Grader();
-        //grader.graderStart(grader.split());
+        Game game = new Game();
 
-        Generator gen = new Generator();
-        gen.gen();
+
+
+
     }
 }

@@ -4,10 +4,16 @@ import java.util.Scanner;
 
 public class Generator {
 
-    Scanner scanner = new Scanner(System.in);
-    int in = scanner.nextInt();
+    public int getCode() {
+        return code;
+    }
 
-    void gen() {
+    private static int code;
+
+    public void gen() {
+
+        Scanner scanner = new Scanner(System.in);
+        int in = scanner.nextInt();
 
         if (in > 10) {
             System.out.println("Error: can't generate a secret number with a length of " + in + " because there aren't enough unique digits.");
@@ -39,7 +45,7 @@ public class Generator {
             }
         }
 
-        System.out.println("The random secret number is " + sb);
+        code = Integer.parseInt(sb.toString());
     }
 
 }
