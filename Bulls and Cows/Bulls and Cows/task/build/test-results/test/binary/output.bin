@@ -2,18 +2,26 @@
 Start test 1[0m
 )Please, enter the secret code's length:
 > 1
-1
+5
 Okay, let's start a game!
 > 0
 Grade: None.
 > 1
+Grade: None.
+> 2
+Grade: None.
+> 3
+Grade: None.
+> 4
+Grade: None.
+> 5
 Grade: 1 bull.
 /Congratulations! You guessed the secret code.
 [1;31m
 Start test 2[0m
 )Please, enter the secret code's length:
 > 4
-1408
+5031
 Okay, let's start a game!
 > 0000
  Grade: 1 bull(s) and 3 cow(s).
@@ -22,33 +30,47 @@
 > 2222
 Grade: None.
 > 3333
-Grade: None.
+ Grade: 1 bull(s) and 3 cow(s).
 > 4444
- Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 > 5555
-Grade: None.
-> 6666
-Grade: None.
-> 7777
-Grade: None.
-> 8888
  Grade: 1 bull(s) and 3 cow(s).
-> 0148
+> 0135
  Grade: 1 bull(s) and 3 cow(s).
-> 1048
+> 1035
  Grade: 2 bull(s) and 2 cow(s).
-> 4018
+> 3015
  Grade: 1 bull(s) and 3 cow(s).
-> 0418
+> 0315
+Grade: 4 cow.
+> 1305
+Grade: 4 cow.
+> 3105
+Grade: 4 cow.
+> 5103
+ Grade: 1 bull(s) and 3 cow(s).
+> 1503
+Grade: 4 cow.
+> 0513
+Grade: 4 cow.
+> 5013
  Grade: 2 bull(s) and 2 cow(s).
-> 1408
+> 1053
+ Grade: 1 bull(s) and 3 cow(s).
+> 0153
+Grade: 4 cow.
+> 0351
+ Grade: 1 bull(s) and 3 cow(s).
+> 3051
+ Grade: 2 bull(s) and 2 cow(s).
+> 5031
 Grade: 4 bull.
 /Congratulations! You guessed the secret code.
 [1;31m
 Start test 3[0m
 )Please, enter the secret code's length:
 > 6
-140862
+503172
 Okay, let's start a game!
 	> 000000
  Grade: 1 bull(s) and 5 cow(s).
@@ -57,794 +79,938 @@
 	> 222222
  Grade: 1 bull(s) and 5 cow(s).
 	> 333333
-Grade: None.
+ Grade: 1 bull(s) and 5 cow(s).
 	> 444444
- Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 	> 555555
-Grade: None.
+ Grade: 1 bull(s) and 5 cow(s).
 	> 666666
- Grade: 1 bull(s) and 5 cow(s).
-	> 777777
 Grade: None.
-	> 888888
+	> 777777
  Grade: 1 bull(s) and 5 cow(s).
-	> 012468
+	> 012357
+Grade: 6 cow.
+	> 102357
  Grade: 1 bull(s) and 5 cow(s).
-	> 102468
+	> 201357
+ Grade: 1 bull(s) and 5 cow(s).
+	> 021357
+Grade: 6 cow.
+	> 120357
+Grade: 6 cow.
+	> 210357
+Grade: 6 cow.
+	> 310257
+Grade: 6 cow.
+	> 130257
+Grade: 6 cow.
+	> 031257
+Grade: 6 cow.
+	> 301257
+ Grade: 1 bull(s) and 5 cow(s).
+	> 103257
  Grade: 2 bull(s) and 4 cow(s).
-	> 201468
+	> 013257
  Grade: 1 bull(s) and 5 cow(s).
-	> 021468
- Grade: 1 bull(s) and 5 cow(s).
-	> 120468
+	> 023157
+ Grade: 2 bull(s) and 4 cow(s).
+	> 203157
  Grade: 3 bull(s) and 3 cow(s).
-	> 210468
+	> 302157
  Grade: 2 bull(s) and 4 cow(s).
-	> 410268
+	> 032157
+ Grade: 1 bull(s) and 5 cow(s).
+	> 230157
+ Grade: 1 bull(s) and 5 cow(s).
+	> 320157
+ Grade: 1 bull(s) and 5 cow(s).
+	> 321057
+Grade: 6 cow.
+	> 231057
+Grade: 6 cow.
+	> 132057
+Grade: 6 cow.
+	> 312057
+Grade: 6 cow.
+	> 213057
+ Grade: 1 bull(s) and 5 cow(s).
+	> 123057
+ Grade: 1 bull(s) and 5 cow(s).
+	> 523017
  Grade: 2 bull(s) and 4 cow(s).
-	> 140268
+	> 253017
+ Grade: 1 bull(s) and 5 cow(s).
+	> 352017
+Grade: 6 cow.
+	> 532017
+ Grade: 1 bull(s) and 5 cow(s).
+	> 235017
+Grade: 6 cow.
+	> 325017
+Grade: 6 cow.
+	> 025317
+Grade: 6 cow.
+	> 205317
+ Grade: 1 bull(s) and 5 cow(s).
+	> 502317
+ Grade: 2 bull(s) and 4 cow(s).
+	> 052317
+Grade: 6 cow.
+	> 250317
+Grade: 6 cow.
+	> 520317
+ Grade: 1 bull(s) and 5 cow(s).
+	> 530217
+ Grade: 1 bull(s) and 5 cow(s).
+	> 350217
+Grade: 6 cow.
+	> 053217
+ Grade: 1 bull(s) and 5 cow(s).
+	> 503217
+ Grade: 3 bull(s) and 3 cow(s).
+	> 305217
+ Grade: 1 bull(s) and 5 cow(s).
+	> 035217
+Grade: 6 cow.
+	> 032517
+Grade: 6 cow.
+	> 302517
+ Grade: 1 bull(s) and 5 cow(s).
+	> 203517
+ Grade: 2 bull(s) and 4 cow(s).
+	> 023517
+ Grade: 1 bull(s) and 5 cow(s).
+	> 320517
+Grade: 6 cow.
+	> 230517
+Grade: 6 cow.
+	> 130527
+Grade: 6 cow.
+	> 310527
+Grade: 6 cow.
+	> 013527
+ Grade: 1 bull(s) and 5 cow(s).
+	> 103527
+ Grade: 2 bull(s) and 4 cow(s).
+	> 301527
+ Grade: 1 bull(s) and 5 cow(s).
+	> 031527
+Grade: 6 cow.
+	> 531027
+ Grade: 1 bull(s) and 5 cow(s).
+	> 351027
+Grade: 6 cow.
+	> 153027
+ Grade: 1 bull(s) and 5 cow(s).
+	> 513027
+ Grade: 2 bull(s) and 4 cow(s).
+	> 315027
+Grade: 6 cow.
+	> 135027
+Grade: 6 cow.
+	> 105327
+ Grade: 1 bull(s) and 5 cow(s).
+	> 015327
+Grade: 6 cow.
+	> 510327
+ Grade: 1 bull(s) and 5 cow(s).
+	> 150327
+Grade: 6 cow.
+	> 051327
+Grade: 6 cow.
+	> 501327
+ Grade: 2 bull(s) and 4 cow(s).
+	> 503127
  Grade: 4 bull(s) and 2 cow(s).
-	> 041268
+	> 053127
  Grade: 2 bull(s) and 4 cow(s).
-	> 401268
+	> 350127
  Grade: 1 bull(s) and 5 cow(s).
-	> 104268
+	> 530127
  Grade: 2 bull(s) and 4 cow(s).
-	> 014268
+	> 035127
  Grade: 1 bull(s) and 5 cow(s).
-	> 024168
- Grade: 1 bull(s) and 5 cow(s).
-	> 204168
- Grade: 1 bull(s) and 5 cow(s).
-	> 402168
- Grade: 1 bull(s) and 5 cow(s).
-	> 042168
+	> 305127
  Grade: 2 bull(s) and 4 cow(s).
-	> 240168
+	> 205137
+ Grade: 2 bull(s) and 4 cow(s).
+	> 025137
+ Grade: 1 bull(s) and 5 cow(s).
+	> 520137
+ Grade: 2 bull(s) and 4 cow(s).
+	> 250137
+ Grade: 1 bull(s) and 5 cow(s).
+	> 052137
+ Grade: 1 bull(s) and 5 cow(s).
+	> 502137
  Grade: 3 bull(s) and 3 cow(s).
-	> 420168
- Grade: 2 bull(s) and 4 cow(s).
-	> 421068
+	> 102537
  Grade: 1 bull(s) and 5 cow(s).
-	> 241068
+	> 012537
+Grade: 6 cow.
+	> 210537
+Grade: 6 cow.
+	> 120537
+Grade: 6 cow.
+	> 021537
+Grade: 6 cow.
+	> 201537
+ Grade: 1 bull(s) and 5 cow(s).
+	> 251037
+Grade: 6 cow.
+	> 521037
+ Grade: 1 bull(s) and 5 cow(s).
+	> 125037
+Grade: 6 cow.
+	> 215037
+Grade: 6 cow.
+	> 512037
+ Grade: 1 bull(s) and 5 cow(s).
+	> 152037
+Grade: 6 cow.
+	> 150237
+Grade: 6 cow.
+	> 510237
+ Grade: 1 bull(s) and 5 cow(s).
+	> 015237
+Grade: 6 cow.
+	> 105237
+ Grade: 1 bull(s) and 5 cow(s).
+	> 501237
  Grade: 2 bull(s) and 4 cow(s).
-	> 142068
+	> 051237
+Grade: 6 cow.
+	> 351207
+Grade: 6 cow.
+	> 531207
+ Grade: 1 bull(s) and 5 cow(s).
+	> 135207
+Grade: 6 cow.
+	> 315207
+Grade: 6 cow.
+	> 513207
+ Grade: 2 bull(s) and 4 cow(s).
+	> 153207
+ Grade: 1 bull(s) and 5 cow(s).
+	> 253107
+ Grade: 2 bull(s) and 4 cow(s).
+	> 523107
  Grade: 3 bull(s) and 3 cow(s).
-	> 412068
+	> 325107
  Grade: 1 bull(s) and 5 cow(s).
-	> 214068
+	> 235107
  Grade: 1 bull(s) and 5 cow(s).
-	> 124068
+	> 532107
  Grade: 2 bull(s) and 4 cow(s).
-	> 624018
-Grade: 6 cow.
-	> 264018
-Grade: 6 cow.
-	> 462018
-Grade: 6 cow.
-	> 642018
+	> 352107
  Grade: 1 bull(s) and 5 cow(s).
-	> 246018
+	> 312507
+Grade: 6 cow.
+	> 132507
+Grade: 6 cow.
+	> 231507
+Grade: 6 cow.
+	> 321507
+Grade: 6 cow.
+	> 123507
  Grade: 1 bull(s) and 5 cow(s).
-	> 426018
-Grade: 6 cow.
-	> 026418
-Grade: 6 cow.
-	> 206418
-Grade: 6 cow.
-	> 602418
-Grade: 6 cow.
-	> 062418
-Grade: 6 cow.
-	> 260418
+	> 213507
  Grade: 1 bull(s) and 5 cow(s).
-	> 620418
+	> 215307
+Grade: 6 cow.
+	> 125307
+Grade: 6 cow.
+	> 521307
  Grade: 1 bull(s) and 5 cow(s).
-	> 640218
+	> 251307
+Grade: 6 cow.
+	> 152307
+Grade: 6 cow.
+	> 512307
+ Grade: 1 bull(s) and 5 cow(s).
+	> 712305
+Grade: 6 cow.
+	> 172305
+Grade: 6 cow.
+	> 271305
+Grade: 6 cow.
+	> 721305
+Grade: 6 cow.
+	> 127305
+Grade: 6 cow.
+	> 217305
+Grade: 6 cow.
+	> 317205
+Grade: 6 cow.
+	> 137205
+Grade: 6 cow.
+	> 731205
+Grade: 6 cow.
+	> 371205
+Grade: 6 cow.
+	> 173205
+ Grade: 1 bull(s) and 5 cow(s).
+	> 713205
+ Grade: 1 bull(s) and 5 cow(s).
+	> 723105
  Grade: 2 bull(s) and 4 cow(s).
-	> 460218
- Grade: 1 bull(s) and 5 cow(s).
-	> 064218
-Grade: 6 cow.
-	> 604218
-Grade: 6 cow.
-	> 406218
-Grade: 6 cow.
-	> 046218
- Grade: 1 bull(s) and 5 cow(s).
-	> 042618
- Grade: 1 bull(s) and 5 cow(s).
-	> 402618
-Grade: 6 cow.
-	> 204618
-Grade: 6 cow.
-	> 024618
-Grade: 6 cow.
-	> 420618
- Grade: 1 bull(s) and 5 cow(s).
-	> 240618
+	> 273105
  Grade: 2 bull(s) and 4 cow(s).
-	> 140628
+	> 372105
+ Grade: 1 bull(s) and 5 cow(s).
+	> 732105
+ Grade: 1 bull(s) and 5 cow(s).
+	> 237105
+ Grade: 1 bull(s) and 5 cow(s).
+	> 327105
+ Grade: 1 bull(s) and 5 cow(s).
+	> 321705
+Grade: 6 cow.
+	> 231705
+Grade: 6 cow.
+	> 132705
+Grade: 6 cow.
+	> 312705
+Grade: 6 cow.
+	> 213705
+ Grade: 1 bull(s) and 5 cow(s).
+	> 123705
+ Grade: 1 bull(s) and 5 cow(s).
+	> 023715
+ Grade: 1 bull(s) and 5 cow(s).
+	> 203715
+ Grade: 2 bull(s) and 4 cow(s).
+	> 302715
+ Grade: 1 bull(s) and 5 cow(s).
+	> 032715
+Grade: 6 cow.
+	> 230715
+Grade: 6 cow.
+	> 320715
+Grade: 6 cow.
+	> 720315
+Grade: 6 cow.
+	> 270315
+Grade: 6 cow.
+	> 072315
+Grade: 6 cow.
+	> 702315
+ Grade: 1 bull(s) and 5 cow(s).
+	> 207315
+ Grade: 1 bull(s) and 5 cow(s).
+	> 027315
+Grade: 6 cow.
+	> 037215
+Grade: 6 cow.
+	> 307215
+ Grade: 1 bull(s) and 5 cow(s).
+	> 703215
+ Grade: 2 bull(s) and 4 cow(s).
+	> 073215
+ Grade: 1 bull(s) and 5 cow(s).
+	> 370215
+Grade: 6 cow.
+	> 730215
+Grade: 6 cow.
+	> 732015
+Grade: 6 cow.
+	> 372015
+Grade: 6 cow.
+	> 273015
+ Grade: 1 bull(s) and 5 cow(s).
+	> 723015
+ Grade: 1 bull(s) and 5 cow(s).
+	> 327015
+Grade: 6 cow.
+	> 237015
+Grade: 6 cow.
+	> 137025
+Grade: 6 cow.
+	> 317025
+Grade: 6 cow.
+	> 713025
+ Grade: 1 bull(s) and 5 cow(s).
+	> 173025
+ Grade: 1 bull(s) and 5 cow(s).
+	> 371025
+Grade: 6 cow.
+	> 731025
+Grade: 6 cow.
+	> 031725
+Grade: 6 cow.
+	> 301725
+ Grade: 1 bull(s) and 5 cow(s).
+	> 103725
+ Grade: 2 bull(s) and 4 cow(s).
+	> 013725
+ Grade: 1 bull(s) and 5 cow(s).
+	> 310725
+Grade: 6 cow.
+	> 130725
+Grade: 6 cow.
+	> 170325
+Grade: 6 cow.
+	> 710325
+Grade: 6 cow.
+	> 017325
+Grade: 6 cow.
+	> 107325
+ Grade: 1 bull(s) and 5 cow(s).
+	> 701325
+ Grade: 1 bull(s) and 5 cow(s).
+	> 071325
+Grade: 6 cow.
+	> 073125
+ Grade: 2 bull(s) and 4 cow(s).
+	> 703125
  Grade: 3 bull(s) and 3 cow(s).
-	> 410628
- Grade: 1 bull(s) and 5 cow(s).
-	> 014628
-Grade: 6 cow.
-	> 104628
- Grade: 1 bull(s) and 5 cow(s).
-	> 401628
-Grade: 6 cow.
-	> 041628
- Grade: 1 bull(s) and 5 cow(s).
-	> 641028
- Grade: 1 bull(s) and 5 cow(s).
-	> 461028
-Grade: 6 cow.
-	> 164028
- Grade: 1 bull(s) and 5 cow(s).
-	> 614028
-Grade: 6 cow.
-	> 416028
-Grade: 6 cow.
-	> 146028
+	> 307125
  Grade: 2 bull(s) and 4 cow(s).
-	> 106428
+	> 037125
  Grade: 1 bull(s) and 5 cow(s).
-	> 016428
-Grade: 6 cow.
-	> 610428
+	> 730125
  Grade: 1 bull(s) and 5 cow(s).
-	> 160428
+	> 370125
+ Grade: 1 bull(s) and 5 cow(s).
+	> 270135
+ Grade: 1 bull(s) and 5 cow(s).
+	> 720135
+ Grade: 1 bull(s) and 5 cow(s).
+	> 027135
+ Grade: 1 bull(s) and 5 cow(s).
+	> 207135
  Grade: 2 bull(s) and 4 cow(s).
-	> 061428
-Grade: 6 cow.
-	> 601428
-Grade: 6 cow.
-	> 604128
-Grade: 6 cow.
-	> 064128
-Grade: 6 cow.
-	> 460128
- Grade: 1 bull(s) and 5 cow(s).
-	> 640128
+	> 702135
  Grade: 2 bull(s) and 4 cow(s).
-	> 046128
+	> 072135
  Grade: 1 bull(s) and 5 cow(s).
-	> 406128
+	> 172035
 Grade: 6 cow.
-	> 206148
+	> 712035
 Grade: 6 cow.
-	> 026148
+	> 217035
 Grade: 6 cow.
-	> 620148
+	> 127035
+Grade: 6 cow.
+	> 721035
+Grade: 6 cow.
+	> 271035
+Grade: 6 cow.
+	> 201735
  Grade: 1 bull(s) and 5 cow(s).
-	> 260148
- Grade: 1 bull(s) and 5 cow(s).
-	> 062148
+	> 021735
 Grade: 6 cow.
-	> 602148
+	> 120735
 Grade: 6 cow.
-	> 102648
- Grade: 1 bull(s) and 5 cow(s).
-	> 012648
+	> 210735
 Grade: 6 cow.
-	> 210648
+	> 012735
+Grade: 6 cow.
+	> 102735
  Grade: 1 bull(s) and 5 cow(s).
-	> 120648
+	> 107235
+ Grade: 1 bull(s) and 5 cow(s).
+	> 017235
+Grade: 6 cow.
+	> 710235
+Grade: 6 cow.
+	> 170235
+Grade: 6 cow.
+	> 071235
+Grade: 6 cow.
+	> 701235
+ Grade: 1 bull(s) and 5 cow(s).
+	> 301275
  Grade: 2 bull(s) and 4 cow(s).
-	> 021648
-Grade: 6 cow.
-	> 201648
-Grade: 6 cow.
-	> 261048
-Grade: 6 cow.
-	> 621048
-Grade: 6 cow.
-	> 126048
+	> 031275
  Grade: 1 bull(s) and 5 cow(s).
-	> 216048
-Grade: 6 cow.
-	> 612048
-Grade: 6 cow.
-	> 162048
+	> 130275
  Grade: 1 bull(s) and 5 cow(s).
-	> 160248
+	> 310275
+ Grade: 1 bull(s) and 5 cow(s).
+	> 013275
  Grade: 2 bull(s) and 4 cow(s).
-	> 610248
- Grade: 1 bull(s) and 5 cow(s).
-	> 016248
-Grade: 6 cow.
-	> 106248
- Grade: 1 bull(s) and 5 cow(s).
-	> 601248
-Grade: 6 cow.
-	> 061248
-Grade: 6 cow.
-	> 461208
-Grade: 6 cow.
-	> 641208
- Grade: 1 bull(s) and 5 cow(s).
-	> 146208
- Grade: 2 bull(s) and 4 cow(s).
-	> 416208
-Grade: 6 cow.
-	> 614208
-Grade: 6 cow.
-	> 164208
- Grade: 1 bull(s) and 5 cow(s).
-	> 264108
-Grade: 6 cow.
-	> 624108
-Grade: 6 cow.
-	> 426108
-Grade: 6 cow.
-	> 246108
- Grade: 1 bull(s) and 5 cow(s).
-	> 642108
- Grade: 1 bull(s) and 5 cow(s).
-	> 462108
-Grade: 6 cow.
-	> 412608
-Grade: 6 cow.
-	> 142608
- Grade: 2 bull(s) and 4 cow(s).
-	> 241608
- Grade: 1 bull(s) and 5 cow(s).
-	> 421608
-Grade: 6 cow.
-	> 124608
- Grade: 1 bull(s) and 5 cow(s).
-	> 214608
-Grade: 6 cow.
-	> 216408
-Grade: 6 cow.
-	> 126408
- Grade: 1 bull(s) and 5 cow(s).
-	> 621408
-Grade: 6 cow.
-	> 261408
-Grade: 6 cow.
-	> 162408
- Grade: 1 bull(s) and 5 cow(s).
-	> 612408
-Grade: 6 cow.
-	> 812406
-Grade: 6 cow.
-	> 182406
- Grade: 1 bull(s) and 5 cow(s).
-	> 281406
-Grade: 6 cow.
-	> 821406
-Grade: 6 cow.
-	> 128406
- Grade: 1 bull(s) and 5 cow(s).
-	> 218406
-Grade: 6 cow.
-	> 418206
-Grade: 6 cow.
-	> 148206
- Grade: 2 bull(s) and 4 cow(s).
-	> 841206
- Grade: 1 bull(s) and 5 cow(s).
-	> 481206
-Grade: 6 cow.
-	> 184206
- Grade: 1 bull(s) and 5 cow(s).
-	> 814206
-Grade: 6 cow.
-	> 824106
-Grade: 6 cow.
-	> 284106
-Grade: 6 cow.
-	> 482106
-Grade: 6 cow.
-	> 842106
- Grade: 1 bull(s) and 5 cow(s).
-	> 248106
- Grade: 1 bull(s) and 5 cow(s).
-	> 428106
-Grade: 6 cow.
-	> 421806
- Grade: 1 bull(s) and 5 cow(s).
-	> 241806
- Grade: 2 bull(s) and 4 cow(s).
-	> 142806
+	> 103275
  Grade: 3 bull(s) and 3 cow(s).
-	> 412806
- Grade: 1 bull(s) and 5 cow(s).
-	> 214806
- Grade: 1 bull(s) and 5 cow(s).
-	> 124806
- Grade: 2 bull(s) and 4 cow(s).
-	> 024816
- Grade: 1 bull(s) and 5 cow(s).
-	> 204816
- Grade: 1 bull(s) and 5 cow(s).
-	> 402816
- Grade: 1 bull(s) and 5 cow(s).
-	> 042816
- Grade: 2 bull(s) and 4 cow(s).
-	> 240816
- Grade: 3 bull(s) and 3 cow(s).
-	> 420816
- Grade: 2 bull(s) and 4 cow(s).
-	> 820416
- Grade: 1 bull(s) and 5 cow(s).
-	> 280416
- Grade: 1 bull(s) and 5 cow(s).
-	> 082416
-Grade: 6 cow.
-	> 802416
-Grade: 6 cow.
-	> 208416
-Grade: 6 cow.
-	> 028416
-Grade: 6 cow.
-	> 048216
- Grade: 1 bull(s) and 5 cow(s).
-	> 408216
-Grade: 6 cow.
-	> 804216
-Grade: 6 cow.
-	> 084216
-Grade: 6 cow.
-	> 480216
- Grade: 1 bull(s) and 5 cow(s).
-	> 840216
- Grade: 2 bull(s) and 4 cow(s).
-	> 842016
- Grade: 1 bull(s) and 5 cow(s).
-	> 482016
-Grade: 6 cow.
-	> 284016
-Grade: 6 cow.
-	> 824016
-Grade: 6 cow.
-	> 428016
-Grade: 6 cow.
-	> 248016
- Grade: 1 bull(s) and 5 cow(s).
-	> 148026
- Grade: 2 bull(s) and 4 cow(s).
-	> 418026
-Grade: 6 cow.
-	> 814026
-Grade: 6 cow.
-	> 184026
- Grade: 1 bull(s) and 5 cow(s).
-	> 481026
-Grade: 6 cow.
-	> 841026
- Grade: 1 bull(s) and 5 cow(s).
-	> 041826
- Grade: 2 bull(s) and 4 cow(s).
-	> 401826
- Grade: 1 bull(s) and 5 cow(s).
-	> 104826
- Grade: 2 bull(s) and 4 cow(s).
-	> 014826
- Grade: 1 bull(s) and 5 cow(s).
-	> 410826
- Grade: 2 bull(s) and 4 cow(s).
-	> 140826
+	> 203175
  Grade: 4 bull(s) and 2 cow(s).
-	> 180426
- Grade: 2 bull(s) and 4 cow(s).
-	> 810426
- Grade: 1 bull(s) and 5 cow(s).
-	> 018426
-Grade: 6 cow.
-	> 108426
- Grade: 1 bull(s) and 5 cow(s).
-	> 801426
-Grade: 6 cow.
-	> 081426
-Grade: 6 cow.
-	> 084126
-Grade: 6 cow.
-	> 804126
-Grade: 6 cow.
-	> 408126
-Grade: 6 cow.
-	> 048126
- Grade: 1 bull(s) and 5 cow(s).
-	> 840126
- Grade: 2 bull(s) and 4 cow(s).
-	> 480126
- Grade: 1 bull(s) and 5 cow(s).
-	> 280146
- Grade: 1 bull(s) and 5 cow(s).
-	> 820146
- Grade: 1 bull(s) and 5 cow(s).
-	> 028146
-Grade: 6 cow.
-	> 208146
-Grade: 6 cow.
-	> 802146
-Grade: 6 cow.
-	> 082146
-Grade: 6 cow.
-	> 182046
- Grade: 1 bull(s) and 5 cow(s).
-	> 812046
-Grade: 6 cow.
-	> 218046
-Grade: 6 cow.
-	> 128046
- Grade: 1 bull(s) and 5 cow(s).
-	> 821046
-Grade: 6 cow.
-	> 281046
-Grade: 6 cow.
-	> 201846
- Grade: 1 bull(s) and 5 cow(s).
-	> 021846
- Grade: 1 bull(s) and 5 cow(s).
-	> 120846
+	> 023175
  Grade: 3 bull(s) and 3 cow(s).
-	> 210846
+	> 320175
  Grade: 2 bull(s) and 4 cow(s).
-	> 012846
- Grade: 1 bull(s) and 5 cow(s).
-	> 102846
+	> 230175
  Grade: 2 bull(s) and 4 cow(s).
-	> 108246
- Grade: 1 bull(s) and 5 cow(s).
-	> 018246
-Grade: 6 cow.
-	> 810246
- Grade: 1 bull(s) and 5 cow(s).
-	> 180246
+	> 032175
  Grade: 2 bull(s) and 4 cow(s).
-	> 081246
-Grade: 6 cow.
-	> 801246
-Grade: 6 cow.
-	> 401286
-Grade: 6 cow.
-	> 041286
- Grade: 1 bull(s) and 5 cow(s).
-	> 140286
+	> 302175
  Grade: 3 bull(s) and 3 cow(s).
-	> 410286
+	> 312075
  Grade: 1 bull(s) and 5 cow(s).
-	> 014286
-Grade: 6 cow.
-	> 104286
+	> 132075
  Grade: 1 bull(s) and 5 cow(s).
-	> 204186
-Grade: 6 cow.
-	> 024186
-Grade: 6 cow.
-	> 420186
+	> 231075
  Grade: 1 bull(s) and 5 cow(s).
-	> 240186
+	> 321075
+ Grade: 1 bull(s) and 5 cow(s).
+	> 123075
  Grade: 2 bull(s) and 4 cow(s).
-	> 042186
- Grade: 1 bull(s) and 5 cow(s).
-	> 402186
-Grade: 6 cow.
-	> 412086
-Grade: 6 cow.
-	> 142086
+	> 213075
  Grade: 2 bull(s) and 4 cow(s).
-	> 241086
+	> 210375
  Grade: 1 bull(s) and 5 cow(s).
-	> 421086
-Grade: 6 cow.
-	> 124086
+	> 120375
  Grade: 1 bull(s) and 5 cow(s).
-	> 214086
-Grade: 6 cow.
-	> 210486
+	> 021375
  Grade: 1 bull(s) and 5 cow(s).
-	> 120486
+	> 201375
  Grade: 2 bull(s) and 4 cow(s).
-	> 021486
-Grade: 6 cow.
-	> 201486
-Grade: 6 cow.
-	> 102486
- Grade: 1 bull(s) and 5 cow(s).
-	> 012486
-Grade: 6 cow.
-	> 062481
-Grade: 6 cow.
-	> 602481
-Grade: 6 cow.
-	> 206481
-Grade: 6 cow.
-	> 026481
-Grade: 6 cow.
-	> 620481
- Grade: 1 bull(s) and 5 cow(s).
-	> 260481
- Grade: 1 bull(s) and 5 cow(s).
-	> 460281
- Grade: 1 bull(s) and 5 cow(s).
-	> 640281
+	> 102375
  Grade: 2 bull(s) and 4 cow(s).
-	> 046281
+	> 012375
  Grade: 1 bull(s) and 5 cow(s).
-	> 406281
-Grade: 6 cow.
-	> 604281
-Grade: 6 cow.
-	> 064281
-Grade: 6 cow.
-	> 024681
-Grade: 6 cow.
-	> 204681
-Grade: 6 cow.
-	> 402681
-Grade: 6 cow.
-	> 042681
+	> 052371
  Grade: 1 bull(s) and 5 cow(s).
-	> 240681
- Grade: 2 bull(s) and 4 cow(s).
-	> 420681
- Grade: 1 bull(s) and 5 cow(s).
-	> 426081
-Grade: 6 cow.
-	> 246081
- Grade: 1 bull(s) and 5 cow(s).
-	> 642081
- Grade: 1 bull(s) and 5 cow(s).
-	> 462081
-Grade: 6 cow.
-	> 264081
-Grade: 6 cow.
-	> 624081
-Grade: 6 cow.
-	> 824061
- Grade: 1 bull(s) and 5 cow(s).
-	> 284061
- Grade: 1 bull(s) and 5 cow(s).
-	> 482061
- Grade: 1 bull(s) and 5 cow(s).
-	> 842061
- Grade: 2 bull(s) and 4 cow(s).
-	> 248061
- Grade: 2 bull(s) and 4 cow(s).
-	> 428061
- Grade: 1 bull(s) and 5 cow(s).
-	> 028461
- Grade: 1 bull(s) and 5 cow(s).
-	> 208461
- Grade: 1 bull(s) and 5 cow(s).
-	> 802461
- Grade: 1 bull(s) and 5 cow(s).
-	> 082461
- Grade: 1 bull(s) and 5 cow(s).
-	> 280461
- Grade: 2 bull(s) and 4 cow(s).
-	> 820461
- Grade: 2 bull(s) and 4 cow(s).
-	> 840261
+	> 502371
  Grade: 3 bull(s) and 3 cow(s).
-	> 480261
+	> 205371
  Grade: 2 bull(s) and 4 cow(s).
-	> 084261
+	> 025371
  Grade: 1 bull(s) and 5 cow(s).
-	> 804261
+	> 520371
+ Grade: 2 bull(s) and 4 cow(s).
+	> 250371
  Grade: 1 bull(s) and 5 cow(s).
-	> 408261
+	> 350271
  Grade: 1 bull(s) and 5 cow(s).
-	> 048261
+	> 530271
  Grade: 2 bull(s) and 4 cow(s).
-	> 042861
- Grade: 3 bull(s) and 3 cow(s).
-	> 402861
+	> 035271
+ Grade: 1 bull(s) and 5 cow(s).
+	> 305271
  Grade: 2 bull(s) and 4 cow(s).
-	> 204861
- Grade: 2 bull(s) and 4 cow(s).
-	> 024861
- Grade: 2 bull(s) and 4 cow(s).
-	> 420861
- Grade: 3 bull(s) and 3 cow(s).
-	> 240861
+	> 503271
  Grade: 4 bull(s) and 2 cow(s).
-	> 640821
+	> 053271
+ Grade: 2 bull(s) and 4 cow(s).
+	> 023571
+ Grade: 2 bull(s) and 4 cow(s).
+	> 203571
  Grade: 3 bull(s) and 3 cow(s).
-	> 460821
+	> 302571
  Grade: 2 bull(s) and 4 cow(s).
-	> 064821
+	> 032571
  Grade: 1 bull(s) and 5 cow(s).
-	> 604821
+	> 230571
  Grade: 1 bull(s) and 5 cow(s).
-	> 406821
+	> 320571
  Grade: 1 bull(s) and 5 cow(s).
-	> 046821
+	> 325071
+ Grade: 1 bull(s) and 5 cow(s).
+	> 235071
+ Grade: 1 bull(s) and 5 cow(s).
+	> 532071
  Grade: 2 bull(s) and 4 cow(s).
-	> 846021
+	> 352071
  Grade: 1 bull(s) and 5 cow(s).
-	> 486021
-Grade: 6 cow.
-	> 684021
-Grade: 6 cow.
-	> 864021
-Grade: 6 cow.
-	> 468021
-Grade: 6 cow.
-	> 648021
- Grade: 1 bull(s) and 5 cow(s).
-	> 608421
-Grade: 6 cow.
-	> 068421
-Grade: 6 cow.
-	> 860421
- Grade: 1 bull(s) and 5 cow(s).
-	> 680421
- Grade: 1 bull(s) and 5 cow(s).
-	> 086421
-Grade: 6 cow.
-	> 806421
-Grade: 6 cow.
-	> 804621
-Grade: 6 cow.
-	> 084621
-Grade: 6 cow.
-	> 480621
- Grade: 1 bull(s) and 5 cow(s).
-	> 840621
+	> 253071
  Grade: 2 bull(s) and 4 cow(s).
-	> 048621
- Grade: 1 bull(s) and 5 cow(s).
-	> 408621
-Grade: 6 cow.
-	> 208641
-Grade: 6 cow.
-	> 028641
-Grade: 6 cow.
-	> 820641
- Grade: 1 bull(s) and 5 cow(s).
-	> 280641
- Grade: 1 bull(s) and 5 cow(s).
-	> 082641
-Grade: 6 cow.
-	> 802641
-Grade: 6 cow.
-	> 602841
- Grade: 1 bull(s) and 5 cow(s).
-	> 062841
- Grade: 1 bull(s) and 5 cow(s).
-	> 260841
- Grade: 2 bull(s) and 4 cow(s).
-	> 620841
- Grade: 2 bull(s) and 4 cow(s).
-	> 026841
- Grade: 1 bull(s) and 5 cow(s).
-	> 206841
- Grade: 1 bull(s) and 5 cow(s).
-	> 286041
-Grade: 6 cow.
-	> 826041
-Grade: 6 cow.
-	> 628041
-Grade: 6 cow.
-	> 268041
-Grade: 6 cow.
-	> 862041
-Grade: 6 cow.
-	> 682041
-Grade: 6 cow.
-	> 680241
- Grade: 1 bull(s) and 5 cow(s).
-	> 860241
- Grade: 1 bull(s) and 5 cow(s).
-	> 068241
-Grade: 6 cow.
-	> 608241
-Grade: 6 cow.
-	> 806241
-Grade: 6 cow.
-	> 086241
-Grade: 6 cow.
-	> 486201
-Grade: 6 cow.
-	> 846201
- Grade: 1 bull(s) and 5 cow(s).
-	> 648201
- Grade: 1 bull(s) and 5 cow(s).
-	> 468201
-Grade: 6 cow.
-	> 864201
-Grade: 6 cow.
-	> 684201
-Grade: 6 cow.
-	> 284601
-Grade: 6 cow.
-	> 824601
-Grade: 6 cow.
-	> 428601
-Grade: 6 cow.
-	> 248601
- Grade: 1 bull(s) and 5 cow(s).
-	> 842601
- Grade: 1 bull(s) and 5 cow(s).
-	> 482601
-Grade: 6 cow.
-	> 462801
- Grade: 1 bull(s) and 5 cow(s).
-	> 642801
- Grade: 2 bull(s) and 4 cow(s).
-	> 246801
- Grade: 2 bull(s) and 4 cow(s).
-	> 426801
- Grade: 1 bull(s) and 5 cow(s).
-	> 624801
- Grade: 1 bull(s) and 5 cow(s).
-	> 264801
- Grade: 1 bull(s) and 5 cow(s).
-	> 268401
-Grade: 6 cow.
-	> 628401
-Grade: 6 cow.
-	> 826401
-Grade: 6 cow.
-	> 286401
-Grade: 6 cow.
-	> 682401
-Grade: 6 cow.
-	> 862401
-Grade: 6 cow.
-	> 861402
- Grade: 1 bull(s) and 5 cow(s).
-	> 681402
- Grade: 1 bull(s) and 5 cow(s).
-	> 186402
- Grade: 2 bull(s) and 4 cow(s).
-	> 816402
- Grade: 1 bull(s) and 5 cow(s).
-	> 618402
- Grade: 1 bull(s) and 5 cow(s).
-	> 168402
- Grade: 2 bull(s) and 4 cow(s).
-	> 468102
- Grade: 1 bull(s) and 5 cow(s).
-	> 648102
- Grade: 2 bull(s) and 4 cow(s).
-	> 846102
- Grade: 2 bull(s) and 4 cow(s).
-	> 486102
- Grade: 1 bull(s) and 5 cow(s).
-	> 684102
- Grade: 1 bull(s) and 5 cow(s).
-	> 864102
- Grade: 1 bull(s) and 5 cow(s).
-	> 814602
- Grade: 1 bull(s) and 5 cow(s).
-	> 184602
- Grade: 2 bull(s) and 4 cow(s).
-	> 481602
- Grade: 1 bull(s) and 5 cow(s).
-	> 841602
- Grade: 2 bull(s) and 4 cow(s).
-	> 148602
+	> 523071
  Grade: 3 bull(s) and 3 cow(s).
-	> 418602
+	> 723051
  Grade: 1 bull(s) and 5 cow(s).
-	> 416802
+	> 273051
+ Grade: 1 bull(s) and 5 cow(s).
+	> 372051
+Grade: 6 cow.
+	> 732051
+Grade: 6 cow.
+	> 237051
+Grade: 6 cow.
+	> 327051
+Grade: 6 cow.
+	> 027351
+Grade: 6 cow.
+	> 207351
+ Grade: 1 bull(s) and 5 cow(s).
+	> 702351
+ Grade: 1 bull(s) and 5 cow(s).
+	> 072351
+Grade: 6 cow.
+	> 270351
+Grade: 6 cow.
+	> 720351
+Grade: 6 cow.
+	> 730251
+Grade: 6 cow.
+	> 370251
+Grade: 6 cow.
+	> 073251
+ Grade: 1 bull(s) and 5 cow(s).
+	> 703251
  Grade: 2 bull(s) and 4 cow(s).
-	> 146802
+	> 307251
+ Grade: 1 bull(s) and 5 cow(s).
+	> 037251
+Grade: 6 cow.
+	> 032751
+Grade: 6 cow.
+	> 302751
+ Grade: 1 bull(s) and 5 cow(s).
+	> 203751
+ Grade: 2 bull(s) and 4 cow(s).
+	> 023751
+ Grade: 1 bull(s) and 5 cow(s).
+	> 320751
+Grade: 6 cow.
+	> 230751
+Grade: 6 cow.
+	> 530721
+ Grade: 1 bull(s) and 5 cow(s).
+	> 350721
+Grade: 6 cow.
+	> 053721
+ Grade: 1 bull(s) and 5 cow(s).
+	> 503721
+ Grade: 3 bull(s) and 3 cow(s).
+	> 305721
+ Grade: 1 bull(s) and 5 cow(s).
+	> 035721
+Grade: 6 cow.
+	> 735021
+Grade: 6 cow.
+	> 375021
+Grade: 6 cow.
+	> 573021
+ Grade: 2 bull(s) and 4 cow(s).
+	> 753021
+ Grade: 1 bull(s) and 5 cow(s).
+	> 357021
+Grade: 6 cow.
+	> 537021
+ Grade: 1 bull(s) and 5 cow(s).
+	> 507321
+ Grade: 2 bull(s) and 4 cow(s).
+	> 057321
+Grade: 6 cow.
+	> 750321
+Grade: 6 cow.
+	> 570321
+ Grade: 1 bull(s) and 5 cow(s).
+	> 075321
+Grade: 6 cow.
+	> 705321
+ Grade: 1 bull(s) and 5 cow(s).
+	> 703521
+ Grade: 2 bull(s) and 4 cow(s).
+	> 073521
+ Grade: 1 bull(s) and 5 cow(s).
+	> 370521
+Grade: 6 cow.
+	> 730521
+Grade: 6 cow.
+	> 037521
+Grade: 6 cow.
+	> 307521
+ Grade: 1 bull(s) and 5 cow(s).
+	> 207531
+ Grade: 1 bull(s) and 5 cow(s).
+	> 027531
+Grade: 6 cow.
+	> 720531
+Grade: 6 cow.
+	> 270531
+Grade: 6 cow.
+	> 072531
+Grade: 6 cow.
+	> 702531
+ Grade: 1 bull(s) and 5 cow(s).
+	> 502731
+ Grade: 2 bull(s) and 4 cow(s).
+	> 052731
+Grade: 6 cow.
+	> 250731
+Grade: 6 cow.
+	> 520731
+ Grade: 1 bull(s) and 5 cow(s).
+	> 025731
+Grade: 6 cow.
+	> 205731
+ Grade: 1 bull(s) and 5 cow(s).
+	> 275031
+Grade: 6 cow.
+	> 725031
+Grade: 6 cow.
+	> 527031
+ Grade: 1 bull(s) and 5 cow(s).
+	> 257031
+Grade: 6 cow.
+	> 752031
+Grade: 6 cow.
+	> 572031
+ Grade: 1 bull(s) and 5 cow(s).
+	> 570231
+ Grade: 1 bull(s) and 5 cow(s).
+	> 750231
+Grade: 6 cow.
+	> 057231
+Grade: 6 cow.
+	> 507231
+ Grade: 2 bull(s) and 4 cow(s).
+	> 705231
+ Grade: 1 bull(s) and 5 cow(s).
+	> 075231
+Grade: 6 cow.
+	> 375201
+Grade: 6 cow.
+	> 735201
+Grade: 6 cow.
+	> 537201
+ Grade: 1 bull(s) and 5 cow(s).
+	> 357201
+Grade: 6 cow.
+	> 753201
+ Grade: 1 bull(s) and 5 cow(s).
+	> 573201
+ Grade: 2 bull(s) and 4 cow(s).
+	> 273501
+ Grade: 1 bull(s) and 5 cow(s).
+	> 723501
+ Grade: 1 bull(s) and 5 cow(s).
+	> 327501
+Grade: 6 cow.
+	> 237501
+Grade: 6 cow.
+	> 732501
+Grade: 6 cow.
+	> 372501
+Grade: 6 cow.
+	> 352701
+Grade: 6 cow.
+	> 532701
+ Grade: 1 bull(s) and 5 cow(s).
+	> 235701
+Grade: 6 cow.
+	> 325701
+Grade: 6 cow.
+	> 523701
+ Grade: 2 bull(s) and 4 cow(s).
+	> 253701
+ Grade: 1 bull(s) and 5 cow(s).
+	> 257301
+Grade: 6 cow.
+	> 527301
+ Grade: 1 bull(s) and 5 cow(s).
+	> 725301
+Grade: 6 cow.
+	> 275301
+Grade: 6 cow.
+	> 572301
+ Grade: 1 bull(s) and 5 cow(s).
+	> 752301
+Grade: 6 cow.
+	> 751302
+ Grade: 1 bull(s) and 5 cow(s).
+	> 571302
+ Grade: 2 bull(s) and 4 cow(s).
+	> 175302
+ Grade: 1 bull(s) and 5 cow(s).
+	> 715302
+ Grade: 1 bull(s) and 5 cow(s).
+	> 517302
+ Grade: 2 bull(s) and 4 cow(s).
+	> 157302
+ Grade: 1 bull(s) and 5 cow(s).
+	> 357102
+ Grade: 2 bull(s) and 4 cow(s).
+	> 537102
+ Grade: 3 bull(s) and 3 cow(s).
+	> 735102
+ Grade: 2 bull(s) and 4 cow(s).
+	> 375102
+ Grade: 2 bull(s) and 4 cow(s).
+	> 573102
  Grade: 4 bull(s) and 2 cow(s).
-	> 641802
+	> 753102
  Grade: 3 bull(s) and 3 cow(s).
-	> 461802
+	> 713502
  Grade: 2 bull(s) and 4 cow(s).
-	> 164802
- Grade: 3 bull(s) and 3 cow(s).
-	> 614802
+	> 173502
  Grade: 2 bull(s) and 4 cow(s).
-	> 014862
+	> 371502
+ Grade: 1 bull(s) and 5 cow(s).
+	> 731502
+ Grade: 1 bull(s) and 5 cow(s).
+	> 137502
+ Grade: 1 bull(s) and 5 cow(s).
+	> 317502
+ Grade: 1 bull(s) and 5 cow(s).
+	> 315702
+ Grade: 1 bull(s) and 5 cow(s).
+	> 135702
+ Grade: 1 bull(s) and 5 cow(s).
+	> 531702
+ Grade: 2 bull(s) and 4 cow(s).
+	> 351702
+ Grade: 1 bull(s) and 5 cow(s).
+	> 153702
+ Grade: 2 bull(s) and 4 cow(s).
+	> 513702
  Grade: 3 bull(s) and 3 cow(s).
-	> 104862
- Grade: 4 bull(s) and 2 cow(s).
-	> 401862
+	> 013752
+ Grade: 2 bull(s) and 4 cow(s).
+	> 103752
  Grade: 3 bull(s) and 3 cow(s).
-	> 041862
+	> 301752
+ Grade: 2 bull(s) and 4 cow(s).
+	> 031752
+ Grade: 1 bull(s) and 5 cow(s).
+	> 130752
+ Grade: 1 bull(s) and 5 cow(s).
+	> 310752
+ Grade: 1 bull(s) and 5 cow(s).
+	> 710352
+ Grade: 1 bull(s) and 5 cow(s).
+	> 170352
+ Grade: 1 bull(s) and 5 cow(s).
+	> 071352
+ Grade: 1 bull(s) and 5 cow(s).
+	> 701352
+ Grade: 2 bull(s) and 4 cow(s).
+	> 107352
+ Grade: 2 bull(s) and 4 cow(s).
+	> 017352
+ Grade: 1 bull(s) and 5 cow(s).
+	> 037152
+ Grade: 2 bull(s) and 4 cow(s).
+	> 307152
+ Grade: 3 bull(s) and 3 cow(s).
+	> 703152
  Grade: 4 bull(s) and 2 cow(s).
-	> 140862
+	> 073152
+ Grade: 3 bull(s) and 3 cow(s).
+	> 370152
+ Grade: 2 bull(s) and 4 cow(s).
+	> 730152
+ Grade: 2 bull(s) and 4 cow(s).
+	> 731052
+ Grade: 1 bull(s) and 5 cow(s).
+	> 371052
+ Grade: 1 bull(s) and 5 cow(s).
+	> 173052
+ Grade: 2 bull(s) and 4 cow(s).
+	> 713052
+ Grade: 2 bull(s) and 4 cow(s).
+	> 317052
+ Grade: 1 bull(s) and 5 cow(s).
+	> 137052
+ Grade: 1 bull(s) and 5 cow(s).
+	> 537012
+ Grade: 2 bull(s) and 4 cow(s).
+	> 357012
+ Grade: 1 bull(s) and 5 cow(s).
+	> 753012
+ Grade: 2 bull(s) and 4 cow(s).
+	> 573012
+ Grade: 3 bull(s) and 3 cow(s).
+	> 375012
+ Grade: 1 bull(s) and 5 cow(s).
+	> 735012
+ Grade: 1 bull(s) and 5 cow(s).
+	> 035712
+ Grade: 1 bull(s) and 5 cow(s).
+	> 305712
+ Grade: 2 bull(s) and 4 cow(s).
+	> 503712
+ Grade: 4 bull(s) and 2 cow(s).
+	> 053712
+ Grade: 2 bull(s) and 4 cow(s).
+	> 350712
+ Grade: 1 bull(s) and 5 cow(s).
+	> 530712
+ Grade: 2 bull(s) and 4 cow(s).
+	> 570312
+ Grade: 2 bull(s) and 4 cow(s).
+	> 750312
+ Grade: 1 bull(s) and 5 cow(s).
+	> 057312
+ Grade: 1 bull(s) and 5 cow(s).
+	> 507312
+ Grade: 3 bull(s) and 3 cow(s).
+	> 705312
+ Grade: 2 bull(s) and 4 cow(s).
+	> 075312
+ Grade: 1 bull(s) and 5 cow(s).
+	> 073512
+ Grade: 2 bull(s) and 4 cow(s).
+	> 703512
+ Grade: 3 bull(s) and 3 cow(s).
+	> 307512
+ Grade: 2 bull(s) and 4 cow(s).
+	> 037512
+ Grade: 1 bull(s) and 5 cow(s).
+	> 730512
+ Grade: 1 bull(s) and 5 cow(s).
+	> 370512
+ Grade: 1 bull(s) and 5 cow(s).
+	> 170532
+ Grade: 1 bull(s) and 5 cow(s).
+	> 710532
+ Grade: 1 bull(s) and 5 cow(s).
+	> 017532
+ Grade: 1 bull(s) and 5 cow(s).
+	> 107532
+ Grade: 2 bull(s) and 4 cow(s).
+	> 701532
+ Grade: 2 bull(s) and 4 cow(s).
+	> 071532
+ Grade: 1 bull(s) and 5 cow(s).
+	> 571032
+ Grade: 2 bull(s) and 4 cow(s).
+	> 751032
+ Grade: 1 bull(s) and 5 cow(s).
+	> 157032
+ Grade: 1 bull(s) and 5 cow(s).
+	> 517032
+ Grade: 2 bull(s) and 4 cow(s).
+	> 715032
+ Grade: 1 bull(s) and 5 cow(s).
+	> 175032
+ Grade: 1 bull(s) and 5 cow(s).
+	> 105732
+ Grade: 2 bull(s) and 4 cow(s).
+	> 015732
+ Grade: 1 bull(s) and 5 cow(s).
+	> 510732
+ Grade: 2 bull(s) and 4 cow(s).
+	> 150732
+ Grade: 1 bull(s) and 5 cow(s).
+	> 051732
+ Grade: 1 bull(s) and 5 cow(s).
+	> 501732
+ Grade: 3 bull(s) and 3 cow(s).
+	> 507132
+ Grade: 4 bull(s) and 2 cow(s).
+	> 057132
+ Grade: 2 bull(s) and 4 cow(s).
+	> 750132
+ Grade: 2 bull(s) and 4 cow(s).
+	> 570132
+ Grade: 3 bull(s) and 3 cow(s).
+	> 075132
+ Grade: 2 bull(s) and 4 cow(s).
+	> 705132
+ Grade: 3 bull(s) and 3 cow(s).
+	> 305172
+ Grade: 4 bull(s) and 2 cow(s).
+	> 035172
+ Grade: 3 bull(s) and 3 cow(s).
+	> 530172
+ Grade: 4 bull(s) and 2 cow(s).
+	> 350172
+ Grade: 3 bull(s) and 3 cow(s).
+	> 053172
+ Grade: 4 bull(s) and 2 cow(s).
+	> 503172
 Grade: 6 bull.
 /Congratulations! You guessed the secret code.
 [1;31m

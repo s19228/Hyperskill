@@ -6,20 +6,31 @@ class Main {
         int size = in.nextInt();
         int[][] tab = new int[size][size];
 
-        boolean isSymetric = true;
-
-        for (int i = 1; i < tab.length - 1; i++) {
-            if (tab[i][i] != tab[i-1][i+1] || tab[i][i] != tab[i+1][i-1]){
-                isSymetric = false;
-                break;
+        for (int i = 0; i < tab.length; i++) {
+            for (int j = 0; j < tab.length; j++) {
+                tab[i][j] = in.nextInt();
             }
         }
 
+        boolean isSymetric = true;
 
-        if (isSymetric) {
+
+        for (int i = 0; i < tab.length; i++) {
+            for (int j = 0; j < tab.length; j++) {
+                if (tab[i][j] != tab[j][i]) {
+                    isSymetric = false;
+                    break;
+                }
+            }
+        }
+
+        if (isSymetric){
             System.out.println("YES");
         } else {
             System.out.println("NO");
         }
     }
 }
+
+
+
