@@ -7,11 +7,7 @@ public class Grader {
     private int cow = 0;
     private int bull = 0;
     boolean stillGuessing = true;
-
-    public int getCode() {
-        return code;
-    }
-
+    int num = 1;
     private int code;
 
     public Grader(int code) {
@@ -19,7 +15,9 @@ public class Grader {
     }
 
     void graderStart(char[] code) {
+
         while (stillGuessing){
+            System.out.println("Turn " + num + ":");
             Scanner in = new Scanner(System.in);
             String s = in.nextLine();
             char[] input = s.toCharArray();
@@ -46,6 +44,7 @@ public class Grader {
             }
             bull = 0;
             cow = 0;
+            num++;
         }
 
     }
