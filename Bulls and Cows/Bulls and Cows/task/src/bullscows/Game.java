@@ -13,6 +13,14 @@ public class Game {
 
         // generating secret code
         gen.gen();
+
+        try {
+            if (gen.getCodeString().equals("0")){
+                return;
+            }
+        } catch (NullPointerException e) {
+            return;
+        }
         // game starting info
         next();
         // runing grade
