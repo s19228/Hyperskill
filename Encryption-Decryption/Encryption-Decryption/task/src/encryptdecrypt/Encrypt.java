@@ -2,19 +2,19 @@ package encryptdecrypt;
 
 public class Encrypt {
 
-    static StringBuilder encrypt(String mode, String msg, int num) {
+    static StringBuilder encrypt(String mode, String data, int num) {
 
         StringBuilder sb = null;
 
         if (mode.equals("enc")) {
-            char[] tab = msg.toCharArray();
+            char[] tab = data.toCharArray();
             sb = new StringBuilder();
 
             for (char c : tab) {
                 sb.append((char) (c + num));
             }
         } else {
-            char[] tab = msg.toCharArray();
+            char[] tab = data.toCharArray();
             sb = new StringBuilder();
 
             for (char c : tab){
@@ -25,9 +25,6 @@ public class Encrypt {
     }
 
 }
-
-
-
 
 
 /*
