@@ -2,9 +2,50 @@ package encryptdecrypt;
 
 public class Encrypt {
 
-    static StringBuilder encrypt(String mode, String data, int num) {
+    private String mode;
+    private String data;
+    private int num;
 
-        StringBuilder sb = null;
+    public Encrypt(String[] tab) {
+
+        boolean foundMode = false;
+        boolean foundKey = false;
+        boolean foundData = false;
+
+
+        for (int i = 0; i < tab.length; i++) {
+            if (!foundMode) {
+                if (tab[i].equals("-mode")) {
+                    this.mode = tab[i + 1];
+                    foundMode = true;
+                } else {
+                    this.mode = "enc";
+                }
+            }
+
+            if(!foundKey){
+                if (tab[i].equals("-key")) {
+                    this.num = Integer.parseInt(tab[i + 1]);
+                    foundKey = true;
+                } else {
+                    this.num = 0;
+                }
+            }
+
+            if(!foundData){
+                if (tab[i].equals("-data")) {
+                    this.data = tab[i + 1];
+                    foundData = true;
+                } else {
+                    this.data = "";
+                }
+            }
+        }
+    }
+
+    public StringBuilder encrypt() {
+
+        StringBuilder sb;
 
         if (mode.equals("enc")) {
             char[] tab = data.toCharArray();
@@ -17,7 +58,7 @@ public class Encrypt {
             char[] tab = data.toCharArray();
             sb = new StringBuilder();
 
-            for (char c : tab){
+            for (char c : tab) {
                 sb.append((char) (c - num));
             }
         }
