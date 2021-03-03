@@ -1,17 +1,32 @@
 package encryptdecrypt;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Encrypt {
 
     private String mode;
+
+    public String getData() {
+        return data;
+    }
+
     private String data;
     private int num;
+    boolean foundMode = false;
+    boolean foundKey = false;
+    boolean foundData = false;
+    boolean foundIn = false;
+    boolean foundOut = false;
+    private File inputFile;
+    private File outputFile;
+    FileWriter fileWriter;
+    private int index;
+    String nameOfOutFile;
 
-    public Encrypt(String[] tab) {
-
-        boolean foundMode = false;
-        boolean foundKey = false;
-        boolean foundData = false;
-
+    public Encrypt(String[] tab) throws IOException {
 
         for (int i = 0; i < tab.length; i++) {
             if (!foundMode) {
@@ -19,11 +34,31 @@ public class Encrypt {
                     this.mode = tab[i + 1];
                     foundMode = true;
                 } else {
-                    this.mode = "enc";
+                    this.mode = "-enc";
                 }
             }
 
-            if(!foundKey){
+            if (!foundIn) {
+                if (tab[i].equals("-in")) {
+                    inputFile = new File(tab[i + 1]);
+                    Scanner scanner = new Scanner(inputFile);
+                    this.data = scanner.nextLine();
+                    foundIn = true;
+                    foundData = true;
+                    scanner.close();
+                }
+            }
+
+            if (!foundData) {
+                if (tab[i].equals("-data")) {
+                    this.data = tab[i + 1];
+                    foundData = true;
+                } else {
+                    this.data = "";
+                }
+            }
+
+            if (!foundKey) {
                 if (tab[i].equals("-key")) {
                     this.num = Integer.parseInt(tab[i + 1]);
                     foundKey = true;
@@ -32,35 +67,51 @@ public class Encrypt {
                 }
             }
 
-            if(!foundData){
-                if (tab[i].equals("-data")) {
-                    this.data = tab[i + 1];
-                    foundData = true;
-                } else {
-                    this.data = "";
+            if (!foundOut) {
+                if (tab[i].equals("-out")) {
+                    nameOfOutFile = tab[i + 1];
+                    foundOut = true;
                 }
             }
+
         }
+
+
     }
 
-    public StringBuilder encrypt() {
+    public StringBuilder encrypt() throws IOException {
 
         StringBuilder sb;
 
         if (mode.equals("enc")) {
-            char[] tab = data.toCharArray();
+            char[] arr = data.toCharArray();
             sb = new StringBuilder();
 
-            for (char c : tab) {
+            for (char c : arr) {
                 sb.append((char) (c + num));
             }
-        } else {
+
+            if (foundOut) {
+                outputFile = new File(nameOfOutFile);
+                fileWriter = new FileWriter(outputFile);
+                fileWriter.write(sb.toString());
+                fileWriter.close();
+            }
+
+        } else { // decode
             char[] tab = data.toCharArray();
             sb = new StringBuilder();
 
             for (char c : tab) {
                 sb.append((char) (c - num));
             }
+            if (foundOut) {
+                outputFile = new File(nameOfOutFile);
+                fileWriter = new FileWriter(outputFile);
+                fileWriter.write(sb.toString());
+                fileWriter.close();
+            }
+
         }
         return sb;
     }
