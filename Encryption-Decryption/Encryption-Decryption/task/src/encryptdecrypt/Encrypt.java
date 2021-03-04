@@ -20,8 +20,6 @@ public class Encrypt {
     boolean foundData = false;
     boolean foundIn = false;
     boolean foundOut = false;
-    private File inputFile;
-    private File outputFile;
     FileWriter fileWriter;
     private int index;
     String nameOfOutFile;
@@ -40,7 +38,7 @@ public class Encrypt {
 
             if (!foundIn) {
                 if (tab[i].equals("-in")) {
-                    inputFile = new File(tab[i + 1]);
+                    File inputFile = new File(tab[i + 1]);
                     Scanner scanner = new Scanner(inputFile);
                     this.data = scanner.nextLine();
                     foundIn = true;
@@ -75,14 +73,13 @@ public class Encrypt {
             }
 
         }
-
-
     }
 
     public StringBuilder encrypt() throws IOException {
 
         StringBuilder sb;
 
+        File outputFile;
         if (mode.equals("enc")) {
             char[] arr = data.toCharArray();
             sb = new StringBuilder();
