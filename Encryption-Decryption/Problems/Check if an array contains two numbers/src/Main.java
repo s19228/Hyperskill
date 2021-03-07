@@ -19,7 +19,8 @@ class Main {
         }
 
         for (int i = 0; i < tab.length - 1; i++) {
-            if ((tab[i] == twoNumbersTab[0] && tab[i + 1] == twoNumbersTab[1]) || (tab[i] == twoNumbersTab[1] && tab[i + 1] == twoNumbersTab[0])) {
+            if ((tab[i] == twoNumbersTab[0] && tab[i + 1] == twoNumbersTab[1]) ||
+                    (tab[i] == twoNumbersTab[1] && tab[i + 1] == twoNumbersTab[0])) {
                 areNeighbours = true;
                 break;
             }
