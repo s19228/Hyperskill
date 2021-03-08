@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 class SelectionContext {
@@ -59,13 +60,8 @@ class TakeLastPersonsAlgorithm implements PersonSelectionAlgorithm {
         if (persons.length == 1) {
             return new Person[]{persons[0]};
         } else {
-            ArrayList<Person> personArrayList = new ArrayList<>();
-
-            for (int i = persons.length-count; i < persons.length; i++) {
-                personArrayList.add(persons[i]);
-            }
+            ArrayList<Person> personArrayList = new ArrayList<>(Arrays.asList(persons).subList(persons.length - count, persons.length));
             return (personArrayList.toArray(Person[]::new));
-
         }
 
     }
