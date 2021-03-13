@@ -7,12 +7,8 @@ import java.util.Scanner;
 
 public class Encrypt {
 
+    private String algorithm;
     private String mode;
-
-    public String getData() {
-        return data;
-    }
-
     private String data;
     private int num;
     boolean foundMode = false;
@@ -20,8 +16,8 @@ public class Encrypt {
     boolean foundData = false;
     boolean foundIn = false;
     boolean foundOut = false;
+    boolean foundAlgorithm = false;
     FileWriter fileWriter;
-    private int index;
     String nameOfOutFile;
 
     public Encrypt(String[] tab) throws IOException {
@@ -33,6 +29,15 @@ public class Encrypt {
                     foundMode = true;
                 } else {
                     this.mode = "-enc";
+                }
+            }
+
+            if (!foundAlgorithm) {
+                if (tab[i].equals("-alg")) {
+                    algorithm = tab[i + 1];
+                    foundAlgorithm = true;
+                } else {
+                    algorithm = "shift";
                 }
             }
 
@@ -72,250 +77,97 @@ public class Encrypt {
                 }
             }
 
+
         }
     }
 
     public StringBuilder encrypt() throws IOException {
 
-        StringBuilder sb;
-
+        StringBuilder sb = new StringBuilder();
         File outputFile;
-        if (mode.equals("enc")) {
-            char[] arr = data.toCharArray();
-            sb = new StringBuilder();
 
-            for (char c : arr) {
-                sb.append((char) (c + num));
-            }
-
-            if (foundOut) {
-                outputFile = new File(nameOfOutFile);
-                fileWriter = new FileWriter(outputFile);
-                fileWriter.write(sb.toString());
-                fileWriter.close();
-            }
-
-        } else { // decode
-            char[] tab = data.toCharArray();
-            sb = new StringBuilder();
-
-            for (char c : tab) {
-                sb.append((char) (c - num));
-            }
-            if (foundOut) {
-                outputFile = new File(nameOfOutFile);
-                fileWriter = new FileWriter(outputFile);
-                fileWriter.write(sb.toString());
-                fileWriter.close();
-            }
-
-        }
-        return sb;
-    }
-
-}
-
-
-/*
-        char[] tab = msg.toCharArray();
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 0; i < tab.length; i++) {
-            if (tab[i] == ' ' || tab[i] == '!') {
-                sb.append(tab[i]);
-            } else {
-                if(tab[i] + num > 122){
-                    sb.append((char) (tab[i] + num - 26));
-                } else {
-                    sb.append((char) (tab[i] + num));
+        if (algorithm.equals("unicode")) {
+            if (mode.equals("enc")) {
+                if (foundData) {
+                    char[] arr = data.toCharArray();
+                    for (char c : arr) {
+                        sb.append((char) (c + num));
+                    }
                 }
+                if (foundOut) {
+                    writeToFile(sb);
+                }
+
+            } else { // decode
+                char[] tab = data.toCharArray();
+
+                for (char c : tab) {
+                    sb.append((char) (c - num));
+                }
+                if (foundOut) {
+                    writeToFile(sb);
+                }
+
             }
+        } else {
+            //shift
+            if (mode.equals("enc")) {
+                char[] tab = data.toCharArray();
+                /*
+                 *  A = 65
+                 *  Z = 90
+                 *  a = 97
+                 *  z = 122
+                 */
+                for (char c : data.toCharArray()) {
+                    if (c >= 65 && c <= 90) {
+                        sb.append(c + num > 90 ? (char) (c + num - 26) : (char) (c + num));
+                    } else if (c >= 97 && c <= 122) {
+                        sb.append(c + num > 122 ? (char) (c + num - 26) : (char) (c + num));
+                    } else {
+                        sb.append(c);
+                    }
+
+                    writeToFile(sb);
+
+                }
+            } else { // decode
+                char[] tab = data.toCharArray();
+                /*
+                 *  A = 65
+                 *  Z = 90
+                 *  a = 97
+                 *  z = 122
+                 */
+
+                for (char c : data.toCharArray()) {
+                    if (c >= 65 && c <= 90) {
+                        sb.append(c - num < 65 ? (char) (c - num + 26) : (char) (c - num));
+                    } else if (c >= 97 && c <= 122) {
+                        sb.append(c - num < 97 ? (char) (c - num + 26) : (char) (c - num));
+                    } else {
+                        sb.append(c);
+                    }
+                }
+
+                writeToFile(sb);
+            }
+
         }
 
-       for (char c : tab) {
-            switch (c) {
-                case 'a':
-                    sb.append('z');
-                    break;
-                case 'b':
-                    sb.append('y');
-                    break;
-                case 'c':
-                    sb.append('x');
-                    break;
-                case 'd':
-                    sb.append('w');
-                    break;
-                case 'e':
-                    sb.append('v');
-                    break;
-                case 'f':
-                    sb.append('u');
-                    break;
-                case 'g':
-                    sb.append('t');
-                    break;
-                case 'h':
-                    sb.append('s');
-                    break;
-                case 'i':
-                    sb.append('r');
-                    break;
-                case 'j':
-                    sb.append('q');
-                    break;
-                case 'k':
-                    sb.append('p');
-                    break;
-                case 'l':
-                    sb.append('o');
-                    break;
-                case 'm':
-                    sb.append('n');
-                    break;
-                case 'n':
-                    sb.append('m');
-                    break;
-                case 'o':
-                    sb.append('l');
-                    break;
-                case 'p':
-                    sb.append('k');
-                    break;
-                case 'q':
-                    sb.append('j');
-                    break;
-                case 'r':
-                    sb.append('i');
-                    break;
-                case 's':
-                    sb.append('h');
-                    break;
-                case 't':
-                    sb.append('g');
-                    break;
-                case 'u':
-                    sb.append('f');
-                    break;
-                case 'v':
-                    sb.append('e');
-                    break;
-                case 'w':
-                    sb.append('d');
-                    break;
-                case 'x':
-                    sb.append('c');
-                    break;
-                case 'y':
-                    sb.append('b');
-                    break;
-                case 'z':
-                    sb.append('a');
-                    break;
-                case ' ':
-                    sb.append(' ');
-                    break;
-                case '!':
-                    sb.append('!');
-                    break;
-            }
+        if (!foundOut) {
+            System.out.println(sb);
         }
 
-    static StringBuilder encrypt(String msg) {
-        char[] tab = msg.toCharArray();
-        StringBuilder sb = new StringBuilder();
-
-        for (char c : tab) {
-            switch (c) {
-                case 'a':
-                    sb.append('z');
-                    break;
-                case 'b':
-                    sb.append('y');
-                    break;
-                case 'c':
-                    sb.append('x');
-                    break;
-                case 'd':
-                    sb.append('w');
-                    break;
-                case 'e':
-                    sb.append('v');
-                    break;
-                case 'f':
-                    sb.append('u');
-                    break;
-                case 'g':
-                    sb.append('t');
-                    break;
-                case 'h':
-                    sb.append('s');
-                    break;
-                case 'i':
-                    sb.append('r');
-                    break;
-                case 'j':
-                    sb.append('q');
-                    break;
-                case 'k':
-                    sb.append('p');
-                    break;
-                case 'l':
-                    sb.append('o');
-                    break;
-                case 'm':
-                    sb.append('n');
-                    break;
-                case 'n':
-                    sb.append('m');
-                    break;
-                case 'o':
-                    sb.append('l');
-                    break;
-                case 'p':
-                    sb.append('k');
-                    break;
-                case 'q':
-                    sb.append('j');
-                    break;
-                case 'r':
-                    sb.append('i');
-                    break;
-                case 's':
-                    sb.append('h');
-                    break;
-                case 't':
-                    sb.append('g');
-                    break;
-                case 'u':
-                    sb.append('f');
-                    break;
-                case 'v':
-                    sb.append('e');
-                    break;
-                case 'w':
-                    sb.append('d');
-                    break;
-                case 'x':
-                    sb.append('c');
-                    break;
-                case 'y':
-                    sb.append('b');
-                    break;
-                case 'z':
-                    sb.append('a');
-                    break;
-                case ' ':
-                    sb.append(' ');
-                    break;
-                case '!':
-                    sb.append('!');
-                    break;
-            }
-        }
         return sb;
     }
 
+    private void writeToFile(StringBuilder sb) throws IOException {
+        File outputFile;
+        outputFile = new File(nameOfOutFile);
+        fileWriter = new FileWriter(outputFile);
+        fileWriter.write(sb.toString());
+        fileWriter.close();
+    }
 
 }
-*/
