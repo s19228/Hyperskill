@@ -27,7 +27,7 @@ public class SimpleBot {
 
     static void guessAge() {
         System.out.println("Let me guess your age.");
-        System.out.println("Say me remainders of dividing your age by 3, 5 and 7.");
+        System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
         int rem3 = scanner.nextInt();
         int rem5 = scanner.nextInt();
         int rem7 = scanner.nextInt();
@@ -45,15 +45,23 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        System.out.println("Why do we use methods?");
-        System.out.println("1. To repeat a statement multiple times.");
-        System.out.println("2. To decompose a program into several small subroutines.");
-        System.out.println("3. To determine the execution time of a program.");
-        System.out.println("4. To interrupt the execution of a program.");
+        System.out.println("Why do we use methods?\n" +
+                "1. To repeat a statement multiple times.\n" +
+                "2. To decompose a program into several small subroutines.\n" +
+                "3. To determine the execution time of a program.\n" +
+                "4. To interrupt the execution of a program.");
 
-        while (scanner.nextInt() != 2){
-            System.out.println("Please, try again.");
+        boolean play = true;
+
+        while (play) {
+            int answ = scanner.nextInt();
+            if (answ == 2) {
+                play = false;
+            } else {
+                System.out.println("Please, try again.");
+            }
         }
+
 
     }
 

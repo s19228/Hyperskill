@@ -1,7 +1,8 @@
 type: framework
 content:
-- Hello! What’s your name
-- How old are you
-- Let’s count!
-- The student and the teacher
-current_task: 3
+- Chatty Bot welcomes you
+- Print your name
+- Guess the age
+- Learning numbers
+- Multiple choice
+current_task: 4
