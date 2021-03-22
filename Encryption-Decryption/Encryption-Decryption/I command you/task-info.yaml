@@ -1,0 +1,329 @@
+type: edu
+custom_name: stage4
+files:
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
+    }
+  learner_created: false
+- name: test/EncryptDecryptTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.stage.StageTest;
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import org.hyperskill.hstest.testcase.TestCase;
+
+    import java.util.List;
+
+    public class EncryptDecryptTest extends StageTest<String> {
+
+        @Override
+        public List<TestCase<String>> generate() {
+            return List.of(
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "enc",
+                        "-key", "5",
+                        "-data", "Welcome to hyperskill!"
+                    )
+                    .setAttach("\\jqhtrj%yt%m~ujwxpnqq&"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "0",
+                        "-mode", "enc",
+                        "-data", "Hello"
+                    )
+                    .setAttach("Hello"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "1",
+                        "-data", "012345678",
+                        "-mode", "enc"
+                    )
+                    .setAttach("123456789"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-data", "\\jqhtrj%yt%m~ujwxpnqq&",
+                        "-key", "5"
+                    )
+                    .setAttach("Welcome to hyperskill!"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "0",
+                        "-data", "Hi"
+                    )
+                    .setAttach("Hi"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "1",
+                        "-data", "222233334444"
+                    )
+                    .setAttach("111122223333")
+            );
+        }
+
+        @Override
+        public CheckResult check(String reply, String clue) {
+            return new CheckResult(reply.trim().equals(clue.trim()));
+        }
+    }
+  learner_created: false
+- name: src/encryptdecrypt/Encrypt.java
+  visible: true
+  text: |-
+    package encryptdecrypt;
+
+    public class Encrypt {
+
+        static StringBuilder encrypt(String mode, String msg, int num) {
+
+            StringBuilder sb = null;
+
+            if (mode.equals("enc")) {
+                char[] tab = msg.toCharArray();
+                sb = new StringBuilder();
+
+                for (char c : tab) {
+                    sb.append((char) (c + num));
+                }
+            } else {
+                char[] tab = msg.toCharArray();
+                sb = new StringBuilder();
+
+                for (char c : tab){
+                    sb.append((char) (c - num));
+                }
+            }
+            return sb;
+        }
+
+    }
+
+
+
+
+
+    /*
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < tab.length; i++) {
+                if (tab[i] == ' ' || tab[i] == '!') {
+                    sb.append(tab[i]);
+                } else {
+                    if(tab[i] + num > 122){
+                        sb.append((char) (tab[i] + num - 26));
+                    } else {
+                        sb.append((char) (tab[i] + num));
+                    }
+                }
+            }
+
+           for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }
+
+        static StringBuilder encrypt(String msg) {
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }
+            return sb;
+        }
+
+
+    }
+    */
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/46/stages/248/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 26 Feb 2021 20:28:51 UTC
+record: 4

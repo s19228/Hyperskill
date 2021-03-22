@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8d98e41-9317-479b-8eb6-edc2065423e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Encryption-Decryption.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Encryption-Decryption/task/Encryption-Decryption.Encryption-Decryption-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Encryption-Decryption/task/Encryption-Decryption.Encryption-Decryption-task.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Encryption-Decryption/task/Encryption-Decryption.Encryption-Decryption-task.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Account Service/Encryption-Decryption.Problems-Account_Service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Account Service/Encryption-Decryption.Problems-Account_Service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Account Service/Encryption-Decryption.Problems-Account_Service.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Basic calculator/Encryption-Decryption.Problems-Basic_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Basic calculator/Encryption-Decryption.Problems-Basic_calculator.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Basic calculator/Encryption-Decryption.Problems-Basic_calculator.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Celsius to Fahrenheit/Encryption-Decryption.Problems-Celsius_to_Fahrenheit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Celsius to Fahrenheit/Encryption-Decryption.Problems-Celsius_to_Fahrenheit.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Celsius to Fahrenheit/Encryption-Decryption.Problems-Celsius_to_Fahrenheit.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Check if an array contains two numbers/Encryption-Decryption.Problems-Check_if_an_array_contains_two_numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Check if an array contains two numbers/Encryption-Decryption.Problems-Check_if_an_array_contains_two_numbers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Check if an array contains two numbers/Encryption-Decryption.Problems-Check_if_an_array_contains_two_numbers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clock factory/Encryption-Decryption.Problems-Clock_factory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clock factory/Encryption-Decryption.Problems-Clock_factory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clock factory/Encryption-Decryption.Problems-Clock_factory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clocks/Encryption-Decryption.Problems-Clocks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clocks/Encryption-Decryption.Problems-Clocks.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Clocks/Encryption-Decryption.Problems-Clocks.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Compact strings with AsciiCharSequence/Encryption-Decryption.Problems-Compact_strings_with_AsciiCharSequence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Compact strings with AsciiCharSequence/Encryption-Decryption.Problems-Compact_strings_with_AsciiCharSequence.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Compact strings with AsciiCharSequence/Encryption-Decryption.Problems-Compact_strings_with_AsciiCharSequence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Does an array contain N/Encryption-Decryption.Problems-Does_an_array_contain_N.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Does an array contain N/Encryption-Decryption.Problems-Does_an_array_contain_N.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Does an array contain N/Encryption-Decryption.Problems-Does_an_array_contain_N.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Evaluate an expression/Encryption-Decryption.Problems-Evaluate_an_expression.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Evaluate an expression/Encryption-Decryption.Problems-Evaluate_an_expression.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Evaluate an expression/Encryption-Decryption.Problems-Evaluate_an_expression.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Find the seed/Encryption-Decryption.Problems-Find_the_seed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Find the seed/Encryption-Decryption.Problems-Find_the_seed.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Find the seed/Encryption-Decryption.Problems-Find_the_seed.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Get the game mode/Encryption-Decryption.Problems-Get_the_game_mode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Get the game mode/Encryption-Decryption.Problems-Get_the_game_mode.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Get the game mode/Encryption-Decryption.Problems-Get_the_game_mode.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/In a box/Encryption-Decryption.Problems-In_a_box.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/In a box/Encryption-Decryption.Problems-In_a_box.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/In a box/Encryption-Decryption.Problems-In_a_box.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Initializing an array of integers/Encryption-Decryption.Problems-Initializing_an_array_of_integers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Initializing an array of integers/Encryption-Decryption.Problems-Initializing_an_array_of_integers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Initializing an array of integers/Encryption-Decryption.Problems-Initializing_an_array_of_integers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Laptop store/Encryption-Decryption.Problems-Laptop_store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Laptop store/Encryption-Decryption.Problems-Laptop_store.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Laptop store/Encryption-Decryption.Problems-Laptop_store.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Max and Min/Encryption-Decryption.Problems-Max_and_Min.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Max and Min/Encryption-Decryption.Problems-Max_and_Min.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Max and Min/Encryption-Decryption.Problems-Max_and_Min.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Motor static factory/Encryption-Decryption.Problems-Motor_static_factory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Motor static factory/Encryption-Decryption.Problems-Motor_static_factory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Motor static factory/Encryption-Decryption.Problems-Motor_static_factory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Mutable geometric shapes/Encryption-Decryption.Problems-Mutable_geometric_shapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Mutable geometric shapes/Encryption-Decryption.Problems-Mutable_geometric_shapes.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Mutable geometric shapes/Encryption-Decryption.Problems-Mutable_geometric_shapes.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Parameters and their values/Encryption-Decryption.Problems-Parameters_and_their_values.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Parameters and their values/Encryption-Decryption.Problems-Parameters_and_their_values.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Parameters and their values/Encryption-Decryption.Problems-Parameters_and_their_values.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pick your team/Encryption-Decryption.Problems-Pick_your_team.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pick your team/Encryption-Decryption.Problems-Pick_your_team.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pick your team/Encryption-Decryption.Problems-Pick_your_team.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Piece of alphabet/Encryption-Decryption.Problems-Piece_of_alphabet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Piece of alphabet/Encryption-Decryption.Problems-Piece_of_alphabet.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Piece of alphabet/Encryption-Decryption.Problems-Piece_of_alphabet.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pretty looking pattern/Encryption-Decryption.Problems-Pretty_looking_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pretty looking pattern/Encryption-Decryption.Problems-Pretty_looking_pattern.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Pretty looking pattern/Encryption-Decryption.Problems-Pretty_looking_pattern.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Robot/Encryption-Decryption.Problems-Robot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Robot/Encryption-Decryption.Problems-Robot.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Robot/Encryption-Decryption.Problems-Robot.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Static factory methods for Time/Encryption-Decryption.Problems-Static_factory_methods_for_Time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Static factory methods for Time/Encryption-Decryption.Problems-Static_factory_methods_for_Time.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Static factory methods for Time/Encryption-Decryption.Problems-Static_factory_methods_for_Time.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method (1)/Encryption-Decryption.Problems-Template_Method__1_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method (1)/Encryption-Decryption.Problems-Template_Method__1_.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method (1)/Encryption-Decryption.Problems-Template_Method__1_.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method/Encryption-Decryption.Problems-Template_Method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method/Encryption-Decryption.Problems-Template_Method.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/Template Method/Encryption-Decryption.Problems-Template_Method.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The count of numbers divisible by N/Encryption-Decryption.Problems-The_count_of_numbers_divisible_by_N.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The count of numbers divisible by N/Encryption-Decryption.Problems-The_count_of_numbers_divisible_by_N.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The count of numbers divisible by N/Encryption-Decryption.Problems-The_count_of_numbers_divisible_by_N.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The index of an argument/Encryption-Decryption.Problems-The_index_of_an_argument.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The index of an argument/Encryption-Decryption.Problems-The_index_of_an_argument.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/Problems/The index of an argument/Encryption-Decryption.Problems-The_index_of_an_argument.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/util/Encryption-Decryption.util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/util/Encryption-Decryption.util.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encryption-Decryption/.idea/modules/util/Encryption-Decryption.util.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_3_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Patient needs a doctor/Simple_Chatty_Bot.Problems-Patient_needs_a_doctor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Patient needs a doctor/Simple_Chatty_Bot.Problems-Patient_needs_a_doctor.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Patient needs a doctor/Simple_Chatty_Bot.Problems-Patient_needs_a_doctor.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Patient needs a doctor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_cedarsoftware_json_io_4_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_v7_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_stefanbirkner_system_rules_1_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Simple_Chatty_Bot.Problems-A_simple_calculator.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Problems-Arithmetic_average.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Problems-Arithmetic_average_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Problems-Arithmetic_average_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic average/Simple_Chatty_Bot.Problems-Arithmetic_average.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Problems-Arithmetic_expression.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Problems-Arithmetic_expression_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Problems-Arithmetic_expression_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Arithmetic expression/Simple_Chatty_Bot.Problems-Arithmetic_expression.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments (1)/Simple_Chatty_Bot.Problems-Assignments__1_.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Problems-Assignments_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Assignments/Simple_Chatty_Bot.Problems-Assignments.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Problems-Boys_in_a_sport_class.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Problems-Boys_in_a_sport_class_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Problems-Boys_in_a_sport_class_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Boys in a sport class/Simple_Chatty_Bot.Problems-Boys_in_a_sport_class.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Problems-Bus_tour.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Problems-Bus_tour_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Problems-Bus_tour_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Bus tour/Simple_Chatty_Bot.Problems-Bus_tour.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Simple_Chatty_Bot.Problems-Cats_are_robots.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Problems-Check_a_number_is_positive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Problems-Check_a_number_is_positive_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Problems-Check_a_number_is_positive_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check a number is positive/Simple_Chatty_Bot.Problems-Check_a_number_is_positive.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Problems-Check_burgs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Problems-Check_burgs_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Problems-Check_burgs_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Problems-Check_prefix_ignoring_the_case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Problems-Check_prefix_ignoring_the_case_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Problems-Check_prefix_ignoring_the_case_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check prefix ignoring the case/Simple_Chatty_Bot.Problems-Check_prefix_ignoring_the_case.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Problems-Check_the_given_numbers_are_different.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Problems-Check_the_given_numbers_are_different_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Problems-Check_the_given_numbers_are_different_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the given numbers are different/Simple_Chatty_Bot.Problems-Check_the_given_numbers_are_different.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Problems-Check_the_value__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Problems-Check_the_value__1__main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Problems-Check_the_value__1__test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value (1)/Simple_Chatty_Bot.Problems-Check_the_value__1_.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Problems-Check_the_value_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Check the value/Simple_Chatty_Bot.Problems-Check_the_value.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Problems-Chocolate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Problems-Chocolate_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Problems-Chocolate_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Chocolate/Simple_Chatty_Bot.Problems-Chocolate.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Comparing strings ignoring whitespaces/Simple_Chatty_Bot.Problems-Comparing_strings_ignoring_whitespaces.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Problems-Decrement_all.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Problems-Decrement_all_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Problems-Decrement_all_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Decrement all/Simple_Chatty_Bot.Problems-Decrement_all.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Problems-Desks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Problems-Desks_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Problems-Desks_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Desks/Simple_Chatty_Bot.Problems-Desks.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Problems-Difference_of_times.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Problems-Difference_of_times_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Problems-Difference_of_times_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Difference of times/Simple_Chatty_Bot.Problems-Difference_of_times.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Problems-Digits_from_0_to_9_in_a_single_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Digits from 0 to 9 in a single line/Simple_Chatty_Bot.Problems-Digits_from_0_to_9_in_a_single_line.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Division/Simple_Chatty_Bot.Problems-Division.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Simple_Chatty_Bot.Problems-Even_or_odd.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Exactly one parameter is positive/Simple_Chatty_Bot.Problems-Exactly_one_parameter_is_positive.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Problems-Fill_the_declaration_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fill the declaration/Simple_Chatty_Bot.Problems-Fill_the_declaration.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Problems-First_digit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Problems-First_digit_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Problems-First_digit_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First digit/Simple_Chatty_Bot.Problems-First_digit.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Problems-First,_second,_third.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Problems-First,_second,_third_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Problems-First,_second,_third_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/First, second, third/Simple_Chatty_Bot.Problems-First,_second,_third.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Problems-Fizz_Buzz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Problems-Fizz_Buzz_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Problems-Fizz_Buzz_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Fizz Buzz/Simple_Chatty_Bot.Problems-Fizz_Buzz.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Problems-From_0_to_4_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From 0 to 4/Simple_Chatty_Bot.Problems-From_0_to_4.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/From string to a number/Simple_Chatty_Bot.Problems-From_string_to_a_number.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Problems-Groundhogs_at_a_party.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Problems-Groundhogs_at_a_party_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Problems-Groundhogs_at_a_party_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Groundhogs at a party/Simple_Chatty_Bot.Problems-Groundhogs_at_a_party.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Problems-Guest_list_of_a_hotel_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Guest list of a hotel/Simple_Chatty_Bot.Problems-Guest_list_of_a_hotel.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Simple_Chatty_Bot.Problems-Hello!.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Problems-Hello,_Java_platform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Problems-Hello,_Java_platform_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Problems-Hello,_Java_platform_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java platform/Simple_Chatty_Bot.Problems-Hello,_Java_platform.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Simple_Chatty_Bot.Problems-Hello,_Java.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Simple_Chatty_Bot.Problems-Hiring_a_chef.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Problems-How_many_nuts_each_squirrel_will_get.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Problems-How_many_nuts_each_squirrel_will_get_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Problems-How_many_nuts_each_squirrel_will_get_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/How many nuts each squirrel will get/Simple_Chatty_Bot.Problems-How_many_nuts_each_squirrel_will_get.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Problems-Incorrect_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Problems-Incorrect_comments_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Problems-Incorrect_comments_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Incorrect comments/Simple_Chatty_Bot.Problems-Incorrect_comments.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Problems-Invalid_declaration_of_variables_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Invalid declaration of variables/Simple_Chatty_Bot.Problems-Invalid_declaration_of_variables.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Problems-Is_between.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Problems-Is_between_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Problems-Is_between_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Is between/Simple_Chatty_Bot.Problems-Is_between.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Javadoc comment/Simple_Chatty_Bot.Problems-Javadoc_comment.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Problems-Leap_year.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Problems-Leap_year_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Problems-Leap_year_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Leap year/Simple_Chatty_Bot.Problems-Leap_year.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Maximum element divisible by four/Simple_Chatty_Bot.Problems-Maximum_element_divisible_by_four.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Next even number/Simple_Chatty_Bot.Problems-Next_even_number.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Problems-Numbers_divisible_by_six.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Problems-Numbers_divisible_by_six_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Problems-Numbers_divisible_by_six_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Numbers divisible by six/Simple_Chatty_Bot.Problems-Numbers_divisible_by_six.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Problems-Print_strings_in_the_reverse_order_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Print strings in the reverse order/Simple_Chatty_Bot.Problems-Print_strings_in_the_reverse_order.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Problems-Printing_a_magic_letter_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing a magic letter/Simple_Chatty_Bot.Problems-Printing_a_magic_letter.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Problems-Printing_each_word_in_a_new_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing each word in a new line/Simple_Chatty_Bot.Problems-Printing_each_word_in_a_new_line.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Problems-Printing_only_the_longest_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Problems-Printing_only_the_longest_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Problems-Printing_only_the_longest_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Printing only the longest line/Simple_Chatty_Bot.Problems-Printing_only_the_longest_line.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Problems-Profit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Problems-Profit_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Problems-Profit_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Profit/Simple_Chatty_Bot.Problems-Profit.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Problems-Reading_integer_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Problems-Reading_integer_numbers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Problems-Reading_integer_numbers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reading integer numbers/Simple_Chatty_Bot.Problems-Reading_integer_numbers.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Problems-Replacing_'a'_with_'b'.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Problems-Replacing_'a'_with_'b'_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Problems-Replacing_'a'_with_'b'_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Replacing 'a' with 'b'/Simple_Chatty_Bot.Problems-Replacing_'a'_with_'b'.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Problems-Reversing_input_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Problems-Reversing_input_numbers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Problems-Reversing_input_numbers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing input numbers/Simple_Chatty_Bot.Problems-Reversing_input_numbers.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Problems-Reversing_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reversing/Simple_Chatty_Bot.Problems-Reversing.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Problems-Size_of_parts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Problems-Size_of_parts_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Problems-Size_of_parts_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Size of parts/Simple_Chatty_Bot.Problems-Size_of_parts.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Problems-Snail.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Problems-Snail_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Problems-Snail_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Snail/Simple_Chatty_Bot.Problems-Snail.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Problems-Squares_of_natural_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Problems-Squares_of_natural_numbers_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Problems-Squares_of_natural_numbers_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Squares of natural numbers/Simple_Chatty_Bot.Problems-Squares_of_natural_numbers.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Simple_Chatty_Bot.Problems-Sum_of_numbers_in_the_range.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Simple_Chatty_Bot.Problems-Symmetrical_number.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Simple_Chatty_Bot.Problems-Test_learners.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Simple_Chatty_Bot.Problems-The__un_-ordered_sequence.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Simple_Chatty_Bot.Problems-The_Hello_World_program.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Problems-The_forgotten_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Problems-The_forgotten_comments_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Problems-The_forgotten_comments_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The forgotten comments/Simple_Chatty_Bot.Problems-The_forgotten_comments.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Problems-The_integer_barrier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Problems-The_integer_barrier_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Problems-The_integer_barrier_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The integer barrier/Simple_Chatty_Bot.Problems-The_integer_barrier.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Problems-The_length_of_the_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Problems-The_length_of_the_sequence_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Problems-The_length_of_the_sequence_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The length of the sequence/Simple_Chatty_Bot.Problems-The_length_of_the_sequence.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Problems-The_number_of_tens.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Problems-The_number_of_tens_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Problems-The_number_of_tens_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The number of tens/Simple_Chatty_Bot.Problems-The_number_of_tens.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The result of a Tic-Tac-Toe game/Simple_Chatty_Bot.Problems-The_result_of_a_Tic-Tac-Toe_game.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Problems-The_sequence__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Problems-The_sequence__1__main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Problems-The_sequence__1__test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence (1)/Simple_Chatty_Bot.Problems-The_sequence__1_.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Simple_Chatty_Bot.Problems-The_sequence.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Simple_Chatty_Bot.Problems-The_sign_of_a_number.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Simple_Chatty_Bot.Problems-The_smallest_value.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Problems-The_sum_of_digits.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Problems-The_sum_of_digits_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Problems-The_sum_of_digits_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The sum of digits/Simple_Chatty_Bot.Problems-The_sum_of_digits.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Triangle/Simple_Chatty_Bot.Problems-Triangle.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Problems-Uncomment_a_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Problems-Uncomment_a_line_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Problems-Uncomment_a_line_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Uncomment a line/Simple_Chatty_Bot.Problems-Uncomment_a_line.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Problems-We_need_to_learn_Java_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/We need to learn Java/Simple_Chatty_Bot.Problems-We_need_to_learn_Java.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot-task_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A simple calculator/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A simple calculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A simple calculator/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A simple calculator/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/A simple calculator/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic average/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic average/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic average/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic average/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic average/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic expression/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic expression/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic expression/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic expression/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Arithmetic expression/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Assignments/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boys in a sport class/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boys in a sport class/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boys in a sport class/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boys in a sport class/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Boys in a sport class/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Bus tour/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Bus tour/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Bus tour/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Bus tour/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Bus tour/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Cats are robots/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Cats are robots/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Cats are robots/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Cats are robots/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check a number is positive/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check a number is positive/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check a number is positive/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check a number is positive/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check burgs/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check burgs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check burgs/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check burgs/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check burgs/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check prefix ignoring the case/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check prefix ignoring the case/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check prefix ignoring the case/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check prefix ignoring the case/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check prefix ignoring the case/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the given numbers are different/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the given numbers are different/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the given numbers are different/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the given numbers are different/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the given numbers are different/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value (1)/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value (1)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value (1)/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value (1)/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value (1)/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Check the value/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Chocolate/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Chocolate/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Chocolate/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Chocolate/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Chocolate/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Comparing strings ignoring whitespaces/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Comparing strings ignoring whitespaces/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Comparing strings ignoring whitespaces/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Comparing strings ignoring whitespaces/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Comparing strings ignoring whitespaces/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Decrement all/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Decrement all/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Decrement all/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Decrement all/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Decrement all/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Desks/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Desks/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Desks/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Desks/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Desks/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Difference of times/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Difference of times/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Difference of times/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Difference of times/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Difference of times/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Division/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Division/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Division/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Division/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Division/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Extracting a substring/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Extracting a substring/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Extracting a substring/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Extracting a substring/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Extracting a substring/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First digit/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First digit/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First digit/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First digit/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First digit/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First, second, third/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First, second, third/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First, second, third/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/First, second, third/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fizz Buzz/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fizz Buzz/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fizz Buzz/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fizz Buzz/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Fizz Buzz/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From string to a number/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From string to a number/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From string to a number/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/From string to a number/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Groundhogs at a party/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Groundhogs at a party/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Groundhogs at a party/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Groundhogs at a party/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Groundhogs at a party/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Guest list of a hotel/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello!/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello!/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello!/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello!/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java platform/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java platform/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java platform/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java platform/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hello, Java/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hiring a chef/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hiring a chef/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hiring a chef/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hiring a chef/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hiring a chef/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/How many nuts each squirrel will get/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/How many nuts each squirrel will get/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/How many nuts each squirrel will get/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/How many nuts each squirrel will get/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/How many nuts each squirrel will get/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Incorrect comments/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Incorrect comments/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Incorrect comments/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Incorrect comments/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Invalid declaration of variables/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Is between/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Is between/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Is between/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Is between/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Is between/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Javadoc comment/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Javadoc comment/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Javadoc comment/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Javadoc comment/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Leap year/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Leap year/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Leap year/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Leap year/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Leap year/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Maximum element divisible by four/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Maximum element divisible by four/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Maximum element divisible by four/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Maximum element divisible by four/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Maximum element divisible by four/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Next even number/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Next even number/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Next even number/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Next even number/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Next even number/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Numbers divisible by six/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Numbers divisible by six/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Numbers divisible by six/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Numbers divisible by six/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Numbers divisible by six/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Print strings in the reverse order/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing a magic letter/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing each word in a new line/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing only the longest line/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing only the longest line/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing only the longest line/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Printing only the longest line/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Profit/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Profit/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Profit/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Profit/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Profit/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reading integer numbers/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reading integer numbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reading integer numbers/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reading integer numbers/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reading integer numbers/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing input numbers/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing input numbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing input numbers/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing input numbers/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing input numbers/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Reversing/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Size of parts/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Size of parts/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Size of parts/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Size of parts/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Size of parts/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Snail/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Snail/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Snail/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Snail/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Snail/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares of natural numbers/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares of natural numbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares of natural numbers/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares of natural numbers/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares of natural numbers/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sum of numbers in the range/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sum of numbers in the range/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Symmetrical number/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Symmetrical number/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Symmetrical number/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Symmetrical number/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Symmetrical number/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Test learners/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Test learners/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Test learners/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Test learners/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Test learners/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The Hello World program/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The Hello World program/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The Hello World program/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The Hello World program/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The forgotten comments/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The forgotten comments/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The forgotten comments/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The forgotten comments/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The integer barrier/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The integer barrier/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The integer barrier/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The integer barrier/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The integer barrier/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The length of the sequence/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The length of the sequence/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The length of the sequence/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The length of the sequence/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The length of the sequence/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The number of tens/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The number of tens/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The number of tens/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The number of tens/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence (1)/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence (1)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence (1)/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence (1)/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence (1)/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sign of a number/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sign of a number/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sign of a number/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sign of a number/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sign of a number/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Uncomment a line/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Uncomment a line/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Uncomment a line/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Uncomment a line/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/out/production/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Hello! What’s your name/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/How old are you/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/Let’s count!/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/The student and the teacher/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/main/bot/SimpleBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/main/bot/SimpleBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/Clue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/Clue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/classes/java/test/PersonalAssistantTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/classes/PersonalAssistantTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/TEST-PersonalAssistantTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/tmp/test/jar_extract_12523890235658658607_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/tmp/test/jar_extract_3702982389541705657_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/tmp/test/jar_extract_6985594089585194498_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/build/tmp/test/jar_extract_7862588137082888922_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/out/production/classes/bot/SimpleBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/out/production/classes/bot/SimpleBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/src/bot/SimpleBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot/task/src/bot/SimpleBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot/task/test/PersonalAssistantTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pl2fGObN9KxWY83DNSkakk6m0j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SimpleBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bot.SimpleBot" />
+      <module name="Simple_Chatty_Bot.Simple_Chatty_Bot-task.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleBot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8d98e41-9317-479b-8eb6-edc2065423e2" name="Default Changelist" comment="" />
+      <created>1615743460890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615743460890</updated>
+      <workItem from="1615743463670" duration="174000" />
+      <workItem from="1615815147126" duration="4712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

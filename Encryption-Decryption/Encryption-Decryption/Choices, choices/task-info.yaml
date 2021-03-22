@@ -1,0 +1,518 @@
+type: edu
+custom_name: stage6
+files:
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
+    }
+  learner_created: false
+- name: test/EncryptDecryptTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.common.FileUtils;
+    import org.hyperskill.hstest.stage.StageTest;
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import org.hyperskill.hstest.testcase.TestCase;
+
+    import java.io.IOException;
+    import java.nio.charset.StandardCharsets;
+    import java.nio.file.Files;
+    import java.nio.file.NoSuchFileException;
+    import java.nio.file.Path;
+    import java.nio.file.Paths;
+    import java.util.List;
+
+    public class EncryptDecryptTest extends StageTest<String> {
+
+        @Override
+        public List<TestCase<String>> generate() {
+            return List.of(
+                new TestCase<String>()
+                    .addArguments(
+                        "-alg", "unicode",
+                        "-mode", "enc",
+                        "-key", "5",
+                        "-in", "in.txt",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("\\jqhtrj%yt%m~ujwxpnqq&")
+                    .addFile("in.txt", "Welcome to hyperskill!"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "0",
+                        "-mode", "enc",
+                        "-alg", "unicode",
+                        "-in", "input.txt",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("Hello")
+                    .addFile("input.txt", "Hello"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-key", "1",
+                        "-in", "i.txt",
+                        "-alg", "unicode",
+                        "-out", "output.txt",
+                        "-mode", "enc"
+                    )
+                    .setAttach("123456789")
+                    .addFile("i.txt", "012345678"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-in", "input.txt",
+                        "-out", "output.txt",
+                        "-alg", "unicode",
+                        "-key", "5"
+                    )
+                    .setAttach("Welcome to hyperskill!")
+                    .addFile("input.txt", "\\jqhtrj%yt%m~ujwxpnqq&"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-alg", "unicode",
+                        "-key", "0",
+                        "-in", "input.txt",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("Hi")
+                    .addFile("input.txt", "Hi"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "1",
+                        "-in", "input.txt",
+                        "-alg", "unicode",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("111122223333")
+                    .addFile("input.txt", "222233334444"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "enc",
+                        "-key", "5",
+                        "-in", "input.txt",
+                        "-alg", "shift",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("bjqhtrj yt mdujwxpnqq")
+                    .addFile("input.txt", "welcome to hyperskill"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "10",
+                        "-in", "input.txt",
+                        "-alg", "shift",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("treasure")
+                    .addFile("input.txt", "dbokcebo"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "enc",
+                        "-key", "12",
+                        "-in", "input.txt",
+                        "-alg", "shift",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("cphpchdjcijdjibhdjebhjucspucmdmudbnuccup")
+                    .addFile("input.txt", "qdvdqvrxqwxrxwpvrxspvxiqgdiqarairpbiqqid"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "dec",
+                        "-key", "10",
+                        "-in", "input.txt",
+                        "-alg", "shift",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("y")
+                    .addFile("input.txt", "i"),
+
+                new TestCase<String>()
+                    .addArguments(
+                        "-mode", "enc",
+                        "-key", "10",
+                        "-in", "input.txt",
+                        "-alg", "shift",
+                        "-out", "output.txt"
+                    )
+                    .setAttach("i")
+                    .addFile("input.txt", "y")
+            );
+        }
+
+        @Override
+        public CheckResult check(String reply, String clue) {
+            String fileName = "output.txt";
+            String output;
+
+            try {
+                Path path = Paths.get(FileUtils.CURRENT_DIR + fileName);
+                output = Files.readString(path, StandardCharsets.UTF_8);
+            } catch (NoSuchFileException e) {
+                return new CheckResult(false, "File output.txt not found!");
+            } catch (IOException e) {
+                return new CheckResult(false, "Cannot read from file!");
+            }
+
+            if (!output.trim().equals(clue.trim())) {
+                return new CheckResult(false, "Wrong result in the file!");
+            }
+
+            return new CheckResult(true);
+        }
+
+    }
+  learner_created: false
+- name: src/encryptdecrypt/Encrypt.java
+  visible: true
+  text: |-
+    package encryptdecrypt;
+
+    import java.io.File;
+    import java.io.FileWriter;
+    import java.io.IOException;
+    import java.util.Scanner;
+
+    public class Encrypt {
+
+        private String mode;
+
+        public String getData() {
+            return data;
+        }
+
+        private String data;
+        private int num;
+        boolean foundMode = false;
+        boolean foundKey = false;
+        boolean foundData = false;
+        boolean foundIn = false;
+        boolean foundOut = false;
+        private File inputFile;
+        private File outputFile;
+        FileWriter fileWriter;
+        private int index;
+        String nameOfOutFile;
+
+        public Encrypt(String[] tab) throws IOException {
+
+            for (int i = 0; i < tab.length; i++) {
+                if (!foundMode) {
+                    if (tab[i].equals("-mode")) {
+                        this.mode = tab[i + 1];
+                        foundMode = true;
+                    } else {
+                        this.mode = "-enc";
+                    }
+                }
+
+                if (!foundIn) {
+                    if (tab[i].equals("-in")) {
+                        inputFile = new File(tab[i + 1]);
+                        Scanner scanner = new Scanner(inputFile);
+                        this.data = scanner.nextLine();
+                        foundIn = true;
+                        foundData = true;
+                        scanner.close();
+                    }
+                }
+
+                if (!foundData) {
+                    if (tab[i].equals("-data")) {
+                        this.data = tab[i + 1];
+                        foundData = true;
+                    } else {
+                        this.data = "";
+                    }
+                }
+
+                if (!foundKey) {
+                    if (tab[i].equals("-key")) {
+                        this.num = Integer.parseInt(tab[i + 1]);
+                        foundKey = true;
+                    } else {
+                        this.num = 0;
+                    }
+                }
+
+                if (!foundOut) {
+                    if (tab[i].equals("-out")) {
+                        nameOfOutFile = tab[i + 1];
+                        foundOut = true;
+                    }
+                }
+
+            }
+
+
+        }
+
+        public StringBuilder encrypt() throws IOException {
+
+            StringBuilder sb;
+
+            if (mode.equals("enc")) {
+                char[] arr = data.toCharArray();
+                sb = new StringBuilder();
+
+                for (char c : arr) {
+                    sb.append((char) (c + num));
+                }
+
+                if (foundOut) {
+                    outputFile = new File(nameOfOutFile);
+                    fileWriter = new FileWriter(outputFile);
+                    fileWriter.write(sb.toString());
+                    fileWriter.close();
+                }
+
+            } else { // decode
+                char[] tab = data.toCharArray();
+                sb = new StringBuilder();
+
+                for (char c : tab) {
+                    sb.append((char) (c - num));
+                }
+                if (foundOut) {
+                    outputFile = new File(nameOfOutFile);
+                    fileWriter = new FileWriter(outputFile);
+                    fileWriter.write(sb.toString());
+                    fileWriter.close();
+                }
+
+            }
+            return sb;
+        }
+
+    }
+
+
+    /*
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < tab.length; i++) {
+                if (tab[i] == ' ' || tab[i] == '!') {
+                    sb.append(tab[i]);
+                } else {
+                    if(tab[i] + num > 122){
+                        sb.append((char) (tab[i] + num - 26));
+                    } else {
+                        sb.append((char) (tab[i] + num));
+                    }
+                }
+            }
+
+           for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }
+
+        static StringBuilder encrypt(String msg) {
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }
+            return sb;
+        }
+
+
+    }
+    */
+  learner_created: true
+- name: output.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/46/stages/250/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Mar 2021 20:06:06 UTC
+record: -1

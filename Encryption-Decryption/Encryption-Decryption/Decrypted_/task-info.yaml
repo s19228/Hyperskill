@@ -1,0 +1,279 @@
+type: edu
+custom_name: Decrypted!
+files:
+- name: src/encryptdecrypt/Main.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
+    }
+  learner_created: false
+- name: test/EncryptDecryptTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.stage.StageTest;
+    import org.hyperskill.hstest.testcase.SimpleTestCase;
+
+    import java.util.List;
+
+    public class EncryptDecryptTest extends StageTest {
+
+        @Override
+        public List<SimpleTestCase> generate() {
+            return List.of(
+                new SimpleTestCase(
+                    "enc\n" +
+                        "Welcome to hyperskill!\n" +
+                        "5",
+                    "\\jqhtrj%yt%m~ujwxpnqq&"),
+                new SimpleTestCase(
+                    "enc\n" +
+                        "Hello\n" +
+                        "0",
+                    "Hello"),
+                new SimpleTestCase(
+                    "enc\n" +
+                        "012345678\n" +
+                        "1",
+                    "123456789"),
+                new SimpleTestCase(
+                    "dec\n" +
+                        "\\jqhtrj%yt%m~ujwxpnqq&\n" +
+                        "5",
+                    "Welcome to hyperskill!"),
+                new SimpleTestCase(
+                    "dec\n" +
+                        "Hello\n" +
+                        "0",
+                    "Hello"),
+                new SimpleTestCase(
+                    "dec\n" +
+                        "222233334444\n" +
+                        "1",
+                    "111122223333")
+            );
+        }
+    }
+  learner_created: false
+- name: src/encryptdecrypt/Encrypt.java
+  visible: true
+  text: |
+    package encryptdecrypt;
+
+    public class Encrypt {
+
+        static StringBuilder encrypt(String msg, int num) {
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < tab.length; i++) {
+                if (tab[i] == ' ' || tab[i] == '!') {
+                    sb.append(tab[i]);
+                } else {
+                    if(tab[i] + num > 122){
+                        sb.append((char) (tab[i] + num - 26));
+                    } else {
+                        sb.append((char) (tab[i] + num));
+                    }
+                }
+            }
+
+    /*        for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }*/
+            return sb;
+        }
+
+        static StringBuilder encrypt(String msg) {
+            char[] tab = msg.toCharArray();
+            StringBuilder sb = new StringBuilder();
+
+            for (char c : tab) {
+                switch (c) {
+                    case 'a':
+                        sb.append('z');
+                        break;
+                    case 'b':
+                        sb.append('y');
+                        break;
+                    case 'c':
+                        sb.append('x');
+                        break;
+                    case 'd':
+                        sb.append('w');
+                        break;
+                    case 'e':
+                        sb.append('v');
+                        break;
+                    case 'f':
+                        sb.append('u');
+                        break;
+                    case 'g':
+                        sb.append('t');
+                        break;
+                    case 'h':
+                        sb.append('s');
+                        break;
+                    case 'i':
+                        sb.append('r');
+                        break;
+                    case 'j':
+                        sb.append('q');
+                        break;
+                    case 'k':
+                        sb.append('p');
+                        break;
+                    case 'l':
+                        sb.append('o');
+                        break;
+                    case 'm':
+                        sb.append('n');
+                        break;
+                    case 'n':
+                        sb.append('m');
+                        break;
+                    case 'o':
+                        sb.append('l');
+                        break;
+                    case 'p':
+                        sb.append('k');
+                        break;
+                    case 'q':
+                        sb.append('j');
+                        break;
+                    case 'r':
+                        sb.append('i');
+                        break;
+                    case 's':
+                        sb.append('h');
+                        break;
+                    case 't':
+                        sb.append('g');
+                        break;
+                    case 'u':
+                        sb.append('f');
+                        break;
+                    case 'v':
+                        sb.append('e');
+                        break;
+                    case 'w':
+                        sb.append('d');
+                        break;
+                    case 'x':
+                        sb.append('c');
+                        break;
+                    case 'y':
+                        sb.append('b');
+                        break;
+                    case 'z':
+                        sb.append('a');
+                        break;
+                    case ' ':
+                        sb.append(' ');
+                        break;
+                    case '!':
+                        sb.append('!');
+                        break;
+                }
+            }
+            return sb;
+        }
+
+
+    }
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/46/stages/247/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 25 Feb 2021 19:43:01 UTC
+record: 3
