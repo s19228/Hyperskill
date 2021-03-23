@@ -4,15 +4,39 @@ import java.util.Scanner;
 
 public class SimpleMenu {
 
-    private static boolean inMenu = true;
+    private static boolean inMenu = false;
 
     static void run() {
 
         Scanner in = new Scanner(System.in);
-        String option;
+        String option = in.next();
+        boolean authorized = false;
+        Client client = new Client();
+
+        if (option.equals("auth")) {
+            System.out.println("https://accounts.spotify.com/authorize?client_id=" + client.getId() + "&redirect_uri=http://localhost:8080&response_type=code");
+            System.out.println("---SUCCESS---");
+            authorized = true;
+            inMenu = true;
+        }
+
+        while (!authorized) {
+            System.out.println("Please, provide access for application.");
+            option = in.next();
+            if (option.equals("auth")) {
+                System.out.println("https://accounts.spotify.com/authorize?client_id=" + client.getId() + "&redirect_uri=http://localhost:8080&response_type=code");
+                System.out.println("---SUCCESS---");
+                authorized = true;
+                inMenu = true;
+            }
+            if (option.equals("exit")) {
+                System.out.println("---GOODBYE!---");
+                break;
+            }
+        }
 
         while (inMenu) {
-            option = in.nextLine();
+            option = in.next();
             switch (option) {
                 case "new":
                     System.out.println("---NEW RELEASES---");
