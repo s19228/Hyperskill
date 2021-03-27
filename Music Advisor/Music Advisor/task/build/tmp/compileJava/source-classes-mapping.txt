@@ -1,3 +1,5 @@
+advisor/Client.java
+ advisor.Client
 advisor/Main.java
  advisor.Main
 advisor/SimpleMenu.java

@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MusicAdvisorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-21T22:27:05" hostname="DESKTOP-E4L6CVU" time="0.077">
+<testsuite name="MusicAdvisorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-23T20:12:20" hostname="DESKTOP-E4L6CVU" time="0.103">
   <properties/>
-  <testcase name="start" classname="MusicAdvisorTest" time="0.077"/>
+  <testcase name="start" classname="MusicAdvisorTest" time="0.103"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
+> auth
+https://accounts.spotify.com/authorize?client_id=a0f0fd852b4c45b09c83ec626a6bc1e9&redirect_uri=http://localhost:8080&response_type=code
+---SUCCESS---
+> exit
+---GOODBYE!---
+?[1;31m
+Start test 2?[0m
+> new
+Please, provide access for application.
+> exit
+---GOODBYE!---
+---GOODBYE!---
+?[1;31m
+Start test 3?[0m
+> featured
+Please, provide access for application.
+> exit
+---GOODBYE!---
+---GOODBYE!---
+?[1;31m
+Start test 4?[0m
+> auth
+https://accounts.spotify.com/authorize?client_id=a0f0fd852b4c45b09c83ec626a6bc1e9&redirect_uri=http://localhost:8080&response_type=code
+---SUCCESS---
 > new
 ---NEW RELEASES---
 Mountains [Sia, Diplo, Labrinth]
@@ -16,18 +40,6 @@ Mellow Morning
 Wake Up and Smell the Coffee
 Monday Motivation
 Songs to Sing in the Shower
-> categories
----CATEGORIES---
-Top Lists
-Pop
-Mood
-Latin
-> playlists Mood
----MOOD PLAYLISTS---
-Walk Like A Badass  
-Rage Beats  
-Arab Mood Booster  
-Sunday Stroll
 > exit
 ---GOODBYE!---
 ]]></system-out>
